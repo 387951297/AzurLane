@@ -4,3 +4,5 @@ pip install pillow
 pip install pyautogui
 
 pip install requests
+
+123
