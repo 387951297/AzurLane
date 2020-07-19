@@ -1,0 +1,6 @@
+pip install opencv-python
+pip install pillow
+#pip install numpy
+pip install pyautogui
+
+pip install requests
