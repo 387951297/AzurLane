@@ -41,6 +41,7 @@ def main():
     chapterProcess()
     while True:
         # 进入
+        time.sleep(2)
         print('d1开始')
         const.intoStageProcess(CHAPTER_X, CHAPTER_Y)
         # 走格子
@@ -51,17 +52,17 @@ def main():
             time.sleep(4.000)
             if n == 0:
                 pyautogui.click(631, 522)
-                time.sleep(5)
+                time.sleep(10)
                 if util.isFindPic(const.publicPath() + 'bmp/anchor.bmp'):
                     const.anchorProcess()
             elif n == 1:
                 pyautogui.click(809, 403)
-                time.sleep(5)
+                time.sleep(10)
                 if util.isFindPic(const.publicPath() + 'bmp/anchor.bmp'):
                     const.anchorProcess()
             elif n == 2:
                 pyautogui.click(629, 338)
-                time.sleep(5)
+                time.sleep(10)
                 if util.isFindPic(const.publicPath() + 'bmp/anchor.bmp'):
                     const.anchorProcess()
             else:

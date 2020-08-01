@@ -108,8 +108,6 @@ class Const:
 		#今日不再提示
 		x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
 		if x!=-1 and y!=-1:
-			pyautogui.click(627,425)
-			time.sleep(.200)
 			pyautogui.click(x,y)
    
 		def anchor():
