@@ -303,7 +303,7 @@ class Const:
 
 		list = [None for i in range(num)]
 		def foo(i):
-			temp = util.findPic(None,threshold = 0.9, img = img,template = self.__templates[i])
+			temp = util.findPic(None,threshold = 0.8, img = img,template = self.__templates[i])
 			tempList = []
 			for value in temp:
 				tempList.append(value)
@@ -333,5 +333,16 @@ class Const:
 				minDistance = temp
 				minIndex = index
 		return list[minIndex][0],list[minIndex][1]
+	
+	# 获取path内有多少图需要搜索
+	def getPicNum(self,path):
+		num = 0
+		for fileName in os.listdir(path):
+			try:
+				int(fileName[0])
+				num += 1
+			except ValueError:
+				pass
+		return num
 	
 const = Const()

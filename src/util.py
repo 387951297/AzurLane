@@ -3,12 +3,14 @@ import sys
 import threading
 import time
 from datetime import datetime
+import os
 
 import numpy as np
 import pyautogui
 import requests
 from cv2 import cv2
 from PIL import ImageGrab
+
 
 
 class Util:
@@ -101,7 +103,7 @@ class Util:
         return cv2.imread(self.__TMP_IMAGE, 0)
 
     # url图片与屏幕截图匹配,return中心点x,y
-    def findPic(self, url, threshold=0.8, size=(0, 0, 0, 0), img=None, template=None):
+    def findPic(self, url, threshold=0.9, size=(0, 0, 0, 0), img=None, template=None):
         if np.all(img == None):
             img = self.grab(size) if size != (0, 0, 0, 0) else self.grab()
         if np.all(template == None):

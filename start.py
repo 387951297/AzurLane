@@ -2,6 +2,7 @@ import importlib
 import sys
 import os
 import ctypes
+import traceback
 sys.path.append(os.getcwd().replace('\\', '/')+'/src')
 
 m = ['' for _ in range(100)]
@@ -50,4 +51,15 @@ def mainPrint():
 if __name__ == '__main__':
     changeAdmin()
     while True:
-        m[int(mainPrint())].main()
+        try:
+            m[int(mainPrint())].main()
+        except Exception as err:
+            print(err.args)
+            print('==========')
+            print(traceback.format_exc()) 
+            input()
+            sys.exit()
+
+
+
+        
