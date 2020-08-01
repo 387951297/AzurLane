@@ -1,10 +1,11 @@
 from util import *
 from const import const
 
-path = './normal7-2/'
+path = const.publicPath() + 'normal7-2/'
 PIC_NUM = 13  # 多少张图
 
-if __name__ == "__main__":
+# if __name__ == '__main__':
+def main():
     templates = []
     SEARCH_SIZE = (184, 136, 964, 539)
     if templates == []:
@@ -28,5 +29,5 @@ if __name__ == "__main__":
         foo(i)
 
     time.sleep(2)
-    cv2.imshow("", tarImg)
+    cv2.imshow('', tarImg)
     cv2.waitKey(0)

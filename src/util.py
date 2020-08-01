@@ -1,18 +1,20 @@
-from cv2 import cv2
-from PIL import ImageGrab
-import pyautogui
-import requests
+import base64
+import sys
+import threading
+import time
+from datetime import datetime
 
 import numpy as np
-import time
-import sys
-from datetime import datetime
-import base64
-import threading
+import pyautogui
+import requests
+from cv2 import cv2
+from PIL import ImageGrab
 
 
 class Util:
     __Token = ''
+
+    __TMP_IMAGE = './tmp/image.jpg'
 
     def __initToken(self):
         pyautogui.FAILSAFE = False
@@ -36,16 +38,16 @@ class Util:
 
     # 截图识字
     def getNumbers(self, size):
-        request_url = "https://aip.baidubce.com/rest/2.0/ocr/v1/numbers"
+        request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/numbers'
         img = ImageGrab.grab(size)
-        img.save("image.jpg")
+        img.save(self.__TMP_IMAGE)
         # 二进制方式打开图片文件
-        f = open('image.jpg', 'rb')
+        f = open(self.__TMP_IMAGE, 'rb')
         img = base64.b64encode(f.read())
 
-        params = {"image": img}
+        params = {'image': img}
         access_token = self.__Token
-        request_url = request_url + "?access_token=" + access_token
+        request_url = request_url + '?access_token=' + access_token
         headers = {'content-type': 'application/x-www-form-urlencoded'}
         response = requests.post(
             request_url, data=params, headers=headers).json()
@@ -59,16 +61,16 @@ class Util:
 
     # 限定范围内百度api识字 输出list
     def getWords(self, size):
-        request_url = "https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic"
+        request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic'
         img = ImageGrab.grab(size)
-        img.save("image.jpg")
+        img.save(self.__TMP_IMAGE)
         # 二进制方式打开图片文件
-        f = open('image.jpg', 'rb')
+        f = open(self.__TMP_IMAGE, 'rb')
         img = base64.b64encode(f.read())
 
-        params = {"image": img}
+        params = {'image': img}
         access_token = self.__Token
-        request_url = request_url + "?access_token=" + access_token
+        request_url = request_url + '?access_token=' + access_token
         headers = {'content-type': 'application/x-www-form-urlencoded'}
         response = requests.post(
             request_url, data=params, headers=headers).json()
@@ -93,10 +95,10 @@ class Util:
         else:
             image = ImageGrab.grab()
         try:
-            image.save("image.jpg")
+            image.save(self.__TMP_IMAGE)
         except Exception as e:
             print(e)
-        return cv2.imread('image.jpg', 0)
+        return cv2.imread(self.__TMP_IMAGE, 0)
 
     # url图片与屏幕截图匹配,return中心点x,y
     def findPic(self, url, threshold=0.8, size=(0, 0, 0, 0), img=None, template=None):
@@ -153,7 +155,7 @@ class Util:
 
     # 退出脚本
     def exitScript(self):
-        print("脚本结束")
+        print('脚本结束')
         sys.exit()
 
 

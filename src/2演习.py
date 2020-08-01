@@ -30,18 +30,19 @@ def FindOKExercise():
     return (min, minIndex)
 
 
-if __name__ == "__main__":
+# if __name__ == '__main__':
+def main():
     time.sleep(2)
-    print("演习脚本开始")
+    print('演习脚本开始')
     # 判断是否在演习界面
-    if not util.isFindPic(const.publicPath + "is_exercise.jpg"):
+    if not util.isFindPic(const.publicPath() + 'bmp/is_exercise.jpg'):
         # 返回主页面
         const.backMainProcess()
         # 进入演习界面
-        x, y = util.findPicLoop(const.publicPath + "weigh anchor.jpg")
+        x, y = util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
         pyautogui.click(x, y)
         time.sleep(.500)
-        x, y = util.findPicLoop(const.publicPath + "exercise.jpg")
+        x, y = util.findPicLoop(const.publicPath() + 'bmp/exercise.jpg')
         pyautogui.click(x, y)
         time.sleep(.500)
     while True:
@@ -49,12 +50,13 @@ if __name__ == "__main__":
         list = util.getNumbers((878, 191, 918, 213))
         if list != [] and list[0][0] == '0':
             const.backMainProcess()
-            util.exitScript()
+            return
 
         # 识字 选择弱的
         min, minIndex = FindOKExercise()
         while min > myAttack:
-            x, y = util.findPicLoop(const.publicPath + "new opponent.jpg")
+            x, y = util.findPicLoop(
+                const.publicPath() + 'bmp/new opponent.jpg')
             pyautogui.click(x, y)
             time.sleep(6.000)
             min, minIndex = FindOKExercise()
@@ -64,7 +66,7 @@ if __name__ == "__main__":
         time.sleep(.500)
 
         # 开始演习
-        x, y = util.findPicLoop(const.publicPath + "start excise.jpg")
+        x, y = util.findPicLoop(const.publicPath() + 'bmp/start excise.jpg')
         pyautogui.click(x, y)
         time.sleep(.500)
         const.anchorProcess()

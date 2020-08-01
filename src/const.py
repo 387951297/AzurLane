@@ -6,31 +6,30 @@ class Const:
 		
 	#获取根path
 	def path(self):
-		return "../"
+		return './'
 
 	#图片资源path
 	def publicPath(self):
-		return self.path + "public/"
+		return self.path() + 'public/'
 
 	#临时path
 	def tmpPath(self):
-		return self.path + "tmp/"
+		return self.path() + 'tmp/'
 
 	#返回主页面
 	def backMainProcess(self):
-		if util.isFindPic(self.publicPath + "home.jpg",0.8):
-			x , y = util.findPic(self.publicPath + "home.jpg",0.8)
+		if util.isFindPic(self.publicPath() + 'bmp/home.jpg',0.8):
+			x , y = util.findPic(self.publicPath() + 'bmp/home.jpg',0.8)
 			pyautogui.click(x,y)
 			time.sleep(.500)
-		elif util.isFindPic(self.publicPath + "weigh anchor.jpg"):
+		elif util.isFindPic(self.publicPath() + 'bmp/weigh anchor.jpg'):
 			return
 		else:
-			print("返回主页面失败")
-			util.exitScript()
+			print('返回主页面失败')
 
 	#退役蓝白未锁的船
 	def retireProcess(self):
-		print("开始退役步骤")
+		print('开始退役步骤')
 		time.sleep(2)
 		#常用点掉
 		if util.isFindColor(554, 108, (74, 113, 140)):
@@ -74,31 +73,31 @@ class Const:
 				pyautogui.click(137,136)
 				return
 			#已选中确定
-			x,y = util.findPicLoop(self.publicPath + "OK.jpg")
+			x,y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
 			pyautogui.click(x,y)
 			#二重确定
 			time.sleep(2)
-			x,y = util.findPicLoop(self.publicPath + "OK.jpg")
+			x,y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
 			pyautogui.click(x,y)
 			#判断是否有精锐
 			time.sleep(2)
-			x,y = util.findPic(self.publicPath + "OK.jpg")
+			x,y = util.findPic(self.publicPath() + 'bmp/OK.jpg')
 			if x!=-1 and y!=-1:
 				pyautogui.click(x,y)
 			#获得道具
-			x , y = util.findPicLoop(self.publicPath + "get_items.bmp")
+			x , y = util.findPicLoop(self.publicPath() + 'bmp/get_items.bmp')
 			time.sleep(2)
 			pyautogui.click(x,y)
 			#拆解装备
 			time.sleep(2)
-			x,y = util.findPicLoop(self.publicPath + "OK.jpg")
+			x,y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
 			pyautogui.click(x,y)
 			#二重确定
 			time.sleep(2)
-			x,y = util.findPicLoop(self.publicPath + "OK.jpg")
+			x,y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
 			pyautogui.click(x,y)
 			#获得道具
-			x , y = util.findPicLoop(self.publicPath + "get_items.bmp")
+			x , y = util.findPicLoop(self.publicPath() + 'bmp/get_items.bmp')
 			time.sleep(2)
 			pyautogui.click(x,y)
 			time.sleep(2)
@@ -107,14 +106,14 @@ class Const:
 	def anchorProcess(self):
 		time.sleep(.800)
 		#今日不再提示
-		x,y = util.findPic(self.publicPath + "quit.jpg")
+		x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
 		if x!=-1 and y!=-1:
 			pyautogui.click(627,425)
 			time.sleep(.200)
 			pyautogui.click(x,y)
    
 		def anchor():
-			x , y = util.findPicLoop(self.publicPath + "anchor.bmp")
+			x , y = util.findPicLoop(self.publicPath() + 'bmp/anchor.bmp')
 			time.sleep(0.800)
 			pyautogui.click(x,y)
 			
@@ -122,14 +121,14 @@ class Const:
 		time.sleep(.800)
 		#红脸特殊（屑）
 		'''
-		x , y = util.findPic(self.publicPath + "OK.jpg")
+		x , y = util.findPic(self.publicPath() + 'bmp/OK.jpg')
 		if x!=-1 and y!=-1:
-			print("我是粪提")
+			print('我是粪提')
 			pyautogui.click(x,y)
 			time.sleep(2.000)
 		'''
 		#船坞已满特殊
-		x, y = util.findPic(self.publicPath + "zhengli.jpg")
+		x, y = util.findPic(self.publicPath() + 'bmp/zhengli.jpg')
 		if x!=-1 and y!=-1:
 			pyautogui.click(x,y)
 			self.retireProcess()
@@ -137,7 +136,7 @@ class Const:
 			anchor()	
 		time.sleep(10)
 		#S
-		x , y = util.findPicLoop(self.publicPath + "S.bmp",0.6)
+		x , y = util.findPicLoop(self.publicPath() + 'bmp/S.bmp',0.6)
 		time.sleep(1.200)
 		pyautogui.click(x,y)
 		#get_items
@@ -145,23 +144,23 @@ class Const:
 		pyautogui.click(784,408)
 		time.sleep(1.600)
 		#打捞到sr或ssr（不存在的）
-		if util.isFindPic(self.publicPath + "salvage.jpg"):
-			print("打捞到sr或者ssr了")
+		if util.isFindPic(self.publicPath() + 'bmp/salvage.jpg'):
+			print('打捞到sr或者ssr了')
 			pyautogui.click(784,408)
 			time.sleep(2)
 		pyautogui.click(784,408)
 		#exp2
-		x , y = util.findPicLoop(self.publicPath + "exp2.bmp")
+		x , y = util.findPicLoop(self.publicPath() + 'bmp/exp2.bmp')
 		pyautogui.click(x,y)
 		time.sleep(3)
 		#作战失败 特殊
-		xx , yy = util.findPic(self.publicPath + "death.jpg")
+		xx , yy = util.findPic(self.publicPath() + 'bmp/death.jpg')
 		if xx!=-1 and yy!=-1:
 			pyautogui.click(xx,yy)
-		print("一把结束")
+		print('一把结束')
 		time.sleep(3)
 		#紧急委托 特殊
-		xx , yy = util.findPic(self.publicPath + "quit.jpg")
+		xx , yy = util.findPic(self.publicPath() + 'bmp/quit.jpg')
 		if xx!=-1 and yy!=-1:
 			pyautogui.click(xx,yy)
 	
@@ -174,11 +173,11 @@ class Const:
 		nextX , nextY = 926, 351
 		#判断是否在出击章节界面
 		#出击界面
-		if not util.isFindPic(self.publicPath + "exercise.jpg"):
+		if not util.isFindPic(self.publicPath() + 'bmp/exercise.jpg'):
 			#返回主页面
 			self.backMainProcess()
 			#进入出击界面
-			x , y = util.findPicLoop(self.publicPath + "weigh anchor.jpg")
+			x , y = util.findPicLoop(self.publicPath() + 'bmp/weigh anchor.jpg')
 			pyautogui.click(x,y)
 			time.sleep(2.000)
 		#第chapterNum章
@@ -198,12 +197,12 @@ class Const:
 					time.sleep(.500)
 		#困难模式
 		if type == 'H':
-			x,y = util.findPic(self.publicPath + "hardmode.jpg")
+			x,y = util.findPic(self.publicPath() + 'bmp/hardmode.jpg')
 			if x!=-1 and y!=-1:
 				pyautogui.click(x,y)
 				time.sleep(.2)
 		elif type == 'N':
-			x,y = util.findPic(self.publicPath + "nomalmode.jpg")
+			x,y = util.findPic(self.publicPath() + 'bmp/nomalmode.jpg')
 			if x!=-1 and y!=-1:
 				pyautogui.click(x,y)
 				time.sleep(.2)
@@ -218,13 +217,13 @@ class Const:
 	def intoStageProcess(self ,xx,yy , first = -1 , second = -1):
 		def tempInto(x,y):
 			pyautogui.click(x , y)
-			x , y = util.findPicLoop(self.publicPath + "start chapter.jpg")
+			x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
 			pyautogui.click(x,y)
 			time.sleep(.800)
 		tempInto(xx,yy)
 		#船坞已满特殊
 		time.sleep(.500)
-		x, y = util.findPic(self.publicPath + "zhengli.jpg")
+		x, y = util.findPic(self.publicPath() + 'bmp/zhengli.jpg')
 		if x!=-1 and y!=-1:
 			pyautogui.click(x,y)
 			const.retireProcess()
@@ -247,17 +246,17 @@ class Const:
 				#第second队伍
 				pyautogui.click(840, 366 + (second - 1) * 28)
 
-		x , y = util.findPicLoop(self.publicPath + "start chapter.jpg")
+		x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
 		pyautogui.click(x,y)
 		
 	#走boss格子
 	def goBossProcess(self):
-		x , y = util.findPicLoop(self.publicPath + "boss.jpg",threshold=0.6)
+		x , y = util.findPicLoop(self.publicPath() + 'bmp/boss.jpg',threshold=0.6)
 		time.sleep(1.000)
 		pyautogui.click(x,y)
 		#self.accident(x,y)
 		self.anchorProcess()
-		print("boss解决")
+		print('boss解决')
 
 	'''
 	#左下角拖拽再居中(和分辨率有关系)
@@ -275,15 +274,15 @@ class Const:
 	def accident(self,x,y):
 		while True:
 			#没有意外
-			if util.isFindPic(self.publicPath + "anchor.bmp"):
+			if util.isFindPic(self.publicPath() + 'bmp/anchor.bmp'):
 				return
 			#伏击
-			xx , yy = util.findPic(self.publicPath + "guibi.jpg")
+			xx , yy = util.findPic(self.publicPath() + 'bmp/guibi.jpg')
 			if xx!=-1 and yy!=-1:
 				pyautogui.click(xx,yy)
 				time.sleep(1.000)
 				list = util.getWords((879, 440,1044, 493))
-				if list != [] and list[0] == "规避失败":
+				if list != [] and list[0] == '规避失败':
 					const.anchorProcess()
 			#空袭
 			pyautogui.click(x,y)

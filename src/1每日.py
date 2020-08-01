@@ -39,31 +39,32 @@ def isOKByIndex(index):
 
 
 def resetProcess():
-    x, y = util.findPicLoop(const.publicPath + "back.jpg")
+    x, y = util.findPicLoop(const.publicPath() + 'bmp/back.jpg')
     time.sleep(.800)
     pyautogui.click(x, y)
     # 进入每日界面
-    x, y = util.findPicLoop(const.publicPath + "daily task.jpg")
+    x, y = util.findPicLoop(const.publicPath() + 'bmp/daily task.jpg')
     pyautogui.click(x, y)
     time.sleep(2.000)
 
 
-if __name__ == "__main__":
-    print("记得把道中队换好")
-    print("破交自己打不识别")
+# if __name__ == '__main__':
+def main():
+    print('记得把道中队换好')
+    print('破交自己打不识别')
     time.sleep(2)
-    print("每日脚本开始")
+    print('每日脚本开始')
 
     # 判断是否在出击界面
-    if not util.isFindPic('./bmp/exercise.jpg'):
+    if not util.isFindPic(const.publicPath() + 'bmp/exercise.jpg'):
         # 返回主页面
         const.backMainProcess()
         # 进入出击界面
-        x, y = util.findPicLoop(const.publicPath + "weigh anchor.jpg")
+        x, y = util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
         pyautogui.click(x, y)
         time.sleep(.8)
     # 进入每日界面
-    x, y = util.findPicLoop(const.publicPath + "daily task.jpg")
+    x, y = util.findPicLoop(const.publicPath() + 'bmp/daily task.jpg')
     pyautogui.click(x, y)
     time.sleep(.8)
 
@@ -90,7 +91,7 @@ if __name__ == "__main__":
             const.anchorProcess()
 
         # 返回
-        x, y = util.findPicLoop(const.publicPath + "back.jpg")
+        x, y = util.findPicLoop(const.publicPath() + 'bmp/back.jpg')
         time.sleep(.800)
         pyautogui.click(x, y)
 
@@ -98,3 +99,4 @@ if __name__ == "__main__":
 
     time.sleep(1)
     const.backMainProcess()
+    return
