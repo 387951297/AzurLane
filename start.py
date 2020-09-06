@@ -3,6 +3,7 @@ import sys
 import os
 import ctypes
 import traceback
+import time
 sys.path.append(os.getcwd().replace('\\', '/')+'/src')
 
 m = ['' for _ in range(100)]
@@ -30,6 +31,15 @@ def changeAdmin():
                 None, "runas", sys.executable, __file__, None, 1)
             sys.exit()
 
+# 每日+演戏+困难7-2
+def oneTwoThree():
+    m[1].main()
+    time.sleep(2.000)
+    m[2].main()
+    time.sleep(2.000)
+    m[3].main()
+    time.sleep(2.000)
+
 # 菜单显示
 def mainPrint():
     os.system("cls")
@@ -39,12 +49,15 @@ def mainPrint():
             print(fileName.replace('.py', ''))
         except ValueError:
             pass
+    print('a每日+演戏+困难7-2')
     print('请输入数字来启动对应的脚本：')
     while True:
         str = input()
         for fileName in os.listdir('./src'):
             if str == fileName[0]:
                 return str
+        if str == 'a':
+            return str
         print('请重新输入数字来启动对应的脚本：')
 
 
@@ -52,7 +65,12 @@ if __name__ == '__main__':
     changeAdmin()
     while True:
         try:
-            m[int(mainPrint())].main()
+            str = mainPrint()
+            print(str)
+            if str == 'a':
+                oneTwoThree()
+            else:
+                m[int(str)].main()
         except Exception as err:
             print(err.args)
             print('==========')
