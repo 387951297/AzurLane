@@ -243,7 +243,7 @@ class Const:
                 template = cv2.imread(path + str(i)+'.jpg',0)
                 self.__templates.append(template)
         img = util.grab(SEARCH_SIZE)
-        cv2.rectangle(img,(0,0),(61, 116),(255,0,0),-1)
+        # cv2.rectangle(img,(0,0),(61, 116),(255,0,0),-1)
         cv2.rectangle(img,(0,0),(213, 65),(255,0,0),-1)
 
         list = [None for i in range(num)]
@@ -273,6 +273,8 @@ class Const:
         index = -1
         for value in list:
             index += 1
+            if value == [-1,-1]:
+                continue
             temp = (value[0] - x)**2 + (value[1] - y)**2
             if temp < minDistance:
                 minDistance = temp

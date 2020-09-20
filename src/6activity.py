@@ -1,9 +1,9 @@
 from util import *
 from const import const
 
-CHAPTER_X, CHAPTER_Y = 789, 331  # 几-几的坐标
-START_X, START_Y = 818, 484  # 进stage后初始位置
-CNT = 5  # 几次出boss
+CHAPTER_X, CHAPTER_Y = 760, 367  # 几-几的坐标
+START_X, START_Y = 474, 421  # 进stage后初始位置
+CNT = 6  # 几次出boss
 path = const.publicPath() + 'activity/'
 
 def chapterProcess():

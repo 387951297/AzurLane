@@ -3,7 +3,7 @@ from const import const
 
 SEARCH_SIZE = (184, 136, 964, 539)
 path = const.publicPath() + 'activity/'
-MUST_FIND_AREAS = [[497, 214,571, 242]]
+MUST_FIND_AREAS = [[444, 220,515, 245]]
 for area in MUST_FIND_AREAS:
     area[0] -= 184
     area[1] -= 136
@@ -24,7 +24,7 @@ def getFindPoints():
             template = cv2.imread(path + str(i)+'.jpg', 0)
             templates.append(template)
     img = util.grab(SEARCH_SIZE)
-    cv2.rectangle(img, (0, 0), (61, 116), (255, 0, 0), -1)
+    # cv2.rectangle(img, (0, 0), (61, 116), (255, 0, 0), -1)
     cv2.rectangle(img, (0, 0), (213, 65), (255, 0, 0), -1)
     global tarImg
     tarImg = img.copy()
