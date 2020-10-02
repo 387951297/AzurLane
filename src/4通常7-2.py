@@ -47,7 +47,7 @@ def main():
                         time.sleep(1)
                         break
 
-            X, Y = const.findShip(X, Y, const.getPicNum(path), path)
+            X, Y = const.findShip(X, Y, const.getPicNum(path), path,ignore=[400, 309,237, 188])
             pyautogui.click(X, Y)
             const.anchorProcess()
         # boss

@@ -236,7 +236,7 @@ class Const:
             
     #找船
     __templates = []
-    def findShip(self,x,y,num,path):
+    def findShip(self,x,y,num,path,ignore):
         SEARCH_SIZE = (184, 136,964, 539)
         if self.__templates == []:
             for i in range(num):
@@ -245,6 +245,7 @@ class Const:
         img = util.grab(SEARCH_SIZE)
         # cv2.rectangle(img,(0,0),(61, 116),(255,0,0),-1)
         cv2.rectangle(img,(0,0),(213, 65),(255,0,0),-1)
+        cv2.rectangle(img,(ignore[0]-184,ignore[1]-136),(ignore[2]-184, ignore[3]-136),(255,0,0),-1)
 
         list = [None for i in range(num)]
         def foo(i):
