@@ -9,12 +9,23 @@ sys.path.append(os.getcwd().replace('\\', '/')+'/src')
 m = ['' for _ in range(100)]
 # 引用带数字的py模组
 for fileName in os.listdir('./src'):
+    num = ''
     try:
-        int(fileName[0])
-        m[int(fileName[0])] = importlib.import_module(
+        num = int(fileName[0:2])
+        m[num] = importlib.import_module(
             fileName.replace('.py', ''))
+        continue
     except ValueError:
         pass
+    try:
+        num = int(fileName[0])
+        m[num] = importlib.import_module(
+            fileName.replace('.py', ''))
+        continue
+    except ValueError:
+        pass
+    
+
 
 # 是否为管理员权限
 def is_admin():
@@ -31,33 +42,33 @@ def changeAdmin():
                 None, "runas", sys.executable, __file__, None, 1)
             sys.exit()
 
-# 每日+演戏+困难7-2
-def oneTwoThree():
-    m[1].main()
-    time.sleep(2.000)
-    m[2].main()
-    time.sleep(2.000)
-    m[3].main()
-    time.sleep(2.000)
 
 # 菜单显示
 def mainPrint():
     os.system("cls")
+    printList = ['' for _ in range(100)]
     for fileName in os.listdir('./src'):
         try:
-            int(fileName[0])
-            print(fileName.replace('.py', ''))
+            num = int(fileName[0:2])
+            printList[num] = fileName.replace('.py', '')
+            continue
         except ValueError:
             pass
-    print('a每日+演戏+困难7-2')
+        try:
+            num = int(fileName[0])
+            printList[num] = fileName.replace('.py', '')
+            continue
+        except ValueError:
+            pass
+    for str in printList:
+        if str != '':
+            print(str)
     print('请输入数字来启动对应的脚本：')
     while True:
         str = input()
         for fileName in os.listdir('./src'):
-            if str == fileName[0]:
+            if str == fileName[0] or str == fileName[0:2]:
                 return str
-        if str == 'a':
-            return str
         print('请重新输入数字来启动对应的脚本：')
 
 
@@ -65,12 +76,7 @@ if __name__ == '__main__':
     changeAdmin()
     while True:
         try:
-            str = mainPrint()
-            print(str)
-            if str == 'a':
-                oneTwoThree()
-            else:
-                m[int(str)].main()
+            m[int(mainPrint())].main()
         except Exception as err:
             print(err.args)
             print('==========')
