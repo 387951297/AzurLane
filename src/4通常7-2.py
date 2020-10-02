@@ -7,11 +7,10 @@ CHAPTER_X, CHAPTER_Y = 461, 246  # 几-几的坐标
 START_X, START_Y = 247, 476  # 进stage后初始位置
 CNT = 5  # 几次次出boss
 path = const.publicPath() + 'normal7-2/'
-LIST_QUESTION = [(833, 250, 933, 372),
-                 (483, 195, 573, 316),
-                 (479, 306, 576, 438)]
-PIC_NUM = 13  # 多少张图
-Q_NUM = 2  # 问号多少张图
+LIST_QUESTION = [(829, 254, 933, 375),
+                 (489, 209, 589, 310),
+                 (484, 322, 584, 442)]
+Q_NUM = 3  # 问号多少张图
 
 
 # if __name__ == '__main__':
@@ -36,21 +35,19 @@ def main():
                     x, y = util.findPic(
                         path + 'question' + str(i) + '.jpg', size=size)
                     if x != -1 and y != -1:
-                        X, Y = x + size[0], y + size[1] + 35
+                        X, Y = x + size[0], y + size[1]
                         pyautogui.click(X, Y)
-                        # util.findPicLoop(const.publicPath() + 'bmp/get_items.bmp')
                         for j in range(50):
                             xx, yy = util.findPic(
                                 const.publicPath() + 'bmp/get_items.bmp')
                             if xx != -1 and yy != -1:
                                 break
-                                # return (x,y)
                             time.sleep(.100)
                         pyautogui.click(454, 562)
                         time.sleep(1)
                         break
 
-            X, Y = const.findShip(X, Y, PIC_NUM, path)
+            X, Y = const.findShip(X, Y, const.getPicNum(path), path)
             pyautogui.click(X, Y)
             const.anchorProcess()
         # boss

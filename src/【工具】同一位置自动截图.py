@@ -2,8 +2,9 @@ from util import *
 from const import const
 
 SEARCH_SIZE = (184, 136, 964, 539)
-path = const.publicPath() + 'activity/'
-MUST_FIND_AREAS = [[444, 220,515, 245]]
+# path = const.publicPath() + 'activity/'
+path = const.publicPath() + 'normal7-2/'
+MUST_FIND_AREAS = [[842, 310, 910, 340]]
 for area in MUST_FIND_AREAS:
     area[0] -= 184
     area[1] -= 136
@@ -20,8 +21,10 @@ def getFindPoints():
     points = []
     templates = []
     if templates == []:
-        for i in range(const.getPicNum(path)):
-            template = cv2.imread(path + str(i)+'.jpg', 0)
+        for i in range(getQuestionNum(path)):
+        # for i in range(const.getPicNum(path)):
+            # template = cv2.imread(path + str(i)+'.jpg', 0)
+            template = cv2.imread(path + 'question' + str(i) + '.jpg', 0)
             templates.append(template)
     img = util.grab(SEARCH_SIZE)
     # cv2.rectangle(img, (0, 0), (61, 116), (255, 0, 0), -1)
@@ -34,7 +37,8 @@ def getFindPoints():
                             template=templates[i])
         if temp != (-1, -1):
             points.append(temp)
-    for i in range(const.getPicNum(path)):
+    # for i in range(const.getPicNum(path)):
+    for i in range(getQuestionNum(path)):
         foo(i)
     return points
 
@@ -66,14 +70,29 @@ def showTarImg(points, areas):
     cv2.waitKey(0)
 
 
+# 获取path内有多少question图需要搜索
+def getQuestionNum(path):
+    num = 0
+    for fileName in os.listdir(path):
+        try:
+            int(fileName[8:9])
+            num += 1
+        except ValueError:
+            pass
+    return num
+
 def saveImg(area):
     x0 = area[0]
     y0 = area[1]
     x1 = area[2]
     y1 = area[3]
     cropped = tarImg[y0:y1, x0:x1]  # 裁剪坐标为[y0:y1, x0:x1]
-    picNum = str(const.getPicNum(path))
-    cv2.imwrite(path + picNum + ".jpg", cropped)
+    # 通常
+    # picNum = str(const.getPicNum(path))
+    # cv2.imwrite(path + picNum + ".jpg", cropped)
+    # 问号
+    picNum = str(getQuestionNum(path))
+    cv2.imwrite(path + 'question' + picNum + '.jpg', cropped)
     print('imwrite：'+picNum)
     cv2.waitKey(0)
 
