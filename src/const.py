@@ -105,7 +105,7 @@ class Const:
         print('一把结束')
         time.sleep(3)
         #紧急委托 特殊
-        xx , yy = util.findPic(self.publicPath() + 'bmp/quit.jpg')
+        xx , yy = util.findPic(self.publicPath() + 'bmp/OK.jpg')
         if xx!=-1 and yy!=-1:
             pyautogui.click(xx,yy)
     

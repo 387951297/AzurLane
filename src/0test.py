@@ -2,7 +2,7 @@ from util import *
 from const import const
 
 def main():
-    const.retireProcess()
+    const.anchorProcess()
 
 
 if __name__ == '__main__':

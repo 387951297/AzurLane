@@ -10,15 +10,15 @@ EXERCISE_SIZES = ((257, 270, 302, 317),
                   (754, 273, 797, 312))
 
 # 演习中的四个里面找到最小值
-
-
 def FindOKExercise():
     min = 999999
     minIndex = -1
     index = -1
     for sizeValue in EXERCISE_SIZES:
         index += 1
-        list = util.getNumbers(sizeValue)
+        list = []
+        while len(list) == 0:
+            list = util.getNumbers(sizeValue)
         sum = 0
         avg = 999999
         for value in list:
@@ -47,6 +47,7 @@ def main():
         time.sleep(.500)
     while True:
         # 0/10退出
+        time.sleep(1)
         list = util.getNumbers((878, 191, 918, 213))
         if list != [] and list[0][0] == '0':
             const.backMainProcess()
