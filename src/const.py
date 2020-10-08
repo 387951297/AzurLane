@@ -197,9 +197,7 @@ class Const:
     #走boss格子
     def goBossProcess(self):
         x , y = util.findPicLoop(self.publicPath() + 'bmp/boss.jpg',threshold=0.6)
-        time.sleep(1.000)
         pyautogui.click(x,y)
-        #self.accident(x,y)
         self.anchorProcess()
         print('boss解决')
 
@@ -236,7 +234,7 @@ class Const:
             
     #找船
     __templates = []
-    def findShip(self,x,y,num,path,ignore):
+    def findShip(self,x,y,num,path,ignore=[0,0,0,0]):
         SEARCH_SIZE = (184, 136,964, 539)
         if self.__templates == []:
             for i in range(num):
@@ -245,7 +243,13 @@ class Const:
         img = util.grab(SEARCH_SIZE)
         # cv2.rectangle(img,(0,0),(61, 116),(255,0,0),-1)
         cv2.rectangle(img,(0,0),(213, 65),(255,0,0),-1)
-        cv2.rectangle(img,(ignore[0]-184,ignore[1]-136),(ignore[2]-184, ignore[3]-136),(255,0,0),-1)
+        if ignore != [0,0,0,0]:
+            cv2.rectangle(
+                img,
+                (ignore[0]-SEARCH_SIZE[0],ignore[1]-SEARCH_SIZE[1]),(ignore[2]-SEARCH_SIZE[0], ignore[3]-SEARCH_SIZE[1]),
+                (255,0,0),
+                -1
+            )
 
         list = [None for i in range(num)]
         def foo(i):

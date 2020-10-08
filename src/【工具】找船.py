@@ -1,28 +1,28 @@
 from util import *
 from const import const
 
-# 活动
-# path = const.publicPath() + 'activity/'
+# 通常
+path = const.publicPath() + 'normal1-3/'
 # 问号
-path = const.publicPath() + 'normal7-2/'
+# path = const.publicPath() + 'normal7-2/'
 
 
 def main():
     # 通常
-    # PIC_NUM = const.getPicNum(path)
+    PIC_NUM = const.getPicNum(path)
     # 问号
-    PIC_NUM = 2
+    # PIC_NUM = 2
     templates = []
-    # SEARCH_SIZE = (184, 136, 964, 539)
-    SEARCH_SIZE = (829, 254, 933, 375)
+    SEARCH_SIZE = (184, 136, 964, 539)
+    # SEARCH_SIZE = (829, 254, 933, 375)
     for i in range(PIC_NUM):
         # 通常
-        # template = cv2.imread(path + str(i)+'.jpg', 0)
+        template = cv2.imread(path + str(i)+'.jpg', 0)
         # 问号
-        template = cv2.imread(path + 'question' + str(i) + '.jpg', 0)
+        # template = cv2.imread(path + 'question' + str(i) + '.jpg', 0)
         templates.append(template)
     img = util.grab(SEARCH_SIZE)
-    # cv2.rectangle(img, (0, 0), (213, 65), (255, 0, 0), -1)
+    cv2.rectangle(img,(0,0),(213, 65),(255,0,0),-1)
     tarImg = img.copy()
 
     def foo(i):
