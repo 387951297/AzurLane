@@ -17,7 +17,7 @@ def main():
     while True:
         # 进入
         print(str(CHAPTER_NUM) + '-' + str(CHAPTER_NUM2) + '开始')
-        const.intoStageProcess(CHAPTER_X, CHAPTER_Y)
+        const.intoStageProcess(CHAPTER_X, CHAPTER_Y, 3, 2)
         # 走格子
         X, Y = START_X, START_Y
         # 打CNT个出boss
