@@ -2,7 +2,7 @@ from util import *
 from const import const
 
 # 通常
-path = const.publicPath() + 'normal1-3/'
+path = const.publicPath() + 'activity/'
 # 问号
 # path = const.publicPath() + 'normal7-2/'
 
