@@ -242,7 +242,8 @@ class Const:
                 self.__templates.append(template)
         img = util.grab(SEARCH_SIZE)
         # cv2.rectangle(img,(0,0),(61, 116),(255,0,0),-1)
-        cv2.rectangle(img,(0,0),(213, 65),(255,0,0),-1)
+        cv2.rectangle(img,(0,0),(263, 65),(255,0,0),-1)
+        # 改过了长度
         if ignore != [0,0,0,0]:
             cv2.rectangle(
                 img,
@@ -253,7 +254,7 @@ class Const:
 
         list = [None for i in range(num)]
         def foo(i):
-            temp = util.findPic(None,threshold = 0.8, img = img,template = self.__templates[i])
+            temp = util.findPic(None,threshold = 0.7, img = img,template = self.__templates[i])
             tempList = []
             for value in temp:
                 tempList.append(value)

@@ -1,9 +1,9 @@
 from util import *
 from const import const
 
-CHAPTER_X, CHAPTER_Y = 718, 392  # 几-几的坐标
-START_X, START_Y = 463, 303  # 进stage后初始位置
-CNT = 5  # 几次出boss
+CHAPTER_X, CHAPTER_Y = 599, 367  # 几-几的坐标
+START_X, START_Y = 659, 559  # 进stage后初始位置
+CNT = 6  # 几次出boss
 path = const.publicPath() + 'activity/'
 
 def chapterProcess():
@@ -24,6 +24,14 @@ def goBossProcess():
     const.anchorProcess()
     print('boss解决')
 
+#滚轮调整显示
+def scrollProcess():
+    pyautogui.scroll(200)
+    time.sleep(.100)
+    pyautogui.scroll(200)
+    time.sleep(.100)
+    pyautogui.scroll(200)
+
 # if __name__ == '__main__':
 def main():
     PIC_NUM = const.getPicNum(path)
@@ -33,14 +41,16 @@ def main():
     while True:
         # 进入
         time.sleep(2)
-        print('SP3开始')
+        print('SP5开始')
         const.intoStageProcess(CHAPTER_X, CHAPTER_Y)
         # 走格子
         X, Y = START_X, START_Y
         # 打CNT个出boss
         for n in range(CNT):
             # 等待搜索雷达
-            time.sleep(4.000)
+            time.sleep(5.000)
+            if n == 0:
+                scrollProcess()
             util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
             X, Y = const.findShip(X, Y, PIC_NUM, path)
             pyautogui.click(X, Y)

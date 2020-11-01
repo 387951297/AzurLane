@@ -26,7 +26,7 @@ def main():
     tarImg = img.copy()
 
     def foo(i):
-        temp = util.findPic(None, threshold=0.9, img=img,template=templates[i])
+        temp = util.findPic(None, threshold=0.7, img=img,template=templates[i])
         if temp[0] == -1 and temp[1] == -1:
             return
         print(i, temp)
