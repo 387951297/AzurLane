@@ -5,7 +5,7 @@ SEARCH_SIZE = (184, 136, 964, 539)
 path = const.publicPath() + 'activity/'
 # path = const.publicPath() + 'normal7-2/'
 MUST_FIND_AREAS = [
-    [342, 383,418, 424],
+    [855, 510,901, 524],
     ]
 for area in MUST_FIND_AREAS:
     area[0] -= 184
@@ -30,7 +30,7 @@ def getFindPoints():
             templates.append(template)
     img = util.grab(SEARCH_SIZE)
     # cv2.rectangle(img, (0, 0), (61, 116), (255, 0, 0), -1)
-    cv2.rectangle(img, (0, 0), (213, 65), (255, 0, 0), -1)
+    cv2.rectangle(img, (0, 0), (263, 65), (255, 0, 0), -1)
     global tarImg
     tarImg = img.copy()
 

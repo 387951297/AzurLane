@@ -1,9 +1,9 @@
 from util import *
 from const import const
 
-CHAPTER_X, CHAPTER_Y = 599, 367  # 几-几的坐标
-START_X, START_Y = 659, 559  # 进stage后初始位置
-CNT = 6  # 几次出boss
+CHAPTER_X, CHAPTER_Y = 766, 468  # 几-几的坐标
+START_X, START_Y = 387, 235  # 进stage后初始位置
+CNT = 5  # 几次出boss
 path = const.publicPath() + 'activity/'
 
 def chapterProcess():
@@ -26,11 +26,12 @@ def goBossProcess():
 
 #滚轮调整显示
 def scrollProcess():
-    pyautogui.scroll(200)
-    time.sleep(.100)
-    pyautogui.scroll(200)
-    time.sleep(.100)
-    pyautogui.scroll(200)
+    pass
+    # pyautogui.scroll(200)
+    # time.sleep(.100)
+    # pyautogui.scroll(200)
+    # time.sleep(.100)
+    # pyautogui.scroll(200)
 
 # if __name__ == '__main__':
 def main():
@@ -41,7 +42,7 @@ def main():
     while True:
         # 进入
         time.sleep(2)
-        print('SP5开始')
+        print('SP3开始')
         const.intoStageProcess(CHAPTER_X, CHAPTER_Y)
         # 走格子
         X, Y = START_X, START_Y
@@ -52,7 +53,10 @@ def main():
             if n == 0:
                 scrollProcess()
             util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
-            X, Y = const.findShip(X, Y, PIC_NUM, path)
+            if n == 0:
+                X, Y = 609, 147
+            else:
+                X, Y = const.findShip(X, Y, PIC_NUM, path)
             pyautogui.click(X, Y)
             const.anchorProcess()
         # boss

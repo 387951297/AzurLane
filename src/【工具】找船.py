@@ -22,7 +22,7 @@ def main():
         # template = cv2.imread(path + 'question' + str(i) + '.jpg', 0)
         templates.append(template)
     img = util.grab(SEARCH_SIZE)
-    cv2.rectangle(img,(0,0),(213, 65),(255,0,0),-1)
+    cv2.rectangle(img,(0,0),(263, 65),(255,0,0),-1)
     tarImg = img.copy()
 
     def foo(i):
