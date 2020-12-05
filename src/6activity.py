@@ -1,8 +1,8 @@
 from util import *
 from const import const
 
-CHAPTER_X, CHAPTER_Y = 766, 468  # 几-几的坐标
-START_X, START_Y = 387, 235  # 进stage后初始位置
+CHAPTER_X, CHAPTER_Y = 740, 289  # 几-几的坐标
+START_X, START_Y = 445, 557  # 进stage后初始位置
 CNT = 5  # 几次出boss
 path = const.publicPath() + 'activity/'
 
@@ -53,10 +53,7 @@ def main():
             if n == 0:
                 scrollProcess()
             util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
-            if n == 0:
-                X, Y = 609, 147
-            else:
-                X, Y = const.findShip(X, Y, PIC_NUM, path)
+            X, Y = const.findShip(X, Y, PIC_NUM, path)
             pyautogui.click(X, Y)
             const.anchorProcess()
         # boss

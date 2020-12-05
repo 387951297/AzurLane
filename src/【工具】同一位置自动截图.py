@@ -5,7 +5,7 @@ SEARCH_SIZE = (184, 136, 964, 539)
 path = const.publicPath() + 'activity/'
 # path = const.publicPath() + 'normal7-2/'
 MUST_FIND_AREAS = [
-    [855, 510,901, 524],
+    [421, 279,497, 309],
     ]
 for area in MUST_FIND_AREAS:
     area[0] -= 184
