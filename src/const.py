@@ -165,6 +165,8 @@ class Const:
             x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
             pyautogui.click(x,y)
             time.sleep(.800)
+        util.findPic(self.publicPath() + 'bmp/exercise.jpg')
+        time.sleep(.800)
         tempInto(xx,yy)
         #船坞已满特殊
         time.sleep(.500)
