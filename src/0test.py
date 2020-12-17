@@ -2,12 +2,12 @@ from util import *
 from const import const
 
 def main():
-    time.sleep(2)
-    pyautogui.scroll(200)
-    time.sleep(.100)
-    pyautogui.scroll(200)
-    time.sleep(.100)
-    pyautogui.scroll(200)
+    list = util.getWords((337, 301 , 727, 363))
+    if len(list) != 0:
+        str = list[0][0:1]
+        if str == '低':
+            x , y = util.findPicLoop(const.publicPath() + 'bmp/OK.jpg')
+            pyautogui.click(x,y)
 
 
 if __name__ == '__main__':

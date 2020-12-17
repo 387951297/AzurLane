@@ -53,9 +53,9 @@ class Util:
         headers = {'content-type': 'application/x-www-form-urlencoded'}
         response = requests.post(
             request_url, data=params, headers=headers).json()
-        print(response)
         list = []
         if 'error_code' in response:
+            print(response)
             return list
         for i in range(response['words_result_num']):
             list.append(response['words_result'][i]['words'])
@@ -76,9 +76,9 @@ class Util:
         headers = {'content-type': 'application/x-www-form-urlencoded'}
         response = requests.post(
             request_url, data=params, headers=headers).json()
-        print(response)
         list = []
         if 'error_code' in response:
+            print(response)
             return list
         for i in range(response['words_result_num']):
             list.append(response['words_result'][i]['words'])

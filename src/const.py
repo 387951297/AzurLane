@@ -50,7 +50,7 @@ class Const:
         pyautogui.click(x,y)
 
     #出击到结束的过程
-    def anchorProcess(self):
+    def anchorProcess(self, redFace = False):
         time.sleep(.800)
         #今日不再提示
         x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
@@ -72,6 +72,15 @@ class Const:
             pyautogui.click(x,y)
             time.sleep(2.000)
         '''
+        if redFace:
+            list = util.getWords((337, 301 , 727, 363))
+            if len(list) != 0:
+                str = list[0][0:1]
+                if str == '低':
+                    print('我是粪提')
+                    x , y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
+                    pyautogui.click(x,y)
+                    time.sleep(1.500)
         #船坞已满特殊
         x, y = util.findPic(self.publicPath() + 'bmp/zhengli.jpg')
         if x!=-1 and y!=-1:
@@ -159,7 +168,7 @@ class Const:
     #x,y:stage的位置
     #first:上面选择的舰队
     #second:下面选择的舰队 0就清空
-    def intoStageProcess(self ,xx,yy , first = -1 , second = -1):
+    def intoStageProcess(self ,xx,yy , first = -1 , second = -1, redFace = False):
         def tempInto(x,y):
             pyautogui.click(x , y)
             x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
@@ -195,6 +204,15 @@ class Const:
 
         x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
         pyautogui.click(x,y)
+        if redFace:
+            time.sleep(1.000)
+            list = util.getWords((337, 301 , 727, 363))
+            if len(list) != 0:
+                str = list[0][0:1]
+                if str == '低':
+                    x , y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
+                    pyautogui.click(x,y)
+
         
     #走boss格子
     def goBossProcess(self):
