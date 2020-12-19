@@ -5,7 +5,7 @@ CHAPTER_NUM = 9  # 几-几
 CHAPTER_NUM2 = 1  # 几-几
 CHAPTER_X, CHAPTER_Y = 220, 189  # 几-几的坐标
 START_X, START_Y = 422, 206  # 进stage后初始位置
-CNT = 1  # 几次次出boss
+CNT = 2  # 几次次出boss
 path = const.publicPath() + 'normal9-1/'
 
 
@@ -23,6 +23,10 @@ def main():
         # 打CNT个出boss
         for n in range(CNT):
             util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+            #紧急委托 特殊
+            xx , yy = util.findPic(const.publicPath() + 'bmp/OK.jpg')
+            if xx!=-1 and yy!=-1:
+                util.click(xx,yy)
             # 等待搜索雷达
             time.sleep(4.000)
             X, Y = const.findShip(X, Y, const.getPicNum(path), path)

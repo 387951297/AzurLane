@@ -87,7 +87,7 @@ def adb(command):
         print(ret)
 
 if __name__ == '__main__':
-    changeAdmin()
+    # changeAdmin()
     # 初始化
     adb('kill-server')
     adb('connect 127.0.0.1:7555')
