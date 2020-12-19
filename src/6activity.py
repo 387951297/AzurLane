@@ -14,13 +14,13 @@ def chapterProcess():
         const.backMainProcess()
         time.sleep(2.000)
     x,y = util.findPicLoop(const.publicPath() + 'activity/into.jpg')
-    pyautogui.click(x,y)
+    util.click(x,y)
     time.sleep(.500)
 
 #走boss格子
 def goBossProcess():
     time.sleep(1.000)
-    pyautogui.click(537, 329)
+    util.click(537, 329)
     const.anchorProcess()
     print('boss解决')
 
@@ -54,7 +54,7 @@ def main():
                 scrollProcess()
             util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
             X, Y = const.findShip(X, Y, PIC_NUM, path)
-            pyautogui.click(X, Y)
+            util.click(X, Y)
             const.anchorProcess()
         # boss
         util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')

@@ -3,8 +3,8 @@ from const import const
 
 CHAPTER_NUM = 7  # 几-几
 CHAPTER_NUM2 = 2  # 几-几
-CHAPTER_X, CHAPTER_Y = 461, 246  # 几-几的坐标
-START_X, START_Y = 247, 476  # 进stage后初始位置
+CHAPTER_X, CHAPTER_Y = 361, 146  # 几-几的坐标
+START_X, START_Y = 147, 376  # 进stage后初始位置
 CNT = 6  # 几次次出boss
 path = const.publicPath() + 'normal7-2/'
 Q_NUM = 3  # 问号多少张图
@@ -28,32 +28,32 @@ def main():
             time.sleep(4.000)
             # 先看有没有问号
             for i in range(Q_NUM):
-                x , y = findQuestion(X, Y, getQuestionPicNum(path), path,ignore=[400, 309,237, 188])
+                x , y = findQuestion(X, Y, getQuestionPicNum(path), path,ignore=[300, 209,137, 88])
                 if x != -1 and y != -1:
                     X, Y = x , y 
-                    pyautogui.click(X, Y)
+                    util.click(X, Y)
                     for j in range(50):
                         xx, yy = util.findPic(
                             const.publicPath() + 'bmp/get_items.bmp')
                         if xx != -1 and yy != -1:
                             break
                         time.sleep(.100)
-                    pyautogui.click(454, 562)
+                    util.click(354, 462)
                     time.sleep(1)
 
-            X, Y = const.findShip(X, Y, const.getPicNum(path), path,ignore=[400, 309,237, 188])
-            pyautogui.click(X, Y)
+            X, Y = const.findShip(X, Y, const.getPicNum(path), path,ignore=[300, 209,137, 88])
+            util.click(X, Y)
             const.anchorProcess(redFace=True)
         # boss 不打boss
         x , y = util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
-        pyautogui.click(x,y)
+        util.click(x,y)
         x , y = util.findPicLoop(const.publicPath() + 'bmp/OK.jpg')
-        pyautogui.click(x,y)
+        util.click(x,y)
         print('-------------------------')
 
 __templates = []
 def findQuestion(x,y,num,path,ignore=[0,0,0,0]):
-    SEARCH_SIZE = (184, 136,964, 539)
+    SEARCH_SIZE = (84, 36,864, 439)
     if __templates == []:
         for i in range(num):
             template = cv2.imread(path + 'question' + str(i) + '.jpg',0)

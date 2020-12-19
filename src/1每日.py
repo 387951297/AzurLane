@@ -2,18 +2,18 @@ from util import *
 from const import const
 
 # 五个名称框框
-NAME_SIZES = ((155, 388, 232, 423),
-              (285, 395, 380, 434),
-              (453, 405, 567, 449),
-              (647, 395, 742, 435),
-              (804, 392, 884, 421))
+NAME_SIZES = ((55, 288, 132, 323),
+              (185, 295, 280, 334),
+              (353, 305, 467, 349),
+              (547, 295, 642, 335),
+              (704, 292, 784, 321))
 
 # 出击数框框
-NUM_SIZES = ((146, 224, 180, 256),
-             (285, 201, 314, 226),
-             (454, 169, 492, 200),
-             (647, 203, 683, 228),
-             (806, 231, 831, 253))
+NUM_SIZES = ((46, 124, 80, 156),
+             (185, 101, 214, 126),
+             (354, 69, 392, 100),
+             (547, 103, 583, 128),
+             (706, 131, 731, 153))
 
 # 星期与索引表
 INDEXS_BY_WEEK = ((0, 2),
@@ -41,10 +41,10 @@ def isOKByIndex(index):
 def resetProcess():
     x, y = util.findPicLoop(const.publicPath() + 'bmp/back.jpg')
     time.sleep(.800)
-    pyautogui.click(x, y)
+    util.click(x, y)
     # 进入每日界面
     x, y = util.findPicLoop(const.publicPath() + 'bmp/daily task.jpg')
-    pyautogui.click(x, y)
+    util.click(x, y)
     time.sleep(2.000)
 
 
@@ -61,11 +61,11 @@ def main():
         const.backMainProcess()
         # 进入出击界面
         x, y = util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
-        pyautogui.click(x, y)
+        util.click(x, y)
         time.sleep(.8)
     # 进入每日界面
     x, y = util.findPicLoop(const.publicPath() + 'bmp/daily task.jpg')
-    pyautogui.click(x, y)
+    util.click(x, y)
     time.sleep(.8)
 
     firstIntoFlag = True
@@ -77,23 +77,23 @@ def main():
             continue
         # 移动
         if index != 2:
-            pyautogui.click(NAME_SIZES[index][0], NAME_SIZES[index][1])
+            util.click(NAME_SIZES[index][0], NAME_SIZES[index][1])
             time.sleep(.800)
         # 进入
-        pyautogui.click(NAME_SIZES[2][0], NAME_SIZES[2][1])
+        util.click(NAME_SIZES[2][0], NAME_SIZES[2][1])
         time.sleep(.800)
 
         # 打3把
         for k in range(3):
             # 最上面那个子选项位置
-            pyautogui.click(603, 234)
+            util.click(503, 134)
             time.sleep(.800)
             const.anchorProcess()
 
         # 返回
         x, y = util.findPicLoop(const.publicPath() + 'bmp/back.jpg')
         time.sleep(.800)
-        pyautogui.click(x, y)
+        util.click(x, y)
 
         firstIntoFlag = False
 

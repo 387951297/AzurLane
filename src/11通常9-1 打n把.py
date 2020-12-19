@@ -3,8 +3,8 @@ from const import const
 
 CHAPTER_NUM = 9  # 几-几
 CHAPTER_NUM2 = 1  # 几-几
-CHAPTER_X, CHAPTER_Y = 320, 289  # 几-几的坐标
-START_X, START_Y = 522, 306  # 进stage后初始位置
+CHAPTER_X, CHAPTER_Y = 220, 189  # 几-几的坐标
+START_X, START_Y = 422, 206  # 进stage后初始位置
 CNT = 1  # 几次次出boss
 path = const.publicPath() + 'normal9-1/'
 
@@ -26,11 +26,11 @@ def main():
             # 等待搜索雷达
             time.sleep(4.000)
             X, Y = const.findShip(X, Y, const.getPicNum(path), path)
-            pyautogui.click(X, Y)
+            util.click(X, Y)
             const.anchorProcess()
         # boss 不打boss
         x , y = util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
-        pyautogui.click(x,y)
+        util.click(x,y)
         x , y = util.findPicLoop(const.publicPath() + 'bmp/OK.jpg')
-        pyautogui.click(x,y)
+        util.click(x,y)
         print('-------------------------')
