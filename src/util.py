@@ -18,6 +18,7 @@ class Util:
     __TMP_IMAGE = './tmp/image.png'
 
     def __initToken(self):
+        self.logOut(__file__,'__initToken 开始')
         pyautogui.FAILSAFE = False
         # 你的 APPID AK SK
         #APP_ID = '18540285'
@@ -29,6 +30,7 @@ class Util:
         response = requests.get(host)
         if response:
             self.__Token = response.json()['access_token']
+        self.logOut(__file__,'__initToken 结束')
 
     def __init__(self):
         self.__initToken()
@@ -37,6 +39,10 @@ class Util:
     def dayOfWeek(self):
         return datetime.now().isoweekday()
 
+    # 日志输出
+    def logOut(self, file, str):
+        print(time.strftime("%H:%M:%S", time.localtime()) + '|' + os.path.basename(file) + '|' + str)
+
     # 执行adb指令
     def adb(self,command):
         AdbPath = '.\\bin\\adb_server.exe '
@@ -44,14 +50,15 @@ class Util:
             AdbPath + command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,encoding="utf-8")
         if ret.returncode == 0:
             if ret.stdout != '':
-                print(ret.stdout)
+                self.logOut(__file__,ret.stdout)
             return ret.stdout
         else:
-            print('======adb subprocess error======')
-            print(ret)
+            self.logOut(__file__,'======adb subprocess error======')
+            self.logOut(__file__,ret)
 
-    # 截图识字
+    # 截图识数字
     def getNumbers(self, size):
+        self.logOut(__file__,'getNumbers 识数字开始')
         request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/numbers'
         img = self.grab(size)
         cv2.imwrite(self.__TMP_IMAGE, img)
@@ -67,15 +74,16 @@ class Util:
             request_url, data=params, headers=headers).json()
         list = []
         if 'error_code' in response:
-            print(response)
+            self.logOut(__file__,response)
             return list
         for i in range(response['words_result_num']):
             list.append(response['words_result'][i]['words'])
+        self.logOut(__file__,'getNumbers 识数字结束')
         return list
 
     # 限定范围内百度api识字 输出list
     def getWords(self, size):
-        pass
+        self.logOut(__file__,'getWords 识字开始')
         request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic'
         img = self.grab(size)
         cv2.imwrite(self.__TMP_IMAGE, img)
@@ -91,17 +99,18 @@ class Util:
             request_url, data=params, headers=headers).json()
         list = []
         if 'error_code' in response:
-            print(response)
+            self.logOut(__file__,response)
             return list
         for i in range(response['words_result_num']):
             list.append(response['words_result'][i]['words'])
+        self.logOut(__file__,'getWords 识字结束')
         return list
 
     # 截图返回cv2格式的图片
     def grab(self, size=(0, 0, 0, 0)):
         self.adb('shell screencap /storage/emulated/0/data/screen/image.png')
         self.adb('pull /storage/emulated/0/data/screen/image.png .\\tmp')
-        self.adb('shell rm -rf /storage/emulated/0/data/screen/image.png')
+        # self.adb('shell rm -rf /storage/emulated/0/data/screen/image.png')
         if size != (0, 0, 0, 0):
             return cv2.imread(self.__TMP_IMAGE, 0)[size[1]: size[3], size[0]: size[2]]
         else:
@@ -113,6 +122,8 @@ class Util:
             img = self.grab(size) if size != (0, 0, 0, 0) else self.grab()
         if np.all(template == None):
             template = cv2.imread(url, 0)
+        else:
+            url = "template"
         w, h = template.shape[::-1]
         res = cv2.matchTemplate(img, template, cv2.TM_CCOEFF_NORMED)
         min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
@@ -121,36 +132,15 @@ class Util:
             return (max_loc[0] + w // 2, max_loc[1] + h // 2)
         else:
             return (-1, -1)
-        '''
-		loc = np.where(res >= threshold)
-		cv2.waitKey(0)
-		for pt in zip(*loc[::-1]):
-			return (pt[0] + w // 2, pt[1] + h // 2)
-		return (-1,-1)
-		'''
-
-    # 识图返回列表
-    def findPicList(self, url, threshold=0.8, size=(0, 0, 0, 0), img=None, template=None):
-        if np.all(img == None):
-            img = self.grab(size) if size != (0, 0, 0, 0) else self.grab()
-        if np.all(template == None):
-            template = cv2.imread(url, 0)
-        w, h = template.shape[::-1]
-        res = cv2.matchTemplate(img, template, cv2.TM_CCOEFF_NORMED)
-        loc = np.where(res >= threshold)
-        cv2.waitKey(0)
-        list = []
-        for pt in zip(*loc[::-1]):
-            list.append((pt[0] + w // 2, pt[1] + h // 2))
-        return list
 
     # 循环找图 直到找到退出
     def findPicLoop(self, url, threshold=0.8, size=(0, 0, 0, 0)):
+        self.logOut(__file__,'findPicLoop 循环找图开始 '+url)
         while True:
             x, y = self.findPic(url, threshold, size)
             if x != -1 and y != -1:
+                self.logOut(__file__,'findPicLoop 循环找图结束 '+url)
                 return (x, y)
-            time.sleep(.100)
 
     # 判断是否找到图
     def isFindPic(self, url, threshold=0.8, size=(0, 0, 0, 0)):
@@ -162,11 +152,12 @@ class Util:
 
     # 退出脚本
     def exitScript(self):
-        print('脚本结束')
+        self.logOut(__file__,'脚本结束')
         sys.exit()
 
     # 点击
     def click(self, x, y):
+        self.logOut(__file__,'click ' + str(x) + ' ' + str(y))
         self.adb('shell input tap ' + str(x) + ' ' + str(y))
 
 

@@ -25,24 +25,6 @@ for fileName in os.listdir('./src'):
         continue
     except ValueError:
         pass
-    
-
-
-# 是否为管理员权限
-def is_admin():
-    try:
-        return ctypes.windll.shell32.IsUserAnAdmin()
-    except:
-        return False
-
-# 获取管理员权限
-def changeAdmin():
-    if not is_admin():
-        if sys.version_info[0] == 3:
-            ctypes.windll.shell32.ShellExecuteW(
-                None, "runas", sys.executable, __file__, None, 1)
-            sys.exit()
-
 
 # 菜单显示
 def mainPrint():
@@ -87,8 +69,8 @@ def adb(command):
         print(ret)
 
 if __name__ == '__main__':
-    # changeAdmin()
     # 初始化
+    print('adb初始化开始')
     adb('kill-server')
     adb('connect 127.0.0.1:7555')
     while True:

@@ -18,18 +18,20 @@ class Const:
 
     #返回主页面
     def backMainProcess(self):
+        util.logOut(__file__,'backMainProcess 返回主页面开始')
         if util.isFindPic(self.publicPath() + 'bmp/home.jpg',0.8):
             x , y = util.findPic(self.publicPath() + 'bmp/home.jpg',0.8)
             util.click(x,y)
             time.sleep(.500)
         elif util.isFindPic(self.publicPath() + 'bmp/weigh anchor.jpg'):
+            util.logOut(__file__,'backMainProcess 返回主页面结束')
             return
         else:
-            print('返回主页面失败')
+            util.logOut(__file__,'backMainProcess 返回主页面结束 失败')
 
     #退役蓝白未锁的船
     def retireProcess(self):
-        print('开始退役步骤')
+        util.logOut(__file__,'retireProcess 退役步骤开始')
         time.sleep(2)
         x,y = util.findPicLoop(self.publicPath() + 'bmp/retire.jpg')
         util.click(x,y)
@@ -48,35 +50,43 @@ class Const:
         util.click(x,y)
         x,y = util.findPicLoop(self.publicPath() + 'bmp/back.jpg')
         util.click(x,y)
+        util.logOut(__file__,'retireProcess 退役步骤结束')
 
     #出击到结束的过程
     def anchorProcess(self, redFace = False):
+        util.logOut(__file__,'anchorProcess 出击步骤开始')
         time.sleep(.800)
         #今日不再提示
+        util.logOut(__file__,'今日不再提示判断 开始')
         x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
         if x!=-1 and y!=-1:
             util.click(x,y)
+            util.logOut(__file__,'今日不再提示')
    
         def anchor():
             x , y = util.findPicLoop(self.publicPath() + 'bmp/anchor.bmp')
             time.sleep(0.800)
             util.click(x,y)
+            util.logOut(__file__,'自律 开始')
             
         anchor()
         time.sleep(.800)
         #红脸特殊（屑）
         if redFace:
+            util.logOut(__file__,'红脸判断 开始')
             list = util.getWords((237, 201 , 627, 263))
             if len(list) != 0:
                 str = list[0][0:1]
                 if str == '低':
-                    print('我是粪提')
+                    util.logOut(__file__,'我是粪提 结束')
                     x , y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
                     util.click(x,y)
                     time.sleep(1.500)
         #船坞已满特殊
+        util.logOut(__file__,'船坞已满判断 开始')
         x, y = util.findPic(self.publicPath() + 'bmp/zhengli.jpg')
         if x!=-1 and y!=-1:
+            util.logOut(__file__,'船坞已满')
             util.click(x,y)
             self.retireProcess()
             time.sleep(.800)
@@ -84,6 +94,7 @@ class Const:
         time.sleep(10)
         #S
         x , y = util.findPicLoop(self.publicPath() + 'bmp/S.bmp',0.6)
+        util.logOut(__file__,'自律 结束')
         time.sleep(1.200)
         util.click(x,y)
         #get_items
@@ -91,8 +102,9 @@ class Const:
         util.click(684,308)
         time.sleep(1.600)
         #打捞到sr或ssr（不存在的）
+        util.logOut(__file__,'打捞到sr或ssr判断 开始')
         if util.isFindPic(self.publicPath() + 'bmp/salvage.jpg'):
-            print('打捞到sr或者ssr了')
+            util.logOut(__file__,'打捞到sr或者ssr')
             util.click(684,308)
             time.sleep(2)
         util.click(684,308)
@@ -101,20 +113,25 @@ class Const:
         util.click(x,y)
         time.sleep(3)
         #作战失败 特殊
+        util.logOut(__file__,'作战失败判断 开始')
         xx , yy = util.findPic(self.publicPath() + 'bmp/death.jpg')
         if xx!=-1 and yy!=-1:
+            util.logOut(__file__,'作战失败')
             util.click(xx,yy)
-        print('一把结束')
         time.sleep(3)
         #紧急委托 特殊
+        util.logOut(__file__,'紧急委托判断 开始')
         xx , yy = util.findPic(self.publicPath() + 'bmp/OK.jpg')
         if xx!=-1 and yy!=-1:
+            util.logOut(__file__,'紧急委托')
             util.click(xx,yy)
+        util.logOut(__file__,'anchorProcess 出击步骤结束')
     
     #进入出击章节
     #chapterNum:章节数字
     # type：普通'N' 困难'H'
     def chapterProcess(self, chapterNum ,type):
+        util.logOut(__file__,'chapterProcess 进入出击章节步骤开始')
         chapterPos = (82, 43,141, 75)
         prevX , prevY = 33, 251
         nextX , nextY = 826, 251
@@ -154,26 +171,28 @@ class Const:
                 util.click(x,y)
                 time.sleep(.2)
         else:
-            print('chapterProcess的type有误')
-            return
+            util.logOut(__file__,'chapterProcess的type有误')
+        util.logOut(__file__,'chapterProcess 进入出击章节步骤结束')
 
     #进入stage
     #x,y:stage的位置
     #first:上面选择的舰队
     #second:下面选择的舰队 0就清空
     def intoStageProcess(self ,xx,yy , first = -1 , second = -1, redFace = False):
+        util.logOut(__file__,'intoStageProcess 进入stage步骤开始')
         def tempInto(x,y):
             util.click(x , y)
             x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
             util.click(x,y)
             time.sleep(.800)
-        util.findPic(self.publicPath() + 'bmp/exercise.jpg')
         time.sleep(.800)
         tempInto(xx,yy)
         #船坞已满特殊
+        util.logOut(__file__,'船坞已满判断 开始')
         time.sleep(.500)
         x, y = util.findPic(self.publicPath() + 'bmp/zhengli.jpg')
         if x!=-1 and y!=-1:
+            util.logOut(__file__,'船坞已满')
             util.click(x,y)
             const.retireProcess()
             time.sleep(4.000)
@@ -198,25 +217,30 @@ class Const:
         x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
         util.click(x,y)
         if redFace:
+            util.logOut(__file__,'红脸判断 开始')
             time.sleep(1.000)
             list = util.getWords((237, 201 , 627, 263))
             if len(list) != 0:
                 str = list[0][0:1]
                 if str == '低':
+                    util.logOut(__file__,'红脸')
                     x , y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
                     util.click(x,y)
+        util.logOut(__file__,'intoStageProcess 进入stage步骤结束')
 
         
     #走boss格子
     def goBossProcess(self):
+        util.logOut(__file__,'goBossProcess 走boss格子 开始')
         x , y = util.findPicLoop(self.publicPath() + 'bmp/boss.jpg',threshold=0.6)
         util.click(x,y)
         self.anchorProcess()
-        print('boss解决')
+        util.logOut(__file__,'goBossProcess boss解决')
 
     #找船
     __templates = []
     def findShip(self,x,y,num,path,ignore=[0,0,0,0]):
+        util.logOut(__file__,'findShip 找船 开始')
         SEARCH_SIZE = (84, 36,864, 439)
         if self.__templates == []:
             for i in range(num):
@@ -255,7 +279,7 @@ class Const:
         for t in threads:
             t.join()
         '''
-            
+        
         minDistance = sys.maxsize
         minIndex = 0
         index = -1
@@ -267,6 +291,7 @@ class Const:
             if temp < minDistance:
                 minDistance = temp
                 minIndex = index
+        util.logOut(__file__,'findShip 找船 结束')
         return list[minIndex][0],list[minIndex][1]
     
     # 获取path内有多少图需要搜索

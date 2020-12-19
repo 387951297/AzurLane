@@ -13,11 +13,11 @@ Q_NUM = 3  # 问号多少张图
 # if __name__ == '__main__':
 def main():
     time.sleep(2)
-    print('通常7-2 不打boss 开始')
+    util.logOut(__file__,'通常7-2 不打boss 开始')
     const.chapterProcess(7, 'N')
     while True:
         # 进入7-2
-        print('7-2开始')
+        util.logOut(__file__,'-------------一局开始------------')
         const.intoStageProcess(CHAPTER_X, CHAPTER_Y, 3, 6, True)
         # 走格子
         X, Y = START_X, START_Y
@@ -30,15 +30,16 @@ def main():
             for i in range(Q_NUM):
                 x , y = findQuestion(X, Y, getQuestionPicNum(path), path,ignore=[300, 209,137, 88])
                 if x != -1 and y != -1:
-                    X, Y = x , y 
+                    util.logOut(__file__,'处理问号 开始')
+                    X, Y = x , y + 35
                     util.click(X, Y)
-                    for j in range(50):
+                    for j in range(10):
                         xx, yy = util.findPic(
                             const.publicPath() + 'bmp/get_items.bmp')
                         if xx != -1 and yy != -1:
                             break
-                        time.sleep(.100)
                     util.click(354, 462)
+                    util.logOut(__file__,'处理问号 结束')
                     time.sleep(1)
 
             X, Y = const.findShip(X, Y, const.getPicNum(path), path,ignore=[300, 209,137, 88])
@@ -49,10 +50,11 @@ def main():
         util.click(x,y)
         x , y = util.findPicLoop(const.publicPath() + 'bmp/OK.jpg')
         util.click(x,y)
-        print('-------------------------')
+        util.logOut(__file__,'-------------一局结束------------')
 
 __templates = []
 def findQuestion(x,y,num,path,ignore=[0,0,0,0]):
+    util.logOut(__file__,'findQuestion 找问号 开始')
     SEARCH_SIZE = (84, 36,864, 439)
     if __templates == []:
         for i in range(num):
@@ -93,7 +95,8 @@ def findQuestion(x,y,num,path,ignore=[0,0,0,0]):
         if temp < minDistance:
             minDistance = temp
             minIndex = index
-    return list[minIndex][0],list[minIndex][1] + 35
+    util.logOut(__file__,'findQuestion 找问号 结束')
+    return list[minIndex][0],list[minIndex][1]
 
 def getQuestionPicNum(path):
     num = 0

@@ -12,11 +12,11 @@ path = const.publicPath() + 'normal9-1/'
 # if __name__ == '__main__':
 def main():
     time.sleep(2)
-    print('通常9-1 打n把 开始')
+    util.logOut(__file__,'通常9-1 打n把 开始')
     const.chapterProcess(CHAPTER_NUM, 'N')
     while True:
         # 进入
-        print('9-1开始')
+        util.logOut(__file__,'9-1开始')
         const.intoStageProcess(CHAPTER_X, CHAPTER_Y, 3, 6)
         # 走格子
         X, Y = START_X, START_Y
@@ -37,4 +37,4 @@ def main():
         util.click(x,y)
         x , y = util.findPicLoop(const.publicPath() + 'bmp/OK.jpg')
         util.click(x,y)
-        print('-------------------------')
+        util.logOut(__file__,'-------------------------')

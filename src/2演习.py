@@ -33,7 +33,7 @@ def FindOKExercise():
 # if __name__ == '__main__':
 def main():
     time.sleep(2)
-    print('演习脚本开始')
+    util.logOut(__file__,'演习脚本开始')
     # 判断是否在演习界面
     if not util.isFindPic(const.publicPath() + 'bmp/is_exercise.jpg'):
         # 返回主页面

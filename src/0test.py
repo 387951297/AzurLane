@@ -1,19 +1,23 @@
 from util import *
 from const import const
 
-
-
+from aip import AipImageSearch
 def main():
-    # 初始化
-    util.adb('kill-server')
-    util.adb('connect 127.0.0.1:7555')
-    # 截图
-    # adb('shell screencap /storage/emulated/0/data/screen/image.png')
-    # adb('pull /storage/emulated/0/data/screen/image.png .\\tmp')
-    # adb('shell rm -rf /storage/emulated/0/data/screen/image.png')
-    #点击
-    # util.adb('shell input tap 200 200')
-    const.backMainProcess()
+    """ 你的 APPID AK SK """
+    APP_ID = '23182724'
+    API_KEY = 'yqovkvjCAzRmvDhrFn6hid9A'
+    SECRET_KEY = 'i21lCfxppo3Mk1kKFrnCra4QR62Tbf5H'
+
+    client = AipImageSearch(APP_ID, API_KEY, SECRET_KEY)
+
+    """ 读取图片 """
+    def get_file_content(filePath):
+        with open(filePath, 'rb') as fp:
+            return fp.read()
+
+    image = get_file_content('./public/bmp/QQ截图20201002134754.jpg')
+    ret = client.sameHqSearch(image)
+    print(ret)
 
 
 

@@ -8,7 +8,7 @@ CHAPTER_X, CHAPTER_Y = 376, 150  # 几-几的坐标
 # if __name__ == '__main__':
 def main():
     time.sleep(2)
-    print('困难'+str(CHAPTER_NUM)+'-'+str(CHAPTER_NUM2)+'脚本开始')
+    util.logOut(__file__,'困难'+str(CHAPTER_NUM)+'-'+str(CHAPTER_NUM2)+'脚本开始')
 
     # 进入困难第CHAPTER_NUM章界面
     const.chapterProcess(CHAPTER_NUM, 'H')

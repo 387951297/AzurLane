@@ -22,7 +22,7 @@ def goBossProcess():
     time.sleep(1.000)
     util.click(537, 329)
     const.anchorProcess()
-    print('boss解决')
+    util.logOut(__file__,'boss解决')
 
 #滚轮调整显示
 def scrollProcess():
@@ -37,12 +37,12 @@ def scrollProcess():
 def main():
     PIC_NUM = const.getPicNum(path)
     time.sleep(2)
-    print('activity脚本开始')
+    util.logOut(__file__,'activity脚本开始')
     chapterProcess()
     while True:
         # 进入
         time.sleep(2)
-        print('SP3开始')
+        util.logOut(__file__,'SP3开始')
         const.intoStageProcess(CHAPTER_X, CHAPTER_Y)
         # 走格子
         X, Y = START_X, START_Y
@@ -61,4 +61,4 @@ def main():
         # 等待搜索雷达
         time.sleep(4.000)
         goBossProcess()
-        print('-------------------------')
+        util.logOut(__file__,'-------------------------')

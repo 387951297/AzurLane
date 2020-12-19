@@ -13,11 +13,11 @@ PIC_NUM = 21  # 多少张图
 # if __name__ == '__main__':
 def main():
     time.sleep(2)
-    print(str(CHAPTER_NUM) + '-' + str(CHAPTER_NUM2) + '脚本开始')
+    util.logOut(__file__,str(CHAPTER_NUM) + '-' + str(CHAPTER_NUM2) + '脚本开始')
     const.chapterProcess(CHAPTER_NUM, 'N')
     while True:
         # 进入
-        print(str(CHAPTER_NUM) + '-' + str(CHAPTER_NUM2) + '开始')
+        util.logOut(__file__,str(CHAPTER_NUM) + '-' + str(CHAPTER_NUM2) + '开始')
         const.intoStageProcess(CHAPTER_X, CHAPTER_Y)
         # 走格子
         X, Y = START_X, START_Y
@@ -34,4 +34,4 @@ def main():
         # 等待搜索雷达
         time.sleep(4.000)
         const.goBossProcess()
-        print('-------------------------')
+        util.logOut(__file__,'-------------------------')

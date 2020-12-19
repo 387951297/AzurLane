@@ -53,7 +53,7 @@ def main():
     print('记得把道中队换好')
     print('破交自己打不识别')
     time.sleep(2)
-    print('每日脚本开始')
+    util.logOut(__file__,'每日脚本开始')
 
     # 判断是否在出击界面
     if not util.isFindPic(const.publicPath() + 'bmp/exercise.jpg'):
