@@ -27,20 +27,21 @@ def main():
             # 等待搜索雷达
             time.sleep(4.000)
             # 先看有没有问号
-            for i in range(Q_NUM):
-                x , y = findQuestion(X, Y, getQuestionPicNum(path), path,ignore=[300, 209,137, 88])
-                if x != -1 and y != -1:
-                    util.logOut(__file__,'处理问号 开始')
-                    X, Y = x , y + 35
-                    util.click(X, Y)
-                    for j in range(10):
-                        xx, yy = util.findPic(
-                            const.publicPath() + 'bmp/get_items.bmp')
-                        if xx != -1 and yy != -1:
-                            break
-                    util.click(354, 462)
-                    util.logOut(__file__,'处理问号 结束')
-                    time.sleep(1)
+            if n != 0:
+                for i in range(Q_NUM):
+                    x , y = findQuestion(X, Y, getQuestionPicNum(path), path,ignore=[300, 209,137, 88])
+                    if x != -1 and y != -1:
+                        util.logOut(__file__,'处理问号 开始')
+                        X, Y = x , y + 35
+                        util.click(X, Y)
+                        for j in range(10):
+                            xx, yy = util.findPic(
+                                const.publicPath() + 'bmp/get_items.bmp')
+                            if xx != -1 and yy != -1:
+                                break
+                        util.click(354, 462)
+                        util.logOut(__file__,'处理问号 结束')
+                        time.sleep(1)
 
             X, Y = const.findShip(X, Y, const.getPicNum(path), path,ignore=[300, 209,137, 88])
             util.click(X, Y)
