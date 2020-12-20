@@ -23,6 +23,7 @@ def main():
         X, Y = START_X, START_Y
         # 打CNT个出boss
         for n in range(CNT):
+            util.logOut(__file__,'------------一把开始-----------')
             util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
             # 等待搜索雷达
             time.sleep(4.000)
@@ -40,12 +41,14 @@ def main():
                             if xx != -1 and yy != -1:
                                 break
                         util.click(354, 462)
-                        util.logOut(__file__,'处理问号 结束')
                         time.sleep(1)
-
+                        util.logOut(__file__,'处理问号 结束')
+                    else:
+                        break
             X, Y = const.findShip(X, Y, const.getPicNum(path), path,ignore=[300, 209,137, 88])
             util.click(X, Y)
             const.anchorProcess(redFace=True)
+            util.logOut(__file__,'------------一把结束-----------')
         # boss 不打boss
         x , y = util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
         util.click(x,y)
