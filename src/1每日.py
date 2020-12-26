@@ -39,11 +39,11 @@ def isOKByIndex(index):
 
 
 def resetProcess():
-    x, y = util.findPicLoop(const.publicPath() + 'bmp/back.jpg')
+    x, y = const.picLoop(const.publicPath() + 'bmp/back.jpg')
     time.sleep(.800)
     util.click(x, y)
     # 进入每日界面
-    x, y = util.findPicLoop(const.publicPath() + 'bmp/daily task.jpg')
+    x, y = const.picLoop(const.publicPath() + 'bmp/daily task.jpg')
     util.click(x, y)
     time.sleep(2.000)
 
@@ -60,11 +60,11 @@ def main():
         # 返回主页面
         const.backMainProcess()
         # 进入出击界面
-        x, y = util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
+        x, y = const.picLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
         util.click(x, y)
         time.sleep(.8)
     # 进入每日界面
-    x, y = util.findPicLoop(const.publicPath() + 'bmp/daily task.jpg')
+    x, y = const.picLoop(const.publicPath() + 'bmp/daily task.jpg')
     util.click(x, y)
     time.sleep(.8)
 
@@ -91,7 +91,7 @@ def main():
             const.anchorProcess()
 
         # 返回
-        x, y = util.findPicLoop(const.publicPath() + 'bmp/back.jpg')
+        x, y = const.picLoop(const.publicPath() + 'bmp/back.jpg')
         time.sleep(.800)
         util.click(x, y)
 

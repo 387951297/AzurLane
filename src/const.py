@@ -33,22 +33,22 @@ class Const:
     def retireProcess(self):
         util.logOut(__file__,'retireProcess 退役步骤开始')
         time.sleep(2)
-        x,y = util.findPicLoop(self.publicPath() + 'bmp/retire.jpg')
+        x,y = self.picLoop(self.publicPath() + 'bmp/retire.jpg')
         util.click(x,y)
         time.sleep(.800)
-        x,y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
+        x,y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
         util.click(x,y)
-        x,y = util.findPicLoop(self.publicPath() + 'bmp/get_items.bmp')
-        util.click(x,y)
-        time.sleep(.800)
-        x,y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
+        x,y = self.picLoop(self.publicPath() + 'bmp/get_items.bmp')
         util.click(x,y)
         time.sleep(.800)
-        x,y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
+        x,y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
         util.click(x,y)
-        x,y = util.findPicLoop(self.publicPath() + 'bmp/get_items.bmp')
+        time.sleep(.800)
+        x,y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
         util.click(x,y)
-        x,y = util.findPicLoop(self.publicPath() + 'bmp/back.jpg')
+        x,y = self.picLoop(self.publicPath() + 'bmp/get_items.bmp')
+        util.click(x,y)
+        x,y = self.picLoop(self.publicPath() + 'bmp/back.jpg')
         util.click(x,y)
         util.logOut(__file__,'retireProcess 退役步骤结束')
 
@@ -64,7 +64,7 @@ class Const:
             util.logOut(__file__,'今日不再提示')
    
         def anchor():
-            x , y = util.findPicLoop(self.publicPath() + 'bmp/anchor.bmp')
+            x , y = self.picLoop(self.publicPath() + 'bmp/anchor.bmp')
             time.sleep(0.800)
             util.click(x,y)
             util.logOut(__file__,'自律 开始')
@@ -72,6 +72,7 @@ class Const:
         anchor()
         time.sleep(.800)
         #红脸特殊（屑）
+        isRedFace = False
         if redFace:
             util.logOut(__file__,'红脸判断 开始')
             list = util.getWords((237, 201 , 627, 263))
@@ -79,7 +80,8 @@ class Const:
                 str = list[0][0:1]
                 if str == '低':
                     util.logOut(__file__,'我是粪提 结束')
-                    x , y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
+                    isRedFace = True
+                    x , y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
                     util.click(x,y)
                     time.sleep(1.500)
         #船坞已满特殊
@@ -91,9 +93,15 @@ class Const:
             self.retireProcess()
             time.sleep(.800)
             anchor()	
+            if isRedFace:
+                time.sleep(2.00)
+                x , y = util.findPic(self.publicPath() + 'bmp/OK.jpg')
+                if x!=-1 and y!=-1:
+                    util.click(x,y)
+                    time.sleep(1.500)
         time.sleep(10)
         #S
-        x , y = util.findPicLoop(self.publicPath() + 'bmp/S.bmp',0.6)
+        x , y = self.picLoop(self.publicPath() + 'bmp/S.bmp',0.6)
         util.logOut(__file__,'自律 结束')
         time.sleep(1.200)
         util.click(x,y)
@@ -109,7 +117,7 @@ class Const:
             time.sleep(2)
         util.click(684,308)
         #exp2
-        x , y = util.findPicLoop(self.publicPath() + 'bmp/exp2.bmp')
+        x , y = self.picLoop(self.publicPath() + 'bmp/exp2.bmp')
         util.click(x,y)
         time.sleep(3)
         #作战失败 特殊
@@ -135,15 +143,23 @@ class Const:
         chapterPos = (82, 43,141, 75)
         prevX , prevY = 33, 251
         nextX , nextY = 826, 251
-        #判断是否在出击章节界面
-        #出击界面
-        if not util.isFindPic(self.publicPath() + 'bmp/exercise.jpg'):
-            #返回主页面
-            self.backMainProcess()
-            #进入出击界面
-            x , y = util.findPicLoop(self.publicPath() + 'bmp/weigh anchor.jpg')
+        #返回主页面
+        self.backMainProcess()
+        #进入出击界面
+        x , y = self.picLoop(self.publicPath() + 'bmp/weigh anchor.jpg')
+        util.click(x,y)
+        # 判断是否为图里面
+        util.logOut(__file__,'判断是否为图里面 开始')
+        time.sleep(2.000)
+        x,y = util.findPic(self.publicPath() + 'bmp/withdraw.jpg')
+        if x!=-1 and y!=-1:
             util.click(x,y)
-            time.sleep(2.000)
+            x, y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
+            util.click(x,y)
+        else:
+            x, y = self.picLoop(self.publicPath() + 'bmp/main battleline.jpg')
+            util.click(x,y)
+        self.picLoop(self.publicPath() + 'bmp/exercise.jpg')
         #第chapterNum章
         list = util.getWords(chapterPos)
         tempNum = int(list[0][1:-1])
@@ -182,10 +198,10 @@ class Const:
         util.logOut(__file__,'intoStageProcess 进入stage步骤开始')
         def tempInto(x,y):
             util.click(x , y)
-            x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
+            x , y = self.picLoop(self.publicPath() + 'bmp/start chapter.jpg')
             util.click(x,y)
             time.sleep(.800)
-        time.sleep(.800)
+        self.picLoop(self.publicPath() + 'bmp/exercise.jpg')
         tempInto(xx,yy)
         #船坞已满特殊
         util.logOut(__file__,'船坞已满判断 开始')
@@ -214,7 +230,7 @@ class Const:
                 #第second队伍
                 util.click(740, 266 + (second - 1) * 28)
 
-        x , y = util.findPicLoop(self.publicPath() + 'bmp/start chapter.jpg')
+        x , y = self.picLoop(self.publicPath() + 'bmp/start chapter.jpg')
         util.click(x,y)
         if redFace:
             util.logOut(__file__,'红脸判断 开始')
@@ -224,7 +240,7 @@ class Const:
                 str = list[0][0:1]
                 if str == '低':
                     util.logOut(__file__,'红脸')
-                    x , y = util.findPicLoop(self.publicPath() + 'bmp/OK.jpg')
+                    x , y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
                     util.click(x,y)
         util.logOut(__file__,'intoStageProcess 进入stage步骤结束')
 
@@ -232,10 +248,26 @@ class Const:
     #走boss格子
     def goBossProcess(self):
         util.logOut(__file__,'goBossProcess 走boss格子 开始')
-        x , y = util.findPicLoop(self.publicPath() + 'bmp/boss.jpg',threshold=0.6)
+        x , y = self.picLoop(self.publicPath() + 'bmp/boss.jpg',threshold=0.6)
         util.click(x,y)
         self.anchorProcess()
         util.logOut(__file__,'goBossProcess boss解决')
+
+    # 重启
+    def restartProcess(self):
+        util.logOut(__file__,'restartProcess 关app 开始')
+        util.adb('shell am force-stop com.bilibili.azurlane')
+        util.logOut(__file__,'restartProcess 关app 结束')
+        util.logOut(__file__,'restartProcess 开app 开始')
+        util.adb('shell am start -n com.bilibili.azurlane/com.manjuu.azurlane.MainActivity')
+        util.findPicLoop(const.publicPath() + 'bmp/login.jpg')
+        while True:
+            util.click(200,200)
+            x, y = util.findPic(const.publicPath() + 'bmp/weigh anchor.jpg')
+            if x != -1 and y != -1:
+                break
+        util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
+        util.logOut(__file__,'restartProcess 开app 结束')
 
     #找船
     __templates = []
@@ -304,5 +336,13 @@ class Const:
             except ValueError:
                 pass
         return num
+
+    # 带重启的找图
+    def picLoop(self, url, threshold=0.8, size=(0, 0, 0, 0)):
+        x,y = util.findPicLoop(url, threshold=threshold, size=size)
+        if x==-2 and y==-2:
+            self.restartProcess()
+            raise ValueError('restart')
+        return (x,y)
     
 const = Const()

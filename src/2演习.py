@@ -39,10 +39,10 @@ def main():
         # 返回主页面
         const.backMainProcess()
         # 进入演习界面
-        x, y = util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
+        x, y = const.picLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
         util.click(x, y)
         time.sleep(.500)
-        x, y = util.findPicLoop(const.publicPath() + 'bmp/exercise.jpg')
+        x, y = const.picLoop(const.publicPath() + 'bmp/exercise.jpg')
         util.click(x, y)
         time.sleep(.500)
     while True:
@@ -56,7 +56,7 @@ def main():
         # 识字 选择弱的
         min, minIndex = FindOKExercise()
         while min > myAttack:
-            x, y = util.findPicLoop(
+            x, y = const.picLoop(
                 const.publicPath() + 'bmp/new opponent.jpg')
             util.click(x, y)
             time.sleep(6.000)
@@ -67,7 +67,7 @@ def main():
         time.sleep(.500)
 
         # 开始演习
-        x, y = util.findPicLoop(const.publicPath() + 'bmp/start excise.jpg')
+        x, y = const.picLoop(const.publicPath() + 'bmp/start excise.jpg')
         util.click(x, y)
         time.sleep(.500)
         const.anchorProcess()

@@ -13,7 +13,7 @@ def chapterProcess():
         #返回主页面
         const.backMainProcess()
         time.sleep(2.000)
-    x,y = util.findPicLoop(const.publicPath() + 'activity/into.jpg')
+    x,y = const.picLoop(const.publicPath() + 'activity/into.jpg')
     util.click(x,y)
     time.sleep(.500)
 
@@ -52,12 +52,12 @@ def main():
             time.sleep(5.000)
             if n == 0:
                 scrollProcess()
-            util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+            const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
             X, Y = const.findShip(X, Y, PIC_NUM, path)
             util.click(X, Y)
             const.anchorProcess()
         # boss
-        util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+        const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
         # 等待搜索雷达
         time.sleep(4.000)
         goBossProcess()

@@ -23,14 +23,14 @@ def main():
         X, Y = START_X, START_Y
         # 打CNT个出boss
         for n in range(CNT):
-            util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+            const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
             # 等待搜索雷达
             time.sleep(4.000)
             X, Y = const.findShip(X, Y, PIC_NUM, path)
             util.click(X, Y)
             const.anchorProcess()
         # boss
-        util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+        const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
         # 等待搜索雷达
         time.sleep(4.000)
         const.goBossProcess()

@@ -8,8 +8,12 @@ import subprocess
 sys.path.append(os.getcwd().replace('\\', '/')+'/src')
 
 m = ['' for _ in range(100)]
+util = ''
 # 引用带数字的py模组
 for fileName in os.listdir('./src'):
+    if fileName == 'util.py':
+        util = importlib.import_module(fileName.replace('.py', '')).util
+        continue
     num = ''
     try:
         num = int(fileName[0:2])
@@ -29,7 +33,7 @@ for fileName in os.listdir('./src'):
 # 菜单显示
 def mainPrint():
     os.system("cls")
-    
+
     printList = ['' for _ in range(100)]
     for fileName in os.listdir('./src'):
         try:
@@ -73,15 +77,23 @@ if __name__ == '__main__':
     print('adb初始化开始')
     adb('kill-server')
     adb('connect 127.0.0.1:7555')
+    index = -999
     while True:
-        try:
-            m[int(mainPrint())].main()
-        except Exception as err:
-            print(err.args)
-            print('==========')
-            print(traceback.format_exc()) 
-            input()
-            sys.exit()
+        index = int(mainPrint())
+        while True:
+            try:
+                m[index].main()
+                break
+            except Exception as err:
+                print(err.args)
+                print('==========')
+                print(traceback.format_exc()) 
+                if str(err) == 'restart':
+                    # 重启脚本
+                    continue
+                else:
+                    input()
+                    sys.exit()
 
 
 

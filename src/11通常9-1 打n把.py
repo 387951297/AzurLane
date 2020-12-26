@@ -22,7 +22,7 @@ def main():
         X, Y = START_X, START_Y
         # 打CNT个出boss
         for n in range(CNT):
-            util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+            const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
             #紧急委托 特殊
             xx , yy = util.findPic(const.publicPath() + 'bmp/OK.jpg')
             if xx!=-1 and yy!=-1:
@@ -33,8 +33,8 @@ def main():
             util.click(X, Y)
             const.anchorProcess()
         # boss 不打boss
-        x , y = util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+        x , y = const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
         util.click(x,y)
-        x , y = util.findPicLoop(const.publicPath() + 'bmp/OK.jpg')
+        x , y = const.picLoop(const.publicPath() + 'bmp/OK.jpg')
         util.click(x,y)
         util.logOut(__file__,'-------------------------')

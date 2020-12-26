@@ -5,7 +5,7 @@ CHAPTER_NUM = 7  # 几-几
 CHAPTER_NUM2 = 2  # 几-几
 CHAPTER_X, CHAPTER_Y = 361, 146  # 几-几的坐标
 START_X, START_Y = 147, 376  # 进stage后初始位置
-CNT = 6  # 几次次出boss
+CNT = 4  # 几次次出boss
 path = const.publicPath() + 'normal7-2/'
 Q_NUM = 3  # 问号多少张图
 
@@ -24,7 +24,7 @@ def main():
         # 打CNT个出boss
         for n in range(CNT):
             util.logOut(__file__,'------------一把开始-----------')
-            util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+            const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
             # 等待搜索雷达
             time.sleep(4.000)
             # 先看有没有问号
@@ -33,7 +33,7 @@ def main():
                     x , y = findQuestion(X, Y, getQuestionPicNum(path), path,ignore=[300, 209,137, 88])
                     if x != -1 and y != -1:
                         util.logOut(__file__,'处理问号 开始')
-                        X, Y = x , y + 35
+                        X, Y = x , y + 33
                         util.click(X, Y)
                         for j in range(10):
                             xx, yy = util.findPic(
@@ -50,9 +50,9 @@ def main():
             const.anchorProcess(redFace=True)
             util.logOut(__file__,'------------一把结束-----------')
         # boss 不打boss
-        x , y = util.findPicLoop(const.publicPath() + 'bmp/withdraw.jpg')
+        x , y = const.picLoop(const.publicPath() + 'bmp/withdraw.jpg')
         util.click(x,y)
-        x , y = util.findPicLoop(const.publicPath() + 'bmp/OK.jpg')
+        x , y = const.picLoop(const.publicPath() + 'bmp/OK.jpg')
         util.click(x,y)
         util.logOut(__file__,'-------------一局结束------------')
 

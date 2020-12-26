@@ -136,11 +136,21 @@ class Util:
     # 循环找图 直到找到退出
     def findPicLoop(self, url, threshold=0.8, size=(0, 0, 0, 0)):
         self.logOut(__file__,'findPicLoop 循环找图开始 '+url)
-        while True:
+        for i in range(600):
             x, y = self.findPic(url, threshold, size)
             if x != -1 and y != -1:
                 self.logOut(__file__,'findPicLoop 循环找图结束 '+url)
                 return (x, y)
+        return (-2, -2)
+
+    # 循环找没有图 直到找不到退出
+    def notfindPicLoop(self, url, threshold=0.8, size=(0, 0, 0, 0)):
+        self.logOut(__file__,'notfindPicLoop 循环找没有图开始 '+url)
+        while True:
+            x, y = self.findPic(url, threshold, size)
+            if x == -1 and y == -1:
+                self.logOut(__file__,'notfindPicLoop 循环找没有图结束 '+url)
+                return
 
     # 判断是否找到图
     def isFindPic(self, url, threshold=0.8, size=(0, 0, 0, 0)):
