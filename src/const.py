@@ -201,7 +201,7 @@ class Const:
             x , y = self.picLoop(self.publicPath() + 'bmp/start chapter.jpg')
             util.click(x,y)
             time.sleep(.800)
-        self.picLoop(self.publicPath() + 'bmp/exercise.jpg')
+        time.sleep(2.00)
         tempInto(xx,yy)
         #船坞已满特殊
         util.logOut(__file__,'船坞已满判断 开始')
@@ -244,7 +244,6 @@ class Const:
                     util.click(x,y)
         util.logOut(__file__,'intoStageProcess 进入stage步骤结束')
 
-        
     #走boss格子
     def goBossProcess(self):
         util.logOut(__file__,'goBossProcess 走boss格子 开始')
@@ -266,6 +265,9 @@ class Const:
             x, y = util.findPic(const.publicPath() + 'bmp/weigh anchor.jpg')
             if x != -1 and y != -1:
                 break
+            x, y = util.findPic(const.publicPath() + 'bmp/login-btn.jpg')
+            if x != -1 and y != -1:
+                util.click(x,y)
         util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
         util.logOut(__file__,'restartProcess 开app 结束')
 

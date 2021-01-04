@@ -1,9 +1,9 @@
 from util import *
 from const import const
 
-CHAPTER_X, CHAPTER_Y = 740, 289  # 几-几的坐标
-START_X, START_Y = 445, 557  # 进stage后初始位置
-CNT = 5  # 几次出boss
+CHAPTER_X, CHAPTER_Y = 650, 204  # 几-几的坐标
+START_X, START_Y = 392, 401  # 进stage后初始位置
+CNT = 6  # 几次出boss
 path = const.publicPath() + 'activity/'
 
 def chapterProcess():
@@ -20,7 +20,7 @@ def chapterProcess():
 #走boss格子
 def goBossProcess():
     time.sleep(1.000)
-    util.click(537, 329)
+    util.click(437, 229)
     const.anchorProcess()
     util.logOut(__file__,'boss解决')
 
