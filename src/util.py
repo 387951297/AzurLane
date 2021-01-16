@@ -11,6 +11,7 @@ import requests
 from cv2 import cv2
 from PIL import ImageGrab
 import subprocess
+import logging
 
 class Util:
     __Token = ''
@@ -18,7 +19,6 @@ class Util:
     __TMP_IMAGE = './tmp/image.png'
 
     def __initToken(self):
-        self.logOut(__file__,'__initToken 开始')
         pyautogui.FAILSAFE = False
         # 你的 APPID AK SK
         #APP_ID = '18540285'
@@ -30,18 +30,24 @@ class Util:
         response = requests.get(host)
         if response:
             self.__Token = response.json()['access_token']
-        self.logOut(__file__,'__initToken 结束')
 
     def __init__(self):
         self.__initToken()
+        log_file = 'log/%s.log' % datetime.strftime(datetime.now(), '%Y-%m-%d')
+        log_format = '%(message)s'
+        logging.basicConfig(filename=log_file, level=logging.WARNING, format=log_format)
+        self.__logger = logging.getLogger()
 
     # 今天星期几
     def dayOfWeek(self):
         return datetime.now().isoweekday()
 
+    __logger = ''
     # 日志输出
     def logOut(self, file, str):
-        print(time.strftime("%H:%M:%S", time.localtime()) + '|' + os.path.basename(file) + '|' + str)
+        logStr = time.strftime("%H:%M:%S", time.localtime()) + '|' + os.path.basename(file) + '|' + str
+        self.__logger.warning(logStr)
+        print(logStr)
 
     # 执行adb指令
     def adb(self,command):
