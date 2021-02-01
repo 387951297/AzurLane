@@ -32,8 +32,6 @@ for fileName in os.listdir('./src'):
 
 # 菜单显示
 def mainPrint():
-    os.system("cls")
-
     printList = ['' for _ in range(100)]
     for fileName in os.listdir('./src'):
         try:
@@ -77,6 +75,9 @@ if __name__ == '__main__':
     print('adb初始化开始')
     adb('kill-server')
     adb('connect 127.0.0.1:7555')
+    adb('shell mkdir /storage/emulated/0/data')
+    adb('shell mkdir /storage/emulated/0/data/screen')
+    adb('shell screencap /storage/emulated/0/data/screen/image.png')
     index = -999
     while True:
         index = int(mainPrint())
@@ -94,7 +95,8 @@ if __name__ == '__main__':
                 else:
                     input()
                     sys.exit()
-
+        os.system("cls")
+        
 
 
         

@@ -1,52 +1,51 @@
 from util import *
 from const import const
 
-SEARCH_SIZE = (84, 36,864, 439)
 # 通常
-path = const.publicPath() + 'activity/'
+# path = const.publicPath() + 'activity/'
 # 问号
-# path = const.publicPath() + 'normal7-2/'
+path = const.publicPath() + 'normal7-2/'
 MUST_FIND_AREAS = [
-    [653, 301,706, 332],
+    [1393, 473,1470, 506],
     ]
 for area in MUST_FIND_AREAS:
-    area[0] -= 84
-    area[1] -= 36
-    area[2] -= 84
-    area[3] -= 36
+    area[0] -= 1003
+    area[1] -= 232
+    area[2] -= 1003
+    area[3] -= 232
 
 # 获取识图找到的点数组
-tarImg = util.grab(SEARCH_SIZE)
+tarImg = ''
 
 def getFindPoints():
     points = []
     templates = []
     if templates == []:
         # 通常
-        for i in range(const.getPicNum(path)):
+        # for i in range(const.getPicNum(path)):
         # 问号
-        # for i in range(getQuestionNum(path)):
+        for i in range(getQuestionNum(path)):
             # 通常
-            template = cv2.imread(path + str(i)+'.jpg', 0)
+            # template = cv2.imread(path + str(i)+'.jpg', 0)
             # 问号
-            # template = cv2.imread(path + 'question' + str(i) + '.jpg', 0)
+            template = cv2.imread(path + 'question' + str(i) + '.jpg', 0)
             templates.append(template)
-    img = util.grab(SEARCH_SIZE)
+    img = util.grab()
     cv2.rectangle(img, (0, 0), (263, 65), (255, 0, 0), -1)
     global tarImg
     tarImg = img.copy()
 
     def foo(i):
         # 通常
-        temp = util.findPic(None, threshold=0.7, img=img, template=templates[i])
+        # temp = util.findPic(None, threshold=0.7, img=img, template=templates[i])
         # 问号
-        # temp = util.findPic(None, threshold=0.9, img=img, template=templates[i])
+        temp = util.findPic(None, threshold=0.9, img=img, template=templates[i])
         if temp != (-1, -1):
             points.append(temp)
     # 通常
-    for i in range(const.getPicNum(path)):
+    # for i in range(const.getPicNum(path)):
     # 问号
-    # for i in range(getQuestionNum(path)):
+    for i in range(getQuestionNum(path)):
         foo(i)
     return points
 
@@ -96,11 +95,11 @@ def saveImg(area):
     y1 = area[3]
     cropped = tarImg[y0:y1, x0:x1]  # 裁剪坐标为[y0:y1, x0:x1]
     # 通常
-    picNum = str(const.getPicNum(path))
-    cv2.imwrite(path + picNum + ".jpg", cropped)
+    # picNum = str(const.getPicNum(path))
+    # cv2.imwrite(path + picNum + ".jpg", cropped)
     # 问号
-    # picNum = str(getQuestionNum(path))
-    # cv2.imwrite(path + 'question' + picNum + '.jpg', cropped)
+    picNum = str(getQuestionNum(path))
+    cv2.imwrite(path + 'question' + picNum + '.jpg', cropped)
     print('imwrite：'+picNum)
     cv2.waitKey(0)
 
@@ -110,6 +109,7 @@ def main():
     print('adb初始化开始')
     util.adb('kill-server')
     util.adb('connect 127.0.0.1:7555')
+    tarImg = util.grab()
     index = 0
     while index < 100:
         index += 1
