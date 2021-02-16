@@ -4,6 +4,7 @@ import threading
 import time
 from datetime import datetime
 import os
+import traceback
 
 import numpy as np
 import pyautogui
@@ -60,57 +61,72 @@ class Util:
             return ret.stdout
         else:
             self.logOut(__file__,'======adb subprocess error======')
-            self.logOut(__file__,ret)
+            self.logOut(__file__,format(ret))
 
     # 截图识数字
     def getNumbers(self, size):
-        self.logOut(__file__,'getNumbers 识数字开始')
-        request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/numbers'
-        img = self.grab(size)
-        cv2.imwrite(self.__TMP_IMAGE, img)
-        # 二进制方式打开图片文件
-        f = open(self.__TMP_IMAGE, 'rb')
-        img = base64.b64encode(f.read())
+        while True:
+            try:
+                self.logOut(__file__,'getNumbers 识数字开始')
+                request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/numbers'
+                img = self.grab(size)
+                cv2.imwrite(self.__TMP_IMAGE, img)
+                # 二进制方式打开图片文件
+                f = open(self.__TMP_IMAGE, 'rb')
+                img = base64.b64encode(f.read())
 
-        params = {'image': img}
-        access_token = self.__Token
-        request_url = request_url + '?access_token=' + access_token
-        headers = {'content-type': 'application/x-www-form-urlencoded'}
-        response = requests.post(
-            request_url, data=params, headers=headers).json()
-        list = []
-        if 'error_code' in response:
-            self.logOut(__file__,response)
-            return list
-        for i in range(response['words_result_num']):
-            list.append(response['words_result'][i]['words'])
-        self.logOut(__file__,'getNumbers 识数字结束')
-        return list
+                params = {'image': img}
+                access_token = self.__Token
+                request_url = request_url + '?access_token=' + access_token
+                headers = {'content-type': 'application/x-www-form-urlencoded'}
+                response = requests.post(
+                    request_url, data=params, headers=headers).json()
+                list = []
+                if 'error_code' in response:
+                    self.logOut(__file__,response)
+                    return list
+                for i in range(response['words_result_num']):
+                    list.append(response['words_result'][i]['words'])
+                self.logOut(__file__,'getNumbers 识数字结束')
+                return list
+            except Exception as err:
+                self.logOut(__file__,format(err))
+                self.logOut(__file__,'==========')
+                self.logOut(__file__,traceback.format_exc()) 
+                continue
 
     # 限定范围内百度api识字 输出list
     def getWords(self, size):
-        self.logOut(__file__,'getWords 识字开始')
-        request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic'
-        img = self.grab(size)
-        cv2.imwrite(self.__TMP_IMAGE, img)
-        # 二进制方式打开图片文件
-        f = open(self.__TMP_IMAGE, 'rb')
-        img = base64.b64encode(f.read())
+        while True:
+            try:
+                self.logOut(__file__,'getWords 识字开始')
+                request_url = 'https://aip.baidubce.com/rest/2.0/ocr/v1/general_basic'
+                img = self.grab(size)
+                cv2.imwrite(self.__TMP_IMAGE, img)
+                # 二进制方式打开图片文件
+                f = open(self.__TMP_IMAGE, 'rb')
+                img = base64.b64encode(f.read())
 
-        params = {'image': img}
-        access_token = self.__Token
-        request_url = request_url + '?access_token=' + access_token
-        headers = {'content-type': 'application/x-www-form-urlencoded'}
-        response = requests.post(
-            request_url, data=params, headers=headers).json()
-        list = []
-        if 'error_code' in response:
-            self.logOut(__file__,response)
-            return list
-        for i in range(response['words_result_num']):
-            list.append(response['words_result'][i]['words'])
-        self.logOut(__file__,'getWords 识字结束')
-        return list
+                params = {'image': img}
+                access_token = self.__Token
+                request_url = request_url + '?access_token=' + access_token
+                headers = {'content-type': 'application/x-www-form-urlencoded'}
+                response = requests.post(
+                    request_url, data=params, headers=headers).json()
+                list = []
+                if 'error_code' in response:
+                    self.logOut(__file__,response)
+                    return list
+                for i in range(response['words_result_num']):
+                    list.append(response['words_result'][i]['words'])
+                self.logOut(__file__,'getWords 识字结束')
+                return list
+            except Exception as err:
+                self.logOut(__file__,format(err))
+                self.logOut(__file__,'==========')
+                self.logOut(__file__,traceback.format_exc()) 
+                continue
+        
 
     # 截图返回cv2格式的图片
     def grab(self, size=(0, 0, 0, 0)):

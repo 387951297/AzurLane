@@ -5,7 +5,7 @@ CHAPTER_NUM = 7  # 几-几
 CHAPTER_NUM2 = 2  # 几-几
 CHAPTER_X, CHAPTER_Y = 361, 146  # 几-几的坐标
 START_X, START_Y = 147, 376  # 进stage后初始位置
-CNT = 3  # 几次次出boss
+CNT = 4  # 几次次出boss
 path = const.publicPath() + 'normal7-2/'
 Q_NUM = 3  # 问号多少张图
 

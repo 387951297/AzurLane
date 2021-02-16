@@ -76,14 +76,12 @@ class Const:
         if redFace:
             util.logOut(__file__,'红脸判断 开始')
             list = util.getWords((237, 201 , 627, 263))
-            if len(list) != 0:
-                str = list[0][0:1]
-                if str == '低':
-                    util.logOut(__file__,'我是粪提 结束')
-                    isRedFace = True
-                    x , y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
-                    util.click(x,y)
-                    time.sleep(1.500)
+            if len(list) != 0 and '低心情' in list[0]:
+                util.logOut(__file__,'我是粪提 结束')
+                isRedFace = True
+                x , y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
+                util.click(x,y)
+                time.sleep(1.500)
         #船坞已满特殊
         util.logOut(__file__,'船坞已满判断 开始')
         x, y = util.findPic(self.publicPath() + 'bmp/zhengli.jpg')
@@ -236,12 +234,10 @@ class Const:
             util.logOut(__file__,'红脸判断 开始')
             time.sleep(1.000)
             list = util.getWords((237, 201 , 627, 263))
-            if len(list) != 0:
-                str = list[0][0:1]
-                if str == '低':
-                    util.logOut(__file__,'红脸')
-                    x , y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
-                    util.click(x,y)
+            if len(list) != 0 and '低心情' in list[0]:
+                util.logOut(__file__,'红脸')
+                x , y = self.picLoop(self.publicPath() + 'bmp/OK.jpg')
+                util.click(x,y)
         util.logOut(__file__,'intoStageProcess 进入stage步骤结束')
 
     #走boss格子
@@ -254,22 +250,51 @@ class Const:
 
     # 重启
     def restartProcess(self):
-        util.logOut(__file__,'restartProcess 关app 开始')
+        util.logOut(__file__,'restartProcess 重启脚本开始')
         util.adb('shell am force-stop com.bilibili.azurlane')
-        util.logOut(__file__,'restartProcess 关app 结束')
-        util.logOut(__file__,'restartProcess 开app 开始')
         util.adb('shell am start -n com.bilibili.azurlane/com.manjuu.azurlane.MainActivity')
-        util.findPicLoop(const.publicPath() + 'bmp/login.jpg')
+
+        util.logOut(__file__,'findPicLoop 循环找图开始 '+const.publicPath() + 'bmp/login.jpg')
         while True:
+            x, y = util.findPic(const.publicPath() + 'bmp/login.jpg')
+            if x != -1 and y != -1:
+                util.logOut(__file__,'findPicLoop 循环找图结束 '+const.publicPath() + 'bmp/login.jpg')
+                break
+
+        findLoginCnt = 5
+        while findLoginCnt != 0:
             util.click(200,200)
+            x, y = util.findPic(const.publicPath() + 'bmp/login.jpg')
+            if x == -1 and y == -1:
+                findLoginCnt = findLoginCnt - 1
+            
+        util.logOut(__file__,'findPicLoop 循环找图开始 '+'weigh anchor、login-btn、get_items、salvage、home、quit')
+        while True:
             x, y = util.findPic(const.publicPath() + 'bmp/weigh anchor.jpg')
             if x != -1 and y != -1:
                 break
             x, y = util.findPic(const.publicPath() + 'bmp/login-btn.jpg')
             if x != -1 and y != -1:
                 util.click(x,y)
-        util.findPicLoop(const.publicPath() + 'bmp/weigh anchor.jpg')
-        util.logOut(__file__,'restartProcess 开app 结束')
+                continue
+            x, y = util.findPic(const.publicPath() + 'bmp/get_items.bmp')
+            if x != -1 and y != -1:
+                util.click(x,y)
+                continue
+            x, y = util.findPic(const.publicPath() + 'bmp/salvage.jpg')
+            if x != -1 and y != -1:
+                util.click(200,200)
+                continue
+            x, y = util.findPic(const.publicPath() + 'bmp/home.jpg')
+            if x != -1 and y != -1:
+                util.click(x,y)
+                continue
+            x, y = util.findPic(const.publicPath() + 'bmp/quit.jpg')
+            if x != -1 and y != -1:
+                util.click(x,y)
+                continue
+
+        util.logOut(__file__,'restartProcess 重启脚本结束')
 
     #找船
     __templates = []
@@ -343,6 +368,7 @@ class Const:
     def picLoop(self, url, threshold=0.8, size=(0, 0, 0, 0)):
         x,y = util.findPicLoop(url, threshold=threshold, size=size)
         if x==-2 and y==-2:
+            util.logOut(__file__,'picLoop没找到图 需要重启脚本！！！！！！')
             self.restartProcess()
             raise ValueError('restart')
         return (x,y)

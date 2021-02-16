@@ -59,16 +59,18 @@ def mainPrint():
 
 # 执行adb指令
 def adb(command):
-    AdbPath = '.\\bin\\adb_server.exe '
-    ret = subprocess.run(
-        AdbPath + command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,encoding="utf-8")
-    if ret.returncode == 0:
-        if ret.stdout != '':
-            print(ret.stdout)
-        return ret.stdout
-    else:
-        print('======adb subprocess error======')
-        print(ret)
+    while True:
+        AdbPath = '.\\bin\\adb_server.exe '
+        ret = subprocess.run(
+            AdbPath + command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,encoding="utf-8")
+        if ret.returncode == 0:
+            if ret.stdout != '':
+                print(ret.stdout)
+            return ret.stdout
+        else:
+            print('======adb subprocess error======')
+            print(ret)
+            continue
 
 if __name__ == '__main__':
     # 初始化
@@ -78,6 +80,8 @@ if __name__ == '__main__':
     adb('shell mkdir /storage/emulated/0/data')
     adb('shell mkdir /storage/emulated/0/data/screen')
     adb('shell screencap /storage/emulated/0/data/screen/image.png')
+    print('adb初始化成功')
+    print('')
     index = -999
     while True:
         index = int(mainPrint())
@@ -86,15 +90,16 @@ if __name__ == '__main__':
                 m[index].main()
                 break
             except Exception as err:
-                print(err.args)
-                print('==========')
-                print(traceback.format_exc()) 
                 if str(err) == 'restart':
                     # 重启脚本
                     continue
                 else:
-                    input()
-                    sys.exit()
+                    print(err.args)
+                    print('==========')
+                    print(traceback.format_exc()) 
+                    continue
+                    # input()
+                    # sys.exit()
         os.system("cls")
         
 
