@@ -2,10 +2,12 @@ from util import *
 from const import const
 
 def main():
-    list = util.getWords((237, 201 , 627, 263))
-    print(list[0])
-    if '低心情' in list[0]:
-        print('ok')
+    chapterPos = (82, 43,141, 75)
+    prevX , prevY = 33, 251
+    nextX , nextY = 826, 251
+    list = util.getNumbers(chapterPos)
+    if len(list) != 0:
+        print(list[0])
 
 if __name__ == '__main__':
     print('adb初始化开始')

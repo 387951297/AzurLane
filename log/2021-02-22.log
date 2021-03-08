@@ -1,0 +1,1675 @@
+18:46:45|1每日.py|每日脚本开始
+18:46:46|const.py|backMainProcess 返回主页面开始
+18:46:47|const.py|backMainProcess 返回主页面结束
+18:46:47|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+18:46:48|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+18:46:48|util.py|click 729 244
+18:46:49|util.py|findPicLoop 循环找图开始 ./public/bmp/daily task.jpg
+18:46:49|util.py|findPicLoop 循环找图结束 ./public/bmp/daily task.jpg
+18:46:49|util.py|click 487 413
+18:46:51|util.py|getNumbers 识数字开始
+18:46:52|util.py|getNumbers 识数字结束
+18:46:52|util.py|click 55 288
+18:46:53|util.py|click 353 305
+18:46:54|util.py|click 503 134
+18:46:55|const.py|anchorProcess 出击步骤开始
+18:46:56|const.py|今日不再提示判断 开始
+18:46:57|util.py|click 603 109
+18:46:57|const.py|今日不再提示
+18:46:57|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:46:58|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:46:58|util.py|click 770 429
+18:46:59|const.py|自律 开始
+18:46:59|const.py|船坞已满判断 开始
+18:47:10|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:48:13|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:48:13|const.py|自律 结束
+18:48:14|util.py|click 135 424
+18:48:15|util.py|click 684 308
+18:48:17|const.py|打捞到sr或ssr判断 开始
+18:48:17|util.py|click 684 308
+18:48:18|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:48:18|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:48:18|util.py|click 733 445
+18:48:22|const.py|作战失败判断 开始
+18:48:25|const.py|紧急委托判断 开始
+18:48:26|const.py|anchorProcess 出击步骤结束
+18:48:26|util.py|click 503 134
+18:48:27|const.py|anchorProcess 出击步骤开始
+18:48:28|const.py|今日不再提示判断 开始
+18:48:29|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:48:29|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:48:30|util.py|click 770 429
+18:48:30|const.py|自律 开始
+18:48:31|const.py|船坞已满判断 开始
+18:48:42|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:49:44|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:49:44|const.py|自律 结束
+18:49:45|util.py|click 135 424
+18:49:46|util.py|click 684 308
+18:49:48|const.py|打捞到sr或ssr判断 开始
+18:49:49|util.py|click 684 308
+18:49:49|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:49:50|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:49:50|util.py|click 733 445
+18:49:53|const.py|作战失败判断 开始
+18:49:56|const.py|紧急委托判断 开始
+18:49:57|const.py|anchorProcess 出击步骤结束
+18:49:57|util.py|click 503 134
+18:49:58|const.py|anchorProcess 出击步骤开始
+18:49:59|const.py|今日不再提示判断 开始
+18:50:00|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:50:00|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:50:01|util.py|click 770 429
+18:50:01|const.py|自律 开始
+18:50:02|const.py|船坞已满判断 开始
+18:50:13|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:51:14|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:51:14|const.py|自律 结束
+18:51:15|util.py|click 135 424
+18:51:17|util.py|click 684 308
+18:51:19|const.py|打捞到sr或ssr判断 开始
+18:51:19|util.py|click 684 308
+18:51:19|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:51:20|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:51:20|util.py|click 733 445
+18:51:23|const.py|作战失败判断 开始
+18:51:27|const.py|紧急委托判断 开始
+18:51:28|const.py|anchorProcess 出击步骤结束
+18:51:28|util.py|findPicLoop 循环找图开始 ./public/bmp/back.jpg
+18:51:28|util.py|findPicLoop 循环找图结束 ./public/bmp/back.jpg
+18:51:29|util.py|click 38 33
+18:51:29|util.py|findPicLoop 循环找图开始 ./public/bmp/back.jpg
+18:51:31|util.py|findPicLoop 循环找图结束 ./public/bmp/back.jpg
+18:51:31|util.py|click 38 33
+18:51:32|util.py|findPicLoop 循环找图开始 ./public/bmp/daily task.jpg
+18:51:33|util.py|findPicLoop 循环找图结束 ./public/bmp/daily task.jpg
+18:51:33|util.py|click 487 413
+18:51:35|util.py|getNumbers 识数字开始
+18:51:36|util.py|getNumbers 识数字结束
+18:51:36|util.py|click 353 305
+18:51:38|util.py|click 503 134
+18:51:39|const.py|anchorProcess 出击步骤开始
+18:51:40|const.py|今日不再提示判断 开始
+18:51:40|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:51:41|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:51:42|util.py|click 770 429
+18:51:42|const.py|自律 开始
+18:51:43|const.py|船坞已满判断 开始
+18:51:54|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:52:13|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:52:13|const.py|自律 结束
+18:52:14|util.py|click 135 424
+18:52:15|util.py|click 684 308
+18:52:17|const.py|打捞到sr或ssr判断 开始
+18:52:17|util.py|click 684 308
+18:52:18|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:52:18|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:52:18|util.py|click 733 445
+18:52:22|const.py|作战失败判断 开始
+18:52:25|const.py|紧急委托判断 开始
+18:52:26|const.py|anchorProcess 出击步骤结束
+18:52:26|util.py|click 503 134
+18:52:27|const.py|anchorProcess 出击步骤开始
+18:52:28|const.py|今日不再提示判断 开始
+18:52:28|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:52:29|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:52:30|util.py|click 770 429
+18:52:30|const.py|自律 开始
+18:52:31|const.py|船坞已满判断 开始
+18:52:42|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:53:04|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:53:04|const.py|自律 结束
+18:53:06|util.py|click 135 424
+18:53:07|util.py|click 684 308
+18:53:09|const.py|打捞到sr或ssr判断 开始
+18:53:09|util.py|click 684 308
+18:53:10|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:53:10|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:53:10|util.py|click 733 445
+18:53:13|const.py|作战失败判断 开始
+18:53:17|const.py|紧急委托判断 开始
+18:53:18|const.py|anchorProcess 出击步骤结束
+18:53:18|util.py|click 503 134
+18:53:19|const.py|anchorProcess 出击步骤开始
+18:53:20|const.py|今日不再提示判断 开始
+18:53:20|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:53:21|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:53:22|util.py|click 770 429
+18:53:22|const.py|自律 开始
+18:53:23|const.py|船坞已满判断 开始
+18:53:34|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:53:57|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:53:57|const.py|自律 结束
+18:53:58|util.py|click 135 424
+18:53:59|util.py|click 684 308
+18:54:01|const.py|打捞到sr或ssr判断 开始
+18:54:01|util.py|click 684 308
+18:54:02|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:54:02|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:54:02|util.py|click 733 445
+18:54:06|const.py|作战失败判断 开始
+18:54:09|const.py|紧急委托判断 开始
+18:54:10|const.py|anchorProcess 出击步骤结束
+18:54:10|util.py|findPicLoop 循环找图开始 ./public/bmp/back.jpg
+18:54:10|util.py|findPicLoop 循环找图结束 ./public/bmp/back.jpg
+18:54:11|util.py|click 38 33
+18:54:13|const.py|backMainProcess 返回主页面开始
+18:54:14|util.py|click 838 25
+18:54:21|2演习.py|演习脚本开始
+18:54:22|const.py|backMainProcess 返回主页面开始
+18:54:23|const.py|backMainProcess 返回主页面结束
+18:54:23|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+18:54:24|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+18:54:24|util.py|click 729 244
+18:54:25|util.py|findPicLoop 循环找图开始 ./public/bmp/exercise.jpg
+18:54:25|util.py|findPicLoop 循环找图结束 ./public/bmp/exercise.jpg
+18:54:25|util.py|click 700 413
+18:54:27|util.py|getNumbers 识数字开始
+18:54:28|util.py|getNumbers 识数字结束
+18:54:28|util.py|getNumbers 识数字开始
+18:54:29|util.py|getNumbers 识数字结束
+18:54:29|util.py|getNumbers 识数字开始
+18:54:30|util.py|getNumbers 识数字结束
+18:54:30|util.py|getNumbers 识数字开始
+18:54:31|util.py|getNumbers 识数字结束
+18:54:31|util.py|getNumbers 识数字开始
+18:54:32|util.py|getNumbers 识数字结束
+18:54:32|util.py|click 654 173
+18:54:33|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+18:54:34|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+18:54:34|util.py|click 433 384
+18:54:34|const.py|anchorProcess 出击步骤开始
+18:54:35|const.py|今日不再提示判断 开始
+18:54:36|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:54:37|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:54:37|util.py|click 770 429
+18:54:38|const.py|自律 开始
+18:54:38|const.py|船坞已满判断 开始
+18:54:49|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:54:51|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:54:51|const.py|自律 结束
+18:54:52|util.py|click 135 424
+18:54:53|util.py|click 684 308
+18:54:55|const.py|打捞到sr或ssr判断 开始
+18:54:56|util.py|click 684 308
+18:54:56|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:54:57|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:54:57|util.py|click 733 445
+18:55:00|const.py|作战失败判断 开始
+18:55:04|const.py|紧急委托判断 开始
+18:55:04|const.py|anchorProcess 出击步骤结束
+18:55:05|util.py|getNumbers 识数字开始
+18:55:06|util.py|getNumbers 识数字结束
+18:55:06|util.py|getNumbers 识数字开始
+18:55:07|util.py|getNumbers 识数字结束
+18:55:07|util.py|getNumbers 识数字开始
+18:55:08|util.py|getNumbers 识数字结束
+18:55:08|util.py|getNumbers 识数字开始
+18:55:09|util.py|getNumbers 识数字结束
+18:55:09|util.py|getNumbers 识数字开始
+18:55:10|util.py|getNumbers 识数字结束
+18:55:10|util.py|click 322 173
+18:55:11|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+18:55:12|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+18:55:12|util.py|click 433 384
+18:55:13|const.py|anchorProcess 出击步骤开始
+18:55:14|const.py|今日不再提示判断 开始
+18:55:14|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:55:15|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:55:16|util.py|click 770 429
+18:55:16|const.py|自律 开始
+18:55:17|const.py|船坞已满判断 开始
+18:55:27|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:55:42|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:55:42|const.py|自律 结束
+18:55:43|util.py|click 135 424
+18:55:44|util.py|click 684 308
+18:55:46|const.py|打捞到sr或ssr判断 开始
+18:55:46|util.py|click 684 308
+18:55:47|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:55:47|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:55:47|util.py|click 733 445
+18:55:51|const.py|作战失败判断 开始
+18:55:54|const.py|紧急委托判断 开始
+18:55:55|const.py|anchorProcess 出击步骤结束
+18:55:56|util.py|getNumbers 识数字开始
+18:55:57|util.py|getNumbers 识数字结束
+18:55:57|util.py|getNumbers 识数字开始
+18:55:58|util.py|getNumbers 识数字结束
+18:55:58|util.py|getNumbers 识数字开始
+18:55:59|util.py|getNumbers 识数字结束
+18:55:59|util.py|getNumbers 识数字开始
+18:56:00|util.py|getNumbers 识数字结束
+18:56:00|util.py|getNumbers 识数字开始
+18:56:01|util.py|getNumbers 识数字结束
+18:56:01|util.py|click 487 175
+18:56:02|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+18:56:02|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+18:56:02|util.py|click 433 384
+18:56:03|const.py|anchorProcess 出击步骤开始
+18:56:04|const.py|今日不再提示判断 开始
+18:56:05|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:56:05|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:56:06|util.py|click 770 429
+18:56:06|const.py|自律 开始
+18:56:07|const.py|船坞已满判断 开始
+18:56:18|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:56:27|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:56:27|const.py|自律 结束
+18:56:28|util.py|click 135 424
+18:56:29|util.py|click 684 308
+18:56:31|const.py|打捞到sr或ssr判断 开始
+18:56:31|util.py|click 684 308
+18:56:32|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:56:32|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:56:32|util.py|click 733 445
+18:56:36|const.py|作战失败判断 开始
+18:56:39|const.py|紧急委托判断 开始
+18:56:40|const.py|anchorProcess 出击步骤结束
+18:56:41|util.py|getNumbers 识数字开始
+18:56:42|util.py|getNumbers 识数字结束
+18:56:42|util.py|getNumbers 识数字开始
+18:56:43|util.py|getNumbers 识数字结束
+18:56:43|util.py|getNumbers 识数字开始
+18:56:44|util.py|getNumbers 识数字结束
+18:56:44|util.py|getNumbers 识数字开始
+18:56:45|util.py|getNumbers 识数字结束
+18:56:45|util.py|getNumbers 识数字开始
+18:56:46|util.py|getNumbers 识数字结束
+18:56:46|util.py|findPicLoop 循环找图开始 ./public/bmp/new opponent.jpg
+18:56:47|util.py|findPicLoop 循环找图结束 ./public/bmp/new opponent.jpg
+18:56:47|util.py|click 765 244
+18:56:53|util.py|getNumbers 识数字开始
+18:56:54|util.py|getNumbers 识数字结束
+18:56:54|util.py|getNumbers 识数字开始
+18:56:55|util.py|getNumbers 识数字结束
+18:56:55|util.py|getNumbers 识数字开始
+18:56:56|util.py|getNumbers 识数字结束
+18:56:56|util.py|getNumbers 识数字开始
+18:56:57|util.py|getNumbers 识数字结束
+18:56:57|util.py|click 322 173
+18:56:58|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+18:56:58|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+18:56:58|util.py|click 433 384
+18:56:59|const.py|anchorProcess 出击步骤开始
+18:57:00|const.py|今日不再提示判断 开始
+18:57:00|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:57:01|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:57:02|util.py|click 770 429
+18:57:02|const.py|自律 开始
+18:57:03|const.py|船坞已满判断 开始
+18:57:14|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:57:15|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:57:15|const.py|自律 结束
+18:57:16|util.py|click 135 424
+18:57:17|util.py|click 684 308
+18:57:19|const.py|打捞到sr或ssr判断 开始
+18:57:20|util.py|click 684 308
+18:57:20|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:57:21|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:57:21|util.py|click 733 445
+18:57:24|const.py|作战失败判断 开始
+18:57:28|const.py|紧急委托判断 开始
+18:57:28|const.py|anchorProcess 出击步骤结束
+18:57:29|util.py|getNumbers 识数字开始
+18:57:30|util.py|getNumbers 识数字结束
+18:57:30|util.py|getNumbers 识数字开始
+18:57:31|util.py|getNumbers 识数字结束
+18:57:31|util.py|getNumbers 识数字开始
+18:57:32|util.py|getNumbers 识数字结束
+18:57:32|util.py|getNumbers 识数字开始
+18:57:33|util.py|getNumbers 识数字结束
+18:57:33|util.py|getNumbers 识数字开始
+18:57:34|util.py|getNumbers 识数字结束
+18:57:34|util.py|click 487 175
+18:57:35|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+18:57:37|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+18:57:37|util.py|click 433 384
+18:57:37|const.py|anchorProcess 出击步骤开始
+18:57:38|const.py|今日不再提示判断 开始
+18:57:39|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:57:39|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:57:40|util.py|click 770 429
+18:57:41|const.py|自律 开始
+18:57:41|const.py|船坞已满判断 开始
+18:57:52|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:58:09|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:58:09|const.py|自律 结束
+18:58:10|util.py|click 135 424
+18:58:11|util.py|click 684 308
+18:58:13|const.py|打捞到sr或ssr判断 开始
+18:58:13|util.py|click 684 308
+18:58:14|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:58:14|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:58:14|util.py|click 733 445
+18:58:18|const.py|作战失败判断 开始
+18:58:21|const.py|紧急委托判断 开始
+18:58:22|const.py|anchorProcess 出击步骤结束
+18:58:23|util.py|getNumbers 识数字开始
+18:58:24|util.py|getNumbers 识数字结束
+18:58:24|util.py|getNumbers 识数字开始
+18:58:25|util.py|getNumbers 识数字结束
+18:58:25|util.py|getNumbers 识数字开始
+18:58:26|util.py|getNumbers 识数字结束
+18:58:26|util.py|getNumbers 识数字开始
+18:58:27|util.py|getNumbers 识数字结束
+18:58:27|util.py|getNumbers 识数字开始
+18:58:28|util.py|getNumbers 识数字结束
+18:58:28|util.py|click 654 173
+18:58:29|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+18:58:29|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+18:58:29|util.py|click 433 384
+18:58:30|const.py|anchorProcess 出击步骤开始
+18:58:31|const.py|今日不再提示判断 开始
+18:58:31|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:58:32|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:58:33|util.py|click 770 429
+18:58:33|const.py|自律 开始
+18:58:34|const.py|船坞已满判断 开始
+18:58:45|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+18:59:05|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+18:59:05|const.py|自律 结束
+18:59:06|util.py|click 135 424
+18:59:07|util.py|click 684 308
+18:59:09|const.py|打捞到sr或ssr判断 开始
+18:59:10|util.py|click 684 308
+18:59:10|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+18:59:11|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+18:59:11|util.py|click 733 445
+18:59:14|const.py|作战失败判断 开始
+18:59:18|const.py|紧急委托判断 开始
+18:59:18|const.py|anchorProcess 出击步骤结束
+18:59:19|util.py|getNumbers 识数字开始
+18:59:20|util.py|getNumbers 识数字结束
+18:59:20|util.py|getNumbers 识数字开始
+18:59:21|util.py|getNumbers 识数字结束
+18:59:21|util.py|getNumbers 识数字开始
+18:59:22|util.py|getNumbers 识数字结束
+18:59:22|util.py|getNumbers 识数字开始
+18:59:23|util.py|getNumbers 识数字结束
+18:59:23|util.py|getNumbers 识数字开始
+18:59:24|util.py|getNumbers 识数字结束
+18:59:24|util.py|click 654 173
+18:59:25|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+18:59:26|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+18:59:26|util.py|click 433 384
+18:59:27|const.py|anchorProcess 出击步骤开始
+18:59:27|const.py|今日不再提示判断 开始
+18:59:28|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+18:59:29|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+18:59:30|util.py|click 770 429
+18:59:30|const.py|自律 开始
+18:59:31|const.py|船坞已满判断 开始
+18:59:41|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:00:02|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:00:02|const.py|自律 结束
+19:00:03|util.py|click 135 424
+19:00:04|util.py|click 684 308
+19:00:06|const.py|打捞到sr或ssr判断 开始
+19:00:07|util.py|click 684 308
+19:00:07|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:00:08|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:00:08|util.py|click 733 445
+19:00:11|const.py|作战失败判断 开始
+19:00:14|const.py|紧急委托判断 开始
+19:00:15|const.py|anchorProcess 出击步骤结束
+19:00:16|util.py|getNumbers 识数字开始
+19:00:17|util.py|getNumbers 识数字结束
+19:00:17|util.py|getNumbers 识数字开始
+19:00:18|util.py|getNumbers 识数字结束
+19:00:18|util.py|getNumbers 识数字开始
+19:00:20|util.py|getNumbers 识数字结束
+19:00:20|util.py|getNumbers 识数字开始
+19:00:20|util.py|getNumbers 识数字结束
+19:00:20|util.py|getNumbers 识数字开始
+19:00:21|util.py|getNumbers 识数字结束
+19:00:21|util.py|click 322 173
+19:00:22|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+19:00:23|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+19:00:23|util.py|click 433 384
+19:00:24|const.py|anchorProcess 出击步骤开始
+19:00:25|const.py|今日不再提示判断 开始
+19:00:25|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:00:26|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:00:27|util.py|click 770 429
+19:00:27|const.py|自律 开始
+19:00:28|const.py|船坞已满判断 开始
+19:00:39|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:00:46|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:00:46|const.py|自律 结束
+19:00:47|util.py|click 135 424
+19:00:48|util.py|click 684 308
+19:00:50|const.py|打捞到sr或ssr判断 开始
+19:00:51|util.py|click 684 308
+19:00:51|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:00:52|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:00:52|util.py|click 733 445
+19:00:55|const.py|作战失败判断 开始
+19:00:59|const.py|紧急委托判断 开始
+19:00:59|const.py|anchorProcess 出击步骤结束
+19:01:00|util.py|getNumbers 识数字开始
+19:01:01|util.py|getNumbers 识数字结束
+19:01:01|util.py|getNumbers 识数字开始
+19:01:02|util.py|getNumbers 识数字结束
+19:01:02|util.py|getNumbers 识数字开始
+19:01:03|util.py|getNumbers 识数字结束
+19:01:03|util.py|getNumbers 识数字开始
+19:01:04|util.py|getNumbers 识数字结束
+19:01:04|util.py|getNumbers 识数字开始
+19:01:05|util.py|getNumbers 识数字结束
+19:01:05|util.py|click 157 170
+19:01:06|util.py|findPicLoop 循环找图开始 ./public/bmp/start excise.jpg
+19:01:07|util.py|findPicLoop 循环找图结束 ./public/bmp/start excise.jpg
+19:01:07|util.py|click 433 384
+19:01:07|const.py|anchorProcess 出击步骤开始
+19:01:08|const.py|今日不再提示判断 开始
+19:01:09|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:01:09|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:01:10|util.py|click 770 429
+19:01:11|const.py|自律 开始
+19:01:11|const.py|船坞已满判断 开始
+19:06:16|const.py|anchorProcess 出击步骤开始
+19:06:17|const.py|今日不再提示判断 开始
+19:06:18|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:06:18|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:06:19|util.py|click 770 429
+19:06:19|const.py|自律 开始
+19:06:20|const.py|船坞已满判断 开始
+19:06:31|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:07:20|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:07:20|const.py|自律 结束
+19:07:21|util.py|click 135 424
+19:07:22|util.py|click 684 308
+19:07:24|const.py|打捞到sr或ssr判断 开始
+19:07:25|util.py|click 684 308
+19:07:25|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:07:26|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:07:26|util.py|click 733 445
+19:07:29|const.py|作战失败判断 开始
+19:07:33|const.py|紧急委托判断 开始
+19:07:33|const.py|anchorProcess 出击步骤结束
+19:07:38|const.py|anchorProcess 出击步骤开始
+19:07:39|const.py|今日不再提示判断 开始
+19:07:40|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:07:53|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:07:53|util.py|click 770 429
+19:07:54|const.py|自律 开始
+19:07:54|const.py|船坞已满判断 开始
+19:08:05|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:08:50|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:08:50|const.py|自律 结束
+19:08:51|util.py|click 135 424
+19:08:52|util.py|click 684 308
+19:08:54|const.py|打捞到sr或ssr判断 开始
+19:08:55|util.py|click 684 308
+19:08:55|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:08:56|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:08:56|util.py|click 733 445
+19:08:59|const.py|作战失败判断 开始
+19:09:03|const.py|紧急委托判断 开始
+19:09:03|const.py|anchorProcess 出击步骤结束
+19:09:08|const.py|anchorProcess 出击步骤开始
+19:09:09|const.py|今日不再提示判断 开始
+19:09:10|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:09:10|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:09:11|util.py|click 770 429
+19:09:11|const.py|自律 开始
+19:09:12|const.py|船坞已满判断 开始
+19:09:23|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:10:08|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:10:08|const.py|自律 结束
+19:10:09|util.py|click 135 424
+19:10:11|util.py|click 684 308
+19:10:13|const.py|打捞到sr或ssr判断 开始
+19:10:13|util.py|click 684 308
+19:10:13|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:10:14|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:10:14|util.py|click 733 445
+19:10:17|const.py|作战失败判断 开始
+19:10:21|const.py|紧急委托判断 开始
+19:10:22|const.py|anchorProcess 出击步骤结束
+19:10:27|const.py|anchorProcess 出击步骤开始
+19:10:27|const.py|今日不再提示判断 开始
+19:10:28|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:10:34|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:10:35|util.py|click 770 429
+19:10:35|const.py|自律 开始
+19:10:36|const.py|船坞已满判断 开始
+19:10:47|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:11:59|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:11:59|const.py|自律 结束
+19:12:00|util.py|click 135 424
+19:12:01|util.py|click 684 308
+19:12:03|const.py|打捞到sr或ssr判断 开始
+19:12:04|util.py|click 684 308
+19:12:04|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:12:05|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:12:05|util.py|click 733 445
+19:12:08|const.py|作战失败判断 开始
+19:12:11|const.py|紧急委托判断 开始
+19:12:12|const.py|紧急委托
+19:12:12|util.py|click 433 347
+19:12:12|const.py|anchorProcess 出击步骤结束
+19:12:17|const.py|anchorProcess 出击步骤开始
+19:12:18|const.py|今日不再提示判断 开始
+19:12:19|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:12:20|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:12:20|util.py|click 770 429
+19:12:21|const.py|自律 开始
+19:12:22|const.py|船坞已满判断 开始
+19:12:32|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:13:46|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:13:46|const.py|自律 结束
+19:13:47|util.py|click 135 424
+19:13:48|util.py|click 684 308
+19:13:50|const.py|打捞到sr或ssr判断 开始
+19:13:51|util.py|click 684 308
+19:13:51|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:13:52|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:13:52|util.py|click 733 445
+19:13:55|const.py|作战失败判断 开始
+19:13:59|const.py|紧急委托判断 开始
+19:13:59|const.py|anchorProcess 出击步骤结束
+19:14:04|const.py|anchorProcess 出击步骤开始
+19:14:05|const.py|今日不再提示判断 开始
+19:14:06|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:14:06|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:14:07|util.py|click 770 429
+19:14:07|const.py|自律 开始
+19:14:08|const.py|船坞已满判断 开始
+19:14:19|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:15:33|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:15:33|const.py|自律 结束
+19:15:34|util.py|click 135 424
+19:15:35|util.py|click 684 308
+19:15:37|const.py|打捞到sr或ssr判断 开始
+19:15:38|util.py|click 684 308
+19:15:38|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:15:39|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:15:39|util.py|click 733 445
+19:15:42|const.py|作战失败判断 开始
+19:15:46|const.py|紧急委托判断 开始
+19:15:46|const.py|anchorProcess 出击步骤结束
+19:15:51|const.py|anchorProcess 出击步骤开始
+19:15:52|const.py|今日不再提示判断 开始
+19:15:53|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:15:53|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:15:54|util.py|click 770 429
+19:15:55|const.py|自律 开始
+19:15:55|const.py|船坞已满判断 开始
+19:16:06|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:17:51|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:17:51|const.py|自律 结束
+19:17:53|util.py|click 135 424
+19:17:54|util.py|click 684 308
+19:17:56|const.py|打捞到sr或ssr判断 开始
+19:17:56|util.py|click 684 308
+19:17:57|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:17:57|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:17:57|util.py|click 733 445
+19:18:01|const.py|作战失败判断 开始
+19:18:04|const.py|紧急委托判断 开始
+19:18:05|const.py|anchorProcess 出击步骤结束
+19:18:10|const.py|anchorProcess 出击步骤开始
+19:18:11|const.py|今日不再提示判断 开始
+19:18:11|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:18:14|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:18:15|util.py|click 770 429
+19:18:15|const.py|自律 开始
+19:18:16|const.py|船坞已满判断 开始
+19:18:27|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:19:19|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:19:19|const.py|自律 结束
+19:19:20|util.py|click 135 424
+19:19:21|util.py|click 684 308
+19:19:23|const.py|打捞到sr或ssr判断 开始
+19:19:23|util.py|click 684 308
+19:19:24|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:19:24|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:19:24|util.py|click 733 445
+19:19:28|const.py|作战失败判断 开始
+19:19:31|const.py|紧急委托判断 开始
+19:19:32|const.py|anchorProcess 出击步骤结束
+19:19:37|const.py|anchorProcess 出击步骤开始
+19:19:38|const.py|今日不再提示判断 开始
+19:19:38|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:19:50|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:19:51|util.py|click 770 429
+19:19:51|const.py|自律 开始
+19:19:52|const.py|船坞已满判断 开始
+19:20:03|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:20:47|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:20:47|const.py|自律 结束
+19:20:48|util.py|click 135 424
+19:20:49|util.py|click 684 308
+19:20:51|const.py|打捞到sr或ssr判断 开始
+19:20:52|util.py|click 684 308
+19:20:52|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:20:52|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:20:52|util.py|click 733 445
+19:20:56|const.py|作战失败判断 开始
+19:20:59|const.py|紧急委托判断 开始
+19:21:00|const.py|anchorProcess 出击步骤结束
+19:21:05|const.py|anchorProcess 出击步骤开始
+19:21:06|const.py|今日不再提示判断 开始
+19:21:06|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:21:07|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:21:08|util.py|click 770 429
+19:21:08|const.py|自律 开始
+19:21:09|const.py|船坞已满判断 开始
+19:21:20|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:21:52|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:21:52|const.py|自律 结束
+19:21:53|util.py|click 135 424
+19:21:54|util.py|click 684 308
+19:21:56|const.py|打捞到sr或ssr判断 开始
+19:21:57|util.py|click 684 308
+19:21:57|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:21:57|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:21:57|util.py|click 733 445
+19:22:01|const.py|作战失败判断 开始
+19:22:04|const.py|紧急委托判断 开始
+19:22:05|const.py|anchorProcess 出击步骤结束
+19:22:10|const.py|anchorProcess 出击步骤开始
+19:22:11|const.py|今日不再提示判断 开始
+19:22:11|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:22:12|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:22:13|util.py|click 770 429
+19:22:13|const.py|自律 开始
+19:22:14|const.py|船坞已满判断 开始
+19:22:25|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:23:02|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:23:02|const.py|自律 结束
+19:23:03|util.py|click 135 424
+19:23:04|util.py|click 684 308
+19:23:06|const.py|打捞到sr或ssr判断 开始
+19:23:07|util.py|click 684 308
+19:23:07|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:23:08|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:23:08|util.py|click 733 445
+19:23:11|const.py|作战失败判断 开始
+19:23:15|const.py|紧急委托判断 开始
+19:23:15|const.py|anchorProcess 出击步骤结束
+19:23:20|const.py|anchorProcess 出击步骤开始
+19:23:21|const.py|今日不再提示判断 开始
+19:23:22|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:23:22|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:23:23|util.py|click 770 429
+19:23:24|const.py|自律 开始
+19:23:24|const.py|船坞已满判断 开始
+19:23:35|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:24:25|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:24:25|const.py|自律 结束
+19:24:26|util.py|click 135 424
+19:24:27|util.py|click 684 308
+19:24:29|const.py|打捞到sr或ssr判断 开始
+19:24:30|util.py|click 684 308
+19:24:30|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:24:31|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:24:31|util.py|click 733 445
+19:24:34|const.py|作战失败判断 开始
+19:24:38|const.py|紧急委托判断 开始
+19:24:38|const.py|anchorProcess 出击步骤结束
+19:24:43|const.py|anchorProcess 出击步骤开始
+19:24:44|const.py|今日不再提示判断 开始
+19:24:45|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:24:45|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:24:46|util.py|click 770 429
+19:24:47|const.py|自律 开始
+19:24:47|const.py|船坞已满判断 开始
+19:24:58|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:25:49|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:25:49|const.py|自律 结束
+19:25:51|util.py|click 135 424
+19:25:52|util.py|click 684 308
+19:25:54|const.py|打捞到sr或ssr判断 开始
+19:25:54|util.py|click 684 308
+19:25:55|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:25:55|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:25:55|util.py|click 733 445
+19:25:58|const.py|作战失败判断 开始
+19:26:02|const.py|紧急委托判断 开始
+19:26:03|const.py|anchorProcess 出击步骤结束
+19:26:08|const.py|anchorProcess 出击步骤开始
+19:26:08|const.py|今日不再提示判断 开始
+19:26:09|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:26:12|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:26:12|util.py|click 770 429
+19:26:13|const.py|自律 开始
+19:26:14|const.py|船坞已满判断 开始
+19:26:24|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:27:21|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:27:21|const.py|自律 结束
+19:27:22|util.py|click 135 424
+19:27:23|util.py|click 684 308
+19:27:25|const.py|打捞到sr或ssr判断 开始
+19:27:26|util.py|click 684 308
+19:27:26|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:27:26|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:27:26|util.py|click 733 445
+19:27:30|const.py|作战失败判断 开始
+19:27:33|const.py|紧急委托判断 开始
+19:27:34|const.py|anchorProcess 出击步骤结束
+19:27:39|const.py|anchorProcess 出击步骤开始
+19:27:40|const.py|今日不再提示判断 开始
+19:27:40|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:27:41|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:27:42|util.py|click 770 429
+19:27:42|const.py|自律 开始
+19:27:43|const.py|船坞已满判断 开始
+19:27:54|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+19:29:59|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+19:29:59|const.py|自律 结束
+19:30:00|util.py|click 135 424
+19:30:01|util.py|click 684 308
+19:30:03|const.py|打捞到sr或ssr判断 开始
+19:30:04|util.py|click 684 308
+19:30:04|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+19:30:05|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+19:30:05|util.py|click 733 445
+19:30:08|const.py|作战失败判断 开始
+19:30:12|const.py|紧急委托判断 开始
+19:30:12|const.py|紧急委托
+19:30:12|util.py|click 433 347
+19:30:12|const.py|anchorProcess 出击步骤结束
+21:46:07|10通常12-4 不打boss.py|通常12-4 不打boss 开始
+21:46:07|const.py|chapterProcess 进入出击章节步骤开始
+21:46:07|const.py|backMainProcess 返回主页面开始
+21:46:08|const.py|backMainProcess 返回主页面结束
+21:46:08|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+21:46:09|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+21:46:09|util.py|click 729 244
+21:46:09|const.py|判断是否为图里面 开始
+21:46:12|util.py|findPicLoop 循环找图开始 ./public/bmp/main battleline.jpg
+21:46:13|util.py|findPicLoop 循环找图结束 ./public/bmp/main battleline.jpg
+21:46:13|util.py|click 231 225
+21:46:13|util.py|findPicLoop 循环找图开始 ./public/bmp/exercise.jpg
+21:46:14|util.py|findPicLoop 循环找图结束 ./public/bmp/exercise.jpg
+21:46:14|util.py|getWords 识字开始
+21:46:15|util.py|getWords 识字结束
+21:46:15|util.py|click 826 251
+21:46:16|util.py|click 826 251
+21:46:17|util.py|click 826 251
+21:46:18|util.py|click 826 251
+21:46:18|util.py|click 826 251
+21:46:19|util.py|click 826 251
+21:46:20|util.py|click 826 251
+21:46:21|util.py|click 826 251
+21:46:22|util.py|click 826 251
+21:46:23|util.py|click 826 251
+21:46:23|util.py|click 826 251
+21:46:25|util.py|click 59 451
+21:46:25|const.py|chapterProcess 进入出击章节步骤结束
+21:46:25|10通常12-4 不打boss.py|-------------一局开始------------
+21:46:25|const.py|intoStageProcess 进入stage步骤开始
+21:46:27|util.py|click 691 368
+21:46:28|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:46:41|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:46:41|util.py|click 642 350
+21:46:42|const.py|船坞已满判断 开始
+21:46:43|util.py|click 767 220
+21:46:44|util.py|click 713 131
+21:46:44|util.py|click 740 232
+21:46:45|util.py|click 714 223
+21:46:45|util.py|click 740 406
+21:46:46|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:46:47|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:46:47|util.py|click 716 411
+21:46:47|const.py|红脸判断 开始
+21:46:48|util.py|getWords 识字开始
+21:46:49|util.py|getWords 识字结束
+21:46:49|const.py|intoStageProcess 进入stage步骤结束
+21:46:49|10通常12-4 不打boss.py|------------一把开始-----------
+21:46:49|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:46:50|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:46:54|const.py|findShip 找船 开始
+21:46:55|const.py|findShip 找船 结束
+21:46:55|util.py|click 489 151
+21:46:55|const.py|anchorProcess 出击步骤开始
+21:46:56|const.py|今日不再提示判断 开始
+21:46:56|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:46:59|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:47:00|util.py|click 795 429
+21:47:00|const.py|自律 开始
+21:47:01|const.py|红脸判断 开始
+21:47:01|util.py|getWords 识字开始
+21:47:02|util.py|getWords 识字结束
+21:47:02|const.py|船坞已满判断 开始
+21:47:13|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:47:56|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:47:56|const.py|自律 结束
+21:47:57|util.py|click 135 424
+21:47:58|util.py|click 684 308
+21:48:00|const.py|打捞到sr或ssr判断 开始
+21:48:00|util.py|click 684 308
+21:48:01|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:48:01|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:48:01|util.py|click 733 445
+21:48:05|const.py|作战失败判断 开始
+21:48:08|const.py|紧急委托判断 开始
+21:48:09|const.py|anchorProcess 出击步骤结束
+21:48:09|10通常12-4 不打boss.py|------------一把结束-----------
+21:48:09|10通常12-4 不打boss.py|------------一把开始-----------
+21:48:09|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:48:10|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:48:14|const.py|findShip 找船 开始
+21:48:15|const.py|findShip 找船 结束
+21:48:15|util.py|click 491 260
+21:48:15|const.py|anchorProcess 出击步骤开始
+21:48:16|const.py|今日不再提示判断 开始
+21:48:16|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:48:17|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:48:18|util.py|click 770 429
+21:48:18|const.py|自律 开始
+21:48:19|const.py|红脸判断 开始
+21:48:19|util.py|getWords 识字开始
+21:48:20|util.py|getWords 识字结束
+21:48:20|const.py|船坞已满判断 开始
+21:48:31|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:49:14|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:49:14|const.py|自律 结束
+21:49:15|util.py|click 135 424
+21:49:16|util.py|click 684 308
+21:49:18|const.py|打捞到sr或ssr判断 开始
+21:49:19|util.py|click 684 308
+21:49:19|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:49:20|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:49:20|util.py|click 733 445
+21:49:23|const.py|作战失败判断 开始
+21:49:27|const.py|紧急委托判断 开始
+21:49:27|const.py|anchorProcess 出击步骤结束
+21:49:27|10通常12-4 不打boss.py|------------一把结束-----------
+21:49:27|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:49:28|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:49:28|util.py|click 563 460
+21:49:28|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+21:49:29|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+21:49:29|util.py|click 534 347
+21:49:29|10通常12-4 不打boss.py|-------------一局结束------------
+21:49:29|10通常12-4 不打boss.py|-------------一局开始------------
+21:49:29|const.py|intoStageProcess 进入stage步骤开始
+21:49:31|util.py|click 691 368
+21:49:31|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:49:33|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:49:33|util.py|click 642 350
+21:49:34|const.py|船坞已满判断 开始
+21:49:35|util.py|click 767 220
+21:49:35|util.py|click 713 131
+21:49:36|util.py|click 740 232
+21:49:36|util.py|click 714 223
+21:49:37|util.py|click 740 406
+21:49:37|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:49:38|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:49:38|util.py|click 716 411
+21:49:39|const.py|红脸判断 开始
+21:49:40|util.py|getWords 识字开始
+21:49:41|util.py|getWords 识字结束
+21:49:41|const.py|intoStageProcess 进入stage步骤结束
+21:49:41|10通常12-4 不打boss.py|------------一把开始-----------
+21:49:41|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:49:41|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:49:45|const.py|findShip 找船 开始
+21:49:46|const.py|findShip 找船 结束
+21:49:46|util.py|click 340 263
+21:49:47|const.py|anchorProcess 出击步骤开始
+21:49:47|const.py|今日不再提示判断 开始
+21:49:48|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:49:50|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:49:51|util.py|click 770 429
+21:49:51|const.py|自律 开始
+21:49:52|const.py|红脸判断 开始
+21:49:52|util.py|getWords 识字开始
+21:49:53|util.py|getWords 识字结束
+21:49:53|const.py|船坞已满判断 开始
+21:50:04|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:50:49|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:50:49|const.py|自律 结束
+21:50:50|util.py|click 135 424
+21:50:51|util.py|click 684 308
+21:50:53|const.py|打捞到sr或ssr判断 开始
+21:50:54|util.py|click 684 308
+21:50:54|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:50:55|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:50:55|util.py|click 733 445
+21:50:58|const.py|作战失败判断 开始
+21:51:02|const.py|紧急委托判断 开始
+21:51:02|const.py|紧急委托
+21:51:02|util.py|click 433 347
+21:51:03|const.py|anchorProcess 出击步骤结束
+21:51:03|10通常12-4 不打boss.py|------------一把结束-----------
+21:51:03|10通常12-4 不打boss.py|------------一把开始-----------
+21:51:03|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:51:03|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:51:07|const.py|findShip 找船 开始
+21:51:08|const.py|findShip 找船 结束
+21:51:08|util.py|click 252 263
+21:51:09|const.py|anchorProcess 出击步骤开始
+21:51:09|const.py|今日不再提示判断 开始
+21:51:10|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:51:11|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:51:11|util.py|click 770 429
+21:51:12|const.py|自律 开始
+21:51:13|const.py|红脸判断 开始
+21:51:13|util.py|getWords 识字开始
+21:51:14|util.py|getWords 识字结束
+21:51:14|const.py|船坞已满判断 开始
+21:51:25|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:52:17|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:52:17|const.py|自律 结束
+21:52:18|util.py|click 135 424
+21:52:19|util.py|click 684 308
+21:52:21|const.py|打捞到sr或ssr判断 开始
+21:52:22|util.py|click 684 308
+21:52:22|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:52:23|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:52:23|util.py|click 733 445
+21:52:26|const.py|作战失败判断 开始
+21:52:30|const.py|紧急委托判断 开始
+21:52:30|const.py|anchorProcess 出击步骤结束
+21:52:30|10通常12-4 不打boss.py|------------一把结束-----------
+21:52:30|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:52:31|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:52:31|util.py|click 563 460
+21:52:31|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+21:52:32|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+21:52:32|util.py|click 534 347
+21:52:32|10通常12-4 不打boss.py|-------------一局结束------------
+21:52:32|10通常12-4 不打boss.py|-------------一局开始------------
+21:52:32|const.py|intoStageProcess 进入stage步骤开始
+21:52:34|util.py|click 691 368
+21:52:34|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:52:36|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:52:36|util.py|click 642 350
+21:52:37|const.py|船坞已满判断 开始
+21:52:38|util.py|click 767 220
+21:52:38|util.py|click 713 131
+21:52:39|util.py|click 740 232
+21:52:39|util.py|click 714 223
+21:52:40|util.py|click 740 406
+21:52:40|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:52:41|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:52:41|util.py|click 716 411
+21:52:42|const.py|红脸判断 开始
+21:52:43|util.py|getWords 识字开始
+21:52:44|util.py|getWords 识字结束
+21:52:44|const.py|intoStageProcess 进入stage步骤结束
+21:52:44|10通常12-4 不打boss.py|------------一把开始-----------
+21:52:44|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:52:45|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:52:49|const.py|findShip 找船 开始
+21:52:49|const.py|findShip 找船 结束
+21:52:49|util.py|click 514 252
+21:52:50|const.py|anchorProcess 出击步骤开始
+21:52:50|const.py|今日不再提示判断 开始
+21:52:51|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:53:16|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:53:17|util.py|click 770 429
+21:53:17|const.py|自律 开始
+21:53:18|const.py|红脸判断 开始
+21:53:18|util.py|getWords 识字开始
+21:53:20|util.py|getWords 识字结束
+21:53:20|const.py|船坞已满判断 开始
+21:53:31|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:53:55|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:53:55|const.py|自律 结束
+21:53:56|util.py|click 135 424
+21:53:57|util.py|click 684 308
+21:53:59|const.py|打捞到sr或ssr判断 开始
+21:54:00|util.py|click 684 308
+21:54:00|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:54:01|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:54:01|util.py|click 733 445
+21:54:04|const.py|作战失败判断 开始
+21:54:08|const.py|紧急委托判断 开始
+21:54:09|const.py|anchorProcess 出击步骤结束
+21:54:09|10通常12-4 不打boss.py|------------一把结束-----------
+21:54:09|10通常12-4 不打boss.py|------------一把开始-----------
+21:54:09|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:54:09|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:54:13|const.py|findShip 找船 开始
+21:54:14|const.py|findShip 找船 结束
+21:54:14|util.py|click 516 263
+21:54:15|const.py|anchorProcess 出击步骤开始
+21:54:15|const.py|今日不再提示判断 开始
+21:54:16|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:54:17|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:54:18|util.py|click 776 429
+21:54:18|const.py|自律 开始
+21:54:19|const.py|红脸判断 开始
+21:54:19|util.py|getWords 识字开始
+21:54:20|util.py|getWords 识字结束
+21:54:20|const.py|船坞已满判断 开始
+21:54:30|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:55:18|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:55:18|const.py|自律 结束
+21:55:19|util.py|click 135 424
+21:55:20|util.py|click 684 308
+21:55:22|const.py|打捞到sr或ssr判断 开始
+21:55:23|util.py|click 684 308
+21:55:23|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:55:23|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:55:23|util.py|click 733 445
+21:55:27|const.py|作战失败判断 开始
+21:55:30|const.py|紧急委托判断 开始
+21:55:31|const.py|anchorProcess 出击步骤结束
+21:55:31|10通常12-4 不打boss.py|------------一把结束-----------
+21:55:31|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:55:32|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:55:32|util.py|click 563 460
+21:55:32|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+21:55:33|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+21:55:33|util.py|click 534 347
+21:55:33|10通常12-4 不打boss.py|-------------一局结束------------
+21:55:33|10通常12-4 不打boss.py|-------------一局开始------------
+21:55:33|const.py|intoStageProcess 进入stage步骤开始
+21:55:35|util.py|click 691 368
+21:55:35|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:55:36|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:55:36|util.py|click 642 350
+21:55:38|const.py|船坞已满判断 开始
+21:55:39|util.py|click 767 220
+21:55:39|util.py|click 713 131
+21:55:40|util.py|click 740 232
+21:55:40|util.py|click 714 223
+21:55:41|util.py|click 740 406
+21:55:41|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:55:42|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:55:42|util.py|click 716 411
+21:55:43|const.py|红脸判断 开始
+21:55:44|util.py|getWords 识字开始
+21:55:45|util.py|getWords 识字结束
+21:55:45|const.py|intoStageProcess 进入stage步骤结束
+21:55:45|10通常12-4 不打boss.py|------------一把开始-----------
+21:55:45|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:55:45|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:55:49|const.py|findShip 找船 开始
+21:55:50|const.py|findShip 找船 结束
+21:55:50|util.py|click 252 263
+21:55:51|const.py|anchorProcess 出击步骤开始
+21:55:51|const.py|今日不再提示判断 开始
+21:55:52|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:55:54|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:55:55|util.py|click 770 429
+21:55:55|const.py|自律 开始
+21:55:56|const.py|红脸判断 开始
+21:55:56|util.py|getWords 识字开始
+21:55:57|util.py|getWords 识字结束
+21:55:57|const.py|船坞已满判断 开始
+21:56:08|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:56:51|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:56:51|const.py|自律 结束
+21:56:52|util.py|click 135 424
+21:56:53|util.py|click 684 308
+21:56:55|const.py|打捞到sr或ssr判断 开始
+21:56:56|util.py|click 684 308
+21:56:56|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:56:57|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:56:57|util.py|click 733 445
+21:57:00|const.py|作战失败判断 开始
+21:57:04|const.py|紧急委托判断 开始
+21:57:05|const.py|anchorProcess 出击步骤结束
+21:57:05|10通常12-4 不打boss.py|------------一把结束-----------
+21:57:05|10通常12-4 不打boss.py|------------一把开始-----------
+21:57:05|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:57:05|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:57:09|const.py|findShip 找船 开始
+21:57:10|const.py|findShip 找船 结束
+21:57:10|util.py|click 340 263
+21:57:10|const.py|anchorProcess 出击步骤开始
+21:57:11|const.py|今日不再提示判断 开始
+21:57:12|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:57:12|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:57:13|util.py|click 770 429
+21:57:14|const.py|自律 开始
+21:57:14|const.py|红脸判断 开始
+21:57:14|util.py|getWords 识字开始
+21:57:15|util.py|getWords 识字结束
+21:57:15|const.py|船坞已满判断 开始
+21:57:26|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:58:10|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:58:10|const.py|自律 结束
+21:58:11|util.py|click 135 424
+21:58:12|util.py|click 684 308
+21:58:14|const.py|打捞到sr或ssr判断 开始
+21:58:15|util.py|click 684 308
+21:58:15|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:58:16|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:58:16|util.py|click 733 445
+21:58:19|const.py|作战失败判断 开始
+21:58:23|const.py|紧急委托判断 开始
+21:58:23|const.py|anchorProcess 出击步骤结束
+21:58:23|10通常12-4 不打boss.py|------------一把结束-----------
+21:58:23|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:58:24|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:58:24|util.py|click 563 460
+21:58:24|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+21:58:25|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+21:58:25|util.py|click 534 347
+21:58:25|10通常12-4 不打boss.py|-------------一局结束------------
+21:58:25|10通常12-4 不打boss.py|-------------一局开始------------
+21:58:25|const.py|intoStageProcess 进入stage步骤开始
+21:58:27|util.py|click 691 368
+21:58:28|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:58:29|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:58:29|util.py|click 642 350
+21:58:30|const.py|船坞已满判断 开始
+21:58:31|util.py|click 767 220
+21:58:31|util.py|click 713 131
+21:58:32|util.py|click 740 232
+21:58:32|util.py|click 714 223
+21:58:33|util.py|click 740 406
+21:58:33|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+21:58:35|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+21:58:35|util.py|click 716 411
+21:58:35|const.py|红脸判断 开始
+21:58:36|util.py|getWords 识字开始
+21:58:37|util.py|getWords 识字结束
+21:58:37|const.py|intoStageProcess 进入stage步骤结束
+21:58:37|10通常12-4 不打boss.py|------------一把开始-----------
+21:58:37|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+21:58:37|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+21:58:41|const.py|findShip 找船 开始
+21:58:42|const.py|findShip 找船 结束
+21:58:42|util.py|click 315 260
+21:58:43|const.py|anchorProcess 出击步骤开始
+21:58:43|const.py|今日不再提示判断 开始
+21:58:44|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+21:58:46|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+21:58:47|util.py|click 770 429
+21:58:47|const.py|自律 开始
+21:58:48|const.py|红脸判断 开始
+21:58:48|util.py|getWords 识字开始
+21:58:49|util.py|getWords 识字结束
+21:58:49|const.py|船坞已满判断 开始
+21:59:00|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+21:59:54|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+21:59:54|const.py|自律 结束
+21:59:55|util.py|click 135 424
+21:59:56|util.py|click 684 308
+21:59:58|const.py|打捞到sr或ssr判断 开始
+21:59:59|util.py|click 684 308
+21:59:59|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+21:59:59|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+21:59:59|util.py|click 733 445
+22:00:03|const.py|作战失败判断 开始
+22:00:07|const.py|紧急委托判断 开始
+22:00:07|const.py|anchorProcess 出击步骤结束
+22:00:07|10通常12-4 不打boss.py|------------一把结束-----------
+22:00:07|10通常12-4 不打boss.py|------------一把开始-----------
+22:00:07|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:00:08|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:00:12|const.py|findShip 找船 开始
+22:00:13|const.py|findShip 找船 结束
+22:00:13|util.py|click 408 95
+22:00:13|const.py|anchorProcess 出击步骤开始
+22:00:14|const.py|今日不再提示判断 开始
+22:00:15|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:00:17|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:00:18|util.py|click 777 429
+22:00:18|const.py|自律 开始
+22:00:19|const.py|红脸判断 开始
+22:00:19|util.py|getWords 识字开始
+22:00:20|util.py|getWords 识字结束
+22:00:20|const.py|船坞已满判断 开始
+22:00:31|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:00:55|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:00:55|const.py|自律 结束
+22:00:56|util.py|click 135 424
+22:00:58|util.py|click 684 308
+22:01:00|const.py|打捞到sr或ssr判断 开始
+22:01:00|const.py|打捞到sr或者ssr
+22:01:00|util.py|click 684 308
+22:01:03|util.py|click 684 308
+22:01:03|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:01:04|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:01:04|util.py|click 733 445
+22:01:08|const.py|作战失败判断 开始
+22:01:11|const.py|紧急委托判断 开始
+22:01:12|const.py|anchorProcess 出击步骤结束
+22:01:12|10通常12-4 不打boss.py|------------一把结束-----------
+22:01:12|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:01:13|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:01:13|util.py|click 563 460
+22:01:13|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+22:01:14|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+22:01:14|util.py|click 534 347
+22:01:14|10通常12-4 不打boss.py|-------------一局结束------------
+22:01:14|10通常12-4 不打boss.py|-------------一局开始------------
+22:01:14|const.py|intoStageProcess 进入stage步骤开始
+22:01:16|util.py|click 691 368
+22:01:16|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:01:17|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:01:17|util.py|click 642 350
+22:01:18|const.py|船坞已满判断 开始
+22:01:20|util.py|click 767 220
+22:01:20|util.py|click 713 131
+22:01:21|util.py|click 740 232
+22:01:21|util.py|click 714 223
+22:01:22|util.py|click 740 406
+22:01:22|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:01:23|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:01:23|util.py|click 716 411
+22:01:24|const.py|红脸判断 开始
+22:01:25|util.py|getWords 识字开始
+22:01:25|util.py|getWords 识字结束
+22:01:25|const.py|intoStageProcess 进入stage步骤结束
+22:01:25|10通常12-4 不打boss.py|------------一把开始-----------
+22:01:25|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:01:26|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:01:30|const.py|findShip 找船 开始
+22:01:31|const.py|findShip 找船 结束
+22:01:31|util.py|click 586 326
+22:01:31|const.py|anchorProcess 出击步骤开始
+22:01:32|const.py|今日不再提示判断 开始
+22:01:33|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:01:34|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:01:35|util.py|click 770 429
+22:01:35|const.py|自律 开始
+22:01:36|const.py|红脸判断 开始
+22:01:36|util.py|getWords 识字开始
+22:01:37|util.py|getWords 识字结束
+22:01:37|const.py|船坞已满判断 开始
+22:01:48|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:02:31|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:02:31|const.py|自律 结束
+22:02:33|util.py|click 135 424
+22:02:34|util.py|click 684 308
+22:02:36|const.py|打捞到sr或ssr判断 开始
+22:02:36|util.py|click 684 308
+22:02:37|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:02:37|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:02:37|util.py|click 733 445
+22:02:41|const.py|作战失败判断 开始
+22:02:44|const.py|紧急委托判断 开始
+22:02:45|const.py|anchorProcess 出击步骤结束
+22:02:45|10通常12-4 不打boss.py|------------一把结束-----------
+22:02:45|10通常12-4 不打boss.py|------------一把开始-----------
+22:02:45|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:02:46|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:02:50|const.py|findShip 找船 开始
+22:02:50|const.py|findShip 找船 结束
+22:02:50|util.py|click 567 96
+22:02:51|const.py|anchorProcess 出击步骤开始
+22:02:52|const.py|今日不再提示判断 开始
+22:02:52|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:02:54|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:02:55|util.py|click 770 429
+22:02:55|const.py|自律 开始
+22:02:56|const.py|红脸判断 开始
+22:02:56|util.py|getWords 识字开始
+22:02:57|util.py|getWords 识字结束
+22:02:57|const.py|船坞已满判断 开始
+22:03:08|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:03:37|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:03:37|const.py|自律 结束
+22:03:38|util.py|click 135 424
+22:03:40|util.py|click 684 308
+22:03:41|const.py|打捞到sr或ssr判断 开始
+22:03:42|util.py|click 684 308
+22:03:42|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:03:43|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:03:43|util.py|click 733 445
+22:03:46|const.py|作战失败判断 开始
+22:03:50|const.py|紧急委托判断 开始
+22:03:51|const.py|anchorProcess 出击步骤结束
+22:03:51|10通常12-4 不打boss.py|------------一把结束-----------
+22:03:51|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:03:51|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:03:51|util.py|click 563 460
+22:03:52|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+22:03:52|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+22:03:52|util.py|click 534 347
+22:03:53|10通常12-4 不打boss.py|-------------一局结束------------
+22:03:53|10通常12-4 不打boss.py|-------------一局开始------------
+22:03:53|const.py|intoStageProcess 进入stage步骤开始
+22:03:55|util.py|click 691 368
+22:03:55|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:03:56|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:03:56|util.py|click 642 350
+22:03:57|const.py|船坞已满判断 开始
+22:03:58|util.py|click 767 220
+22:03:59|util.py|click 713 131
+22:03:59|util.py|click 740 232
+22:04:00|util.py|click 714 223
+22:04:00|util.py|click 740 406
+22:04:01|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:04:02|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:04:02|util.py|click 716 411
+22:04:02|const.py|红脸判断 开始
+22:04:03|util.py|getWords 识字开始
+22:04:04|util.py|getWords 识字结束
+22:04:04|const.py|intoStageProcess 进入stage步骤结束
+22:04:04|10通常12-4 不打boss.py|------------一把开始-----------
+22:04:04|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:04:05|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:04:09|const.py|findShip 找船 开始
+22:04:10|const.py|findShip 找船 结束
+22:04:10|util.py|click 593 324
+22:04:10|const.py|anchorProcess 出击步骤开始
+22:04:11|const.py|今日不再提示判断 开始
+22:04:12|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:04:13|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:04:14|util.py|click 770 429
+22:04:14|const.py|自律 开始
+22:04:15|const.py|红脸判断 开始
+22:04:15|util.py|getWords 识字开始
+22:04:16|util.py|getWords 识字结束
+22:04:16|const.py|船坞已满判断 开始
+22:04:27|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:05:16|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:05:16|const.py|自律 结束
+22:05:17|util.py|click 135 424
+22:05:19|util.py|click 684 308
+22:05:21|const.py|打捞到sr或ssr判断 开始
+22:05:21|util.py|click 684 308
+22:05:21|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:05:22|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:05:22|util.py|click 733 445
+22:05:25|const.py|作战失败判断 开始
+22:05:29|const.py|紧急委托判断 开始
+22:05:30|const.py|anchorProcess 出击步骤结束
+22:05:30|10通常12-4 不打boss.py|------------一把结束-----------
+22:05:30|10通常12-4 不打boss.py|------------一把开始-----------
+22:05:30|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:05:31|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:05:35|const.py|findShip 找船 开始
+22:05:35|const.py|findShip 找船 结束
+22:05:35|util.py|click 251 305
+22:05:36|const.py|anchorProcess 出击步骤开始
+22:05:37|const.py|今日不再提示判断 开始
+22:05:37|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:05:39|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:05:40|util.py|click 770 429
+22:05:40|const.py|自律 开始
+22:05:41|const.py|红脸判断 开始
+22:05:41|util.py|getWords 识字开始
+22:05:42|util.py|getWords 识字结束
+22:05:42|const.py|船坞已满判断 开始
+22:05:53|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:06:20|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:06:20|const.py|自律 结束
+22:06:21|util.py|click 135 424
+22:06:22|util.py|click 684 308
+22:06:24|const.py|打捞到sr或ssr判断 开始
+22:06:25|util.py|click 684 308
+22:06:25|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:06:26|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:06:26|util.py|click 733 445
+22:06:29|const.py|作战失败判断 开始
+22:06:33|const.py|紧急委托判断 开始
+22:06:34|const.py|anchorProcess 出击步骤结束
+22:06:34|10通常12-4 不打boss.py|------------一把结束-----------
+22:06:34|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:06:34|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:06:34|util.py|click 563 460
+22:06:35|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+22:06:35|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+22:06:35|util.py|click 534 347
+22:06:36|10通常12-4 不打boss.py|-------------一局结束------------
+22:06:36|10通常12-4 不打boss.py|-------------一局开始------------
+22:06:36|const.py|intoStageProcess 进入stage步骤开始
+22:06:38|util.py|click 691 368
+22:06:38|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:06:39|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:06:39|util.py|click 642 350
+22:06:40|const.py|船坞已满判断 开始
+22:06:41|util.py|click 767 220
+22:06:42|util.py|click 713 131
+22:06:42|util.py|click 740 232
+22:06:43|util.py|click 714 223
+22:06:43|util.py|click 740 406
+22:06:44|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:06:45|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:06:45|util.py|click 716 411
+22:06:45|const.py|红脸判断 开始
+22:06:46|util.py|getWords 识字开始
+22:06:47|util.py|getWords 识字结束
+22:06:47|const.py|intoStageProcess 进入stage步骤结束
+22:06:47|10通常12-4 不打boss.py|------------一把开始-----------
+22:06:47|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:06:48|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:06:52|const.py|findShip 找船 开始
+22:06:53|const.py|findShip 找船 结束
+22:06:53|util.py|click 586 326
+22:06:53|const.py|anchorProcess 出击步骤开始
+22:06:54|const.py|今日不再提示判断 开始
+22:06:54|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:06:55|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:06:56|util.py|click 770 429
+22:06:56|const.py|自律 开始
+22:06:57|const.py|红脸判断 开始
+22:06:57|util.py|getWords 识字开始
+22:06:58|util.py|getWords 识字结束
+22:06:58|const.py|船坞已满判断 开始
+22:07:09|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:08:00|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:08:00|const.py|自律 结束
+22:08:01|util.py|click 135 424
+22:08:02|util.py|click 684 308
+22:08:04|const.py|打捞到sr或ssr判断 开始
+22:08:05|util.py|click 684 308
+22:08:05|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:08:06|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:08:06|util.py|click 733 445
+22:08:09|const.py|作战失败判断 开始
+22:08:12|const.py|紧急委托判断 开始
+22:08:13|const.py|紧急委托
+22:08:13|util.py|click 433 347
+22:08:13|const.py|anchorProcess 出击步骤结束
+22:08:13|10通常12-4 不打boss.py|------------一把结束-----------
+22:08:13|10通常12-4 不打boss.py|------------一把开始-----------
+22:08:13|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:08:14|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:08:18|const.py|findShip 找船 开始
+22:08:19|const.py|findShip 找船 结束
+22:08:19|util.py|click 564 99
+22:08:19|const.py|anchorProcess 出击步骤开始
+22:08:20|const.py|今日不再提示判断 开始
+22:08:21|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:08:23|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:08:24|util.py|click 770 429
+22:08:24|const.py|自律 开始
+22:08:25|const.py|红脸判断 开始
+22:08:25|util.py|getWords 识字开始
+22:08:26|util.py|getWords 识字结束
+22:08:26|const.py|船坞已满判断 开始
+22:08:36|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:09:22|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:09:22|const.py|自律 结束
+22:09:23|util.py|click 135 424
+22:09:25|util.py|click 684 308
+22:09:26|const.py|打捞到sr或ssr判断 开始
+22:09:27|util.py|click 684 308
+22:09:27|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:09:28|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:09:28|util.py|click 733 445
+22:09:31|const.py|作战失败判断 开始
+22:09:35|const.py|紧急委托判断 开始
+22:09:36|const.py|anchorProcess 出击步骤结束
+22:09:36|10通常12-4 不打boss.py|------------一把结束-----------
+22:09:36|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:09:36|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:09:36|util.py|click 563 460
+22:09:37|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+22:09:37|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+22:09:37|util.py|click 534 347
+22:09:38|10通常12-4 不打boss.py|-------------一局结束------------
+22:09:38|10通常12-4 不打boss.py|-------------一局开始------------
+22:09:38|const.py|intoStageProcess 进入stage步骤开始
+22:09:40|util.py|click 691 368
+22:09:40|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:09:41|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:09:41|util.py|click 642 350
+22:09:42|const.py|船坞已满判断 开始
+22:09:43|util.py|click 767 220
+22:09:44|util.py|click 713 131
+22:09:44|util.py|click 740 232
+22:09:45|util.py|click 714 223
+22:09:45|util.py|click 740 406
+22:09:46|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:09:47|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:09:47|util.py|click 716 411
+22:09:47|const.py|红脸判断 开始
+22:09:48|util.py|getWords 识字开始
+22:09:49|util.py|getWords 识字结束
+22:09:49|const.py|intoStageProcess 进入stage步骤结束
+22:09:49|10通常12-4 不打boss.py|------------一把开始-----------
+22:09:49|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:09:50|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:09:54|const.py|findShip 找船 开始
+22:09:55|const.py|findShip 找船 结束
+22:09:55|util.py|click 586 326
+22:09:55|const.py|anchorProcess 出击步骤开始
+22:09:56|const.py|今日不再提示判断 开始
+22:09:56|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:09:57|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:09:58|util.py|click 770 429
+22:09:58|const.py|自律 开始
+22:09:59|const.py|红脸判断 开始
+22:09:59|util.py|getWords 识字开始
+22:10:00|util.py|getWords 识字结束
+22:10:00|const.py|船坞已满判断 开始
+22:10:11|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:11:03|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:11:03|const.py|自律 结束
+22:11:04|util.py|click 135 424
+22:11:05|util.py|click 684 308
+22:11:07|const.py|打捞到sr或ssr判断 开始
+22:11:08|util.py|click 684 308
+22:11:08|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:11:09|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:11:09|util.py|click 733 445
+22:11:12|const.py|作战失败判断 开始
+22:11:16|const.py|紧急委托判断 开始
+22:11:17|const.py|anchorProcess 出击步骤结束
+22:11:17|10通常12-4 不打boss.py|------------一把结束-----------
+22:11:17|10通常12-4 不打boss.py|------------一把开始-----------
+22:11:17|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:11:17|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:11:21|const.py|findShip 找船 开始
+22:11:22|const.py|findShip 找船 结束
+22:11:22|util.py|click 488 146
+22:11:22|const.py|anchorProcess 出击步骤开始
+22:11:23|const.py|今日不再提示判断 开始
+22:11:24|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:11:26|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:11:27|util.py|click 770 429
+22:11:27|const.py|自律 开始
+22:11:28|const.py|红脸判断 开始
+22:11:28|util.py|getWords 识字开始
+22:11:29|util.py|getWords 识字结束
+22:11:29|const.py|船坞已满判断 开始
+22:11:40|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:12:08|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:12:08|const.py|自律 结束
+22:12:09|util.py|click 135 424
+22:12:10|util.py|click 684 308
+22:12:12|const.py|打捞到sr或ssr判断 开始
+22:12:13|util.py|click 684 308
+22:12:13|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:12:14|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:12:14|util.py|click 733 445
+22:12:17|const.py|作战失败判断 开始
+22:12:21|const.py|紧急委托判断 开始
+22:12:21|const.py|anchorProcess 出击步骤结束
+22:12:21|10通常12-4 不打boss.py|------------一把结束-----------
+22:12:21|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:12:22|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:12:22|util.py|click 563 460
+22:12:23|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+22:12:23|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+22:12:23|util.py|click 534 347
+22:12:23|10通常12-4 不打boss.py|-------------一局结束------------
+22:12:23|10通常12-4 不打boss.py|-------------一局开始------------
+22:12:23|const.py|intoStageProcess 进入stage步骤开始
+22:12:25|util.py|click 691 368
+22:12:26|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:12:27|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:12:27|util.py|click 642 350
+22:12:28|const.py|船坞已满判断 开始
+22:12:29|util.py|click 767 220
+22:12:30|util.py|click 713 131
+22:12:30|util.py|click 740 232
+22:12:31|util.py|click 714 223
+22:12:31|util.py|click 740 406
+22:12:32|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:12:33|util.py|findPicLoop 循环找图结束 ./public/bmp/start chapter.jpg
+22:12:33|util.py|click 716 411
+22:12:33|const.py|红脸判断 开始
+22:12:34|util.py|getWords 识字开始
+22:12:35|util.py|getWords 识字结束
+22:12:35|const.py|intoStageProcess 进入stage步骤结束
+22:12:35|10通常12-4 不打boss.py|------------一把开始-----------
+22:12:35|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:12:36|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:12:40|const.py|findShip 找船 开始
+22:12:41|const.py|findShip 找船 结束
+22:12:41|util.py|click 586 326
+22:12:41|const.py|anchorProcess 出击步骤开始
+22:12:42|const.py|今日不再提示判断 开始
+22:12:42|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:12:44|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:12:45|util.py|click 770 429
+22:12:45|const.py|自律 开始
+22:12:46|const.py|红脸判断 开始
+22:12:46|util.py|getWords 识字开始
+22:12:47|util.py|getWords 识字结束
+22:12:47|const.py|船坞已满判断 开始
+22:12:57|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:13:41|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:13:41|const.py|自律 结束
+22:13:42|util.py|click 135 424
+22:13:43|util.py|click 684 308
+22:13:45|const.py|打捞到sr或ssr判断 开始
+22:13:46|util.py|click 684 308
+22:13:46|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:13:47|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:13:47|util.py|click 733 445
+22:13:50|const.py|作战失败判断 开始
+22:13:54|const.py|紧急委托判断 开始
+22:13:54|const.py|anchorProcess 出击步骤结束
+22:13:54|10通常12-4 不打boss.py|------------一把结束-----------
+22:13:54|10通常12-4 不打boss.py|------------一把开始-----------
+22:13:54|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:13:55|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:13:59|const.py|findShip 找船 开始
+22:14:00|const.py|findShip 找船 结束
+22:14:00|util.py|click 640 95
+22:14:00|const.py|anchorProcess 出击步骤开始
+22:14:01|const.py|今日不再提示判断 开始
+22:14:02|util.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+22:14:04|util.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+22:14:05|util.py|click 770 429
+22:14:05|const.py|自律 开始
+22:14:06|const.py|红脸判断 开始
+22:14:06|util.py|getWords 识字开始
+22:14:07|util.py|getWords 识字结束
+22:14:07|const.py|船坞已满判断 开始
+22:14:18|util.py|findPicLoop 循环找图开始 ./public/bmp/S.bmp
+22:14:46|util.py|findPicLoop 循环找图结束 ./public/bmp/S.bmp
+22:14:46|const.py|自律 结束
+22:14:47|util.py|click 135 424
+22:14:48|util.py|click 684 308
+22:14:50|const.py|打捞到sr或ssr判断 开始
+22:14:51|util.py|click 684 308
+22:14:51|util.py|findPicLoop 循环找图开始 ./public/bmp/exp2.bmp
+22:14:52|util.py|findPicLoop 循环找图结束 ./public/bmp/exp2.bmp
+22:14:52|util.py|click 733 445
+22:14:56|const.py|作战失败判断 开始
+22:14:59|const.py|紧急委托判断 开始
+22:15:00|const.py|anchorProcess 出击步骤结束
+22:15:00|10通常12-4 不打boss.py|------------一把结束-----------
+22:15:00|util.py|findPicLoop 循环找图开始 ./public/bmp/withdraw.jpg
+22:15:01|util.py|findPicLoop 循环找图结束 ./public/bmp/withdraw.jpg
+22:15:01|util.py|click 563 460
+22:15:01|util.py|findPicLoop 循环找图开始 ./public/bmp/OK.jpg
+22:15:02|util.py|findPicLoop 循环找图结束 ./public/bmp/OK.jpg
+22:15:02|util.py|click 534 347
+22:15:02|10通常12-4 不打boss.py|-------------一局结束------------
+22:15:02|10通常12-4 不打boss.py|-------------一局开始------------
+22:15:02|const.py|intoStageProcess 进入stage步骤开始
+22:15:04|util.py|click 691 368
+22:15:04|util.py|findPicLoop 循环找图开始 ./public/bmp/start chapter.jpg
+22:15:05|util.py|======adb subprocess error======
+22:15:05|util.py|CompletedProcess(args='.\\bin\\adb_server.exe shell screencap /storage/emulated/0/data/screen/image.png', returncode=3221225786, stdout='', stderr='')

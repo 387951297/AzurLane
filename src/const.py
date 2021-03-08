@@ -158,21 +158,6 @@ class Const:
             x, y = self.picLoop(self.publicPath() + 'bmp/main battleline.jpg')
             util.click(x,y)
         self.picLoop(self.publicPath() + 'bmp/exercise.jpg')
-        #第chapterNum章
-        list = util.getWords(chapterPos)
-        tempNum = int(list[0][1:-1])
-        if list != [] and tempNum != chapterNum:
-            #判断当前章节 前往第chapterNum章
-            chapterNumNow = tempNum
-            while chapterNumNow != chapterNum:
-                if chapterNumNow < chapterNum:
-                    util.click(nextX,nextY)
-                    chapterNumNow += 1
-                    time.sleep(.500)
-                else:
-                    util.click(prevX,prevY)
-                    chapterNumNow -= 1
-                    time.sleep(.500)
         #困难模式
         if type == 'H':
             x,y = util.findPic(self.publicPath() + 'bmp/hardmode.jpg')
@@ -186,6 +171,22 @@ class Const:
                 time.sleep(.2)
         else:
             util.logOut(__file__,'chapterProcess的type有误')
+        #第chapterNum章
+        list = util.getNumbers(chapterPos)
+        tempNum = int(list[0])
+        if list != [] and tempNum != chapterNum:
+            #判断当前章节 前往第chapterNum章
+            chapterNumNow = tempNum
+            while chapterNumNow != chapterNum:
+                if chapterNumNow < chapterNum:
+                    util.click(nextX,nextY)
+                    chapterNumNow += 1
+                    time.sleep(.500)
+                else:
+                    util.click(prevX,prevY)
+                    chapterNumNow -= 1
+                    time.sleep(.500)
+        
         util.logOut(__file__,'chapterProcess 进入出击章节步骤结束')
 
     #进入stage
@@ -199,7 +200,7 @@ class Const:
             x , y = self.picLoop(self.publicPath() + 'bmp/start chapter.jpg')
             util.click(x,y)
             time.sleep(.800)
-        time.sleep(2.00)
+        time.sleep(4.00)
         tempInto(xx,yy)
         #船坞已满特殊
         util.logOut(__file__,'船坞已满判断 开始')

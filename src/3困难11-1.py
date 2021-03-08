@@ -1,9 +1,9 @@
 from util import *
 from const import const
 
-CHAPTER_NUM = 7  # 几-几
-CHAPTER_NUM2 = 2  # 几-几
-CHAPTER_X, CHAPTER_Y = 376, 150  # 几-几的坐标
+CHAPTER_NUM = 11  # 几-几
+CHAPTER_NUM2 = 1  # 几-几
+CHAPTER_X, CHAPTER_Y = 269,182  # 几-几的坐标
 
 # if __name__ == '__main__':
 def main():
