@@ -82,6 +82,7 @@ if __name__ == '__main__':
     adb('shell screencap /storage/emulated/0/data/screen/image.png')
     print('adb初始化成功')
     print('')
+	
     index = -999
     while True:
         index = int(mainPrint())
@@ -101,6 +102,7 @@ if __name__ == '__main__':
                     # input()
                     # sys.exit()
         os.system("cls")
+
         
 
 

@@ -58,10 +58,12 @@ class Const:
         time.sleep(.800)
         #今日不再提示
         util.logOut(__file__,'今日不再提示判断 开始')
-        x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
-        if x!=-1 and y!=-1:
-            util.click(x,y)
-            util.logOut(__file__,'今日不再提示')
+        x,y = util.findPic(self.publicPath() + 'bmp/anchor.bmp')
+        if x==-1 and y==-1:
+            x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
+            if x!=-1 and y!=-1:
+                util.click(x,y)
+                util.logOut(__file__,'今日不再提示')
    
         def anchor():
             x , y = self.picLoop(self.publicPath() + 'bmp/anchor.bmp')
