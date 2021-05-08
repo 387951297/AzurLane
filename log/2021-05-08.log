@@ -1,0 +1,1535 @@
+19:47:05|12 3次信标.py|3次飞龙 开始
+19:47:05|const.py|backMainProcess 返回主页面开始
+19:47:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (393835 bytes in 0.110s)
+
+19:47:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (394636 bytes in 0.123s)
+
+19:47:06|const.py|backMainProcess 返回主页面结束
+19:47:06|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:47:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (396361 bytes in 0.123s)
+
+19:47:07|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:47:07|util.py|click 729 244
+19:47:07|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:47:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (411641 bytes in 0.145s)
+
+19:47:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (343420 bytes in 0.112s)
+
+19:47:09|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:47:09|util.py|click 510 302
+19:47:09|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:47:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (343495 bytes in 0.093s)
+
+19:47:12|12 3次信标.py|3次飞龙 开始
+19:47:12|const.py|backMainProcess 返回主页面开始
+19:47:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (374820 bytes in 0.128s)
+
+19:47:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (367933 bytes in 0.129s)
+
+19:47:13|util.py|click 830 22
+19:47:14|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:47:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (386851 bytes in 0.125s)
+
+19:47:15|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:47:15|util.py|click 731 244
+19:47:15|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:47:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (400061 bytes in 0.125s)
+
+19:47:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (342449 bytes in 0.121s)
+
+19:47:16|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:47:16|util.py|click 510 302
+19:47:17|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:47:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (342119 bytes in 0.082s)
+
+19:47:19|12 3次信标.py|3次飞龙 开始
+19:47:19|const.py|backMainProcess 返回主页面开始
+19:47:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (367191 bytes in 0.098s)
+
+19:47:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.5 MB/s (367189 bytes in 0.138s)
+
+19:47:21|util.py|click 830 22
+19:47:22|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:47:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (386409 bytes in 0.112s)
+
+19:47:22|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:47:22|util.py|click 729 244
+19:47:57|12 3次信标.py|3次飞龙 开始
+19:47:57|const.py|backMainProcess 返回主页面开始
+19:47:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (385245 bytes in 0.109s)
+
+19:47:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (384196 bytes in 0.120s)
+
+19:47:58|const.py|backMainProcess 返回主页面结束
+19:47:58|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:47:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (385308 bytes in 0.109s)
+
+19:47:59|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:47:59|util.py|click 729 244
+19:47:59|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:48:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (391582 bytes in 0.126s)
+
+19:48:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (345108 bytes in 0.107s)
+
+19:48:00|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:48:00|util.py|click 510 302
+19:48:01|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:48:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.8 MB/s (344940 bytes in 0.069s)
+
+19:48:03|12 3次信标.py|3次飞龙 开始
+19:48:03|const.py|backMainProcess 返回主页面开始
+19:48:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (367489 bytes in 0.102s)
+
+19:48:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (367580 bytes in 0.117s)
+
+19:48:05|util.py|click 830 22
+19:48:06|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:48:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (384005 bytes in 0.110s)
+
+19:48:06|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:48:06|util.py|click 729 244
+19:48:06|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:48:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (396774 bytes in 0.142s)
+
+19:48:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (345637 bytes in 0.097s)
+
+19:48:08|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:48:08|util.py|click 510 302
+19:48:08|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:48:08|util.py|======adb subprocess error======
+19:48:08|util.py|CompletedProcess(args='.\\bin\\adb_server.exe shell screencap /storage/emulated/0/data/screen/image.png', returncode=3221225786, stdout='', stderr='')
+19:50:50|12 3次信标.py|3次飞龙 开始
+19:50:50|const.py|backMainProcess 返回主页面开始
+19:50:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (385663 bytes in 0.119s)
+
+19:50:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (385397 bytes in 0.115s)
+
+19:50:52|const.py|backMainProcess 返回主页面结束
+19:50:52|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:50:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (386456 bytes in 0.114s)
+
+19:50:52|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:50:52|util.py|click 729 244
+19:50:53|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:50:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (403311 bytes in 0.116s)
+
+19:50:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (343029 bytes in 0.094s)
+
+19:50:54|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:50:54|util.py|click 510 302
+19:50:54|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:50:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (342887 bytes in 0.087s)
+
+19:50:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (324352 bytes in 0.093s)
+
+19:50:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (376705 bytes in 0.114s)
+
+19:50:56|util.py|findPicLoop 循环找图结束 ./public/beacon/overview.jpg
+19:50:58|util.py|click 787 450
+19:50:59|util.py|findPicLoop 循环找图开始 ./public/beacon/ash.jpg
+19:50:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (366878 bytes in 0.106s)
+
+19:51:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (367322 bytes in 0.097s)
+
+19:51:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (405343 bytes in 0.110s)
+
+19:51:01|util.py|findPicLoop 循环找图结束 ./public/beacon/ash.jpg
+19:51:03|util.py|click 679 445
+19:51:03|util.py|findPicLoop 循环找图开始 ./public/beacon/beacon list.jpg
+19:51:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (431689 bytes in 0.131s)
+
+19:51:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (250228 bytes in 0.087s)
+
+19:51:05|util.py|findPicLoop 循环找图结束 ./public/beacon/beacon list.jpg
+19:51:05|util.py|click 82 457
+19:51:05|12 3次信标.py|------------一把开始-----------
+19:51:05|util.py|findPicLoop 循环找图开始 ./public/beacon/batile start.jpg
+19:51:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (244500 bytes in 0.087s)
+
+19:51:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (381916 bytes in 0.118s)
+
+19:51:06|util.py|findPicLoop 循环找图结束 ./public/beacon/batile start.jpg
+19:51:06|util.py|click 783 449
+19:51:07|util.py|findPicLoop 循环找图开始 ./public/beacon/weigh anchor.jpg
+19:51:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (382520 bytes in 0.121s)
+
+19:51:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (101276 bytes in 0.036s)
+
+19:51:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.3 MB/s (101276 bytes in 0.042s)
+
+19:51:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (101276 bytes in 0.028s)
+
+19:51:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (101276 bytes in 0.031s)
+
+19:51:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.2 MB/s (101276 bytes in 0.043s)
+
+19:51:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (101276 bytes in 0.035s)
+
+19:51:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (101276 bytes in 0.035s)
+
+19:51:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.4 MB/s (101276 bytes in 0.040s)
+
+19:51:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.4 MB/s (101276 bytes in 0.041s)
+
+19:51:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (101276 bytes in 0.033s)
+
+19:51:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (101276 bytes in 0.036s)
+
+19:51:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (101276 bytes in 0.035s)
+
+19:51:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (101276 bytes in 0.030s)
+
+19:51:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (101276 bytes in 0.030s)
+
+19:51:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (101276 bytes in 0.031s)
+
+19:51:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (101276 bytes in 0.031s)
+
+19:51:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (101276 bytes in 0.024s)
+
+19:51:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (101276 bytes in 0.033s)
+
+19:51:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (101276 bytes in 0.032s)
+
+19:51:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (101276 bytes in 0.027s)
+
+19:51:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.4 MB/s (101276 bytes in 0.022s)
+
+19:51:23|util.py|======adb subprocess error======
+19:51:23|util.py|CompletedProcess(args='.\\bin\\adb_server.exe pull /storage/emulated/0/data/screen/image.png .\\tmp', returncode=3221225786, stdout='', stderr='')
+19:54:44|12 3次信标.py|3次飞龙 开始
+19:54:44|const.py|backMainProcess 返回主页面开始
+19:54:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (383639 bytes in 0.108s)
+
+19:54:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (382335 bytes in 0.127s)
+
+19:54:45|const.py|backMainProcess 返回主页面结束
+19:54:45|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:54:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (381655 bytes in 0.113s)
+
+19:54:46|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:54:46|util.py|click 729 244
+19:54:46|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:54:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (401446 bytes in 0.125s)
+
+19:54:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (344352 bytes in 0.116s)
+
+19:54:48|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:54:48|util.py|click 510 302
+19:54:48|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:54:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (343652 bytes in 0.111s)
+
+19:54:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (353517 bytes in 0.109s)
+
+19:54:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (373840 bytes in 0.106s)
+
+19:54:50|util.py|findPicLoop 循环找图结束 ./public/beacon/overview.jpg
+19:54:52|util.py|click 787 450
+19:54:52|util.py|findPicLoop 循环找图开始 ./public/beacon/ash.jpg
+19:54:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (368557 bytes in 0.104s)
+
+19:54:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (286435 bytes in 0.081s)
+
+19:54:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (445113 bytes in 0.140s)
+
+19:54:54|util.py|findPicLoop 循环找图结束 ./public/beacon/ash.jpg
+19:54:56|util.py|click 679 445
+19:54:57|util.py|findPicLoop 循环找图开始 ./public/beacon/beacon list.jpg
+19:54:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (435772 bytes in 0.123s)
+
+19:54:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (414655 bytes in 0.108s)
+
+19:54:58|util.py|findPicLoop 循环找图结束 ./public/beacon/beacon list.jpg
+19:54:58|util.py|click 82 457
+19:54:59|12 3次信标.py|------------一把开始-----------
+19:54:59|util.py|findPicLoop 循环找图开始 ./public/beacon/batile start.jpg
+19:54:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (244079 bytes in 0.072s)
+
+19:55:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (380997 bytes in 0.128s)
+
+19:55:00|util.py|findPicLoop 循环找图结束 ./public/beacon/batile start.jpg
+19:55:00|util.py|click 783 449
+19:55:00|12 3次信标.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:55:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (382542 bytes in 0.119s)
+
+19:55:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (374004 bytes in 0.111s)
+
+19:55:03|12 3次信标.py|3次飞龙 开始
+19:55:03|const.py|backMainProcess 返回主页面开始
+19:55:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (372679 bytes in 0.132s)
+
+19:55:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (374864 bytes in 0.117s)
+
+19:55:05|util.py|click 838 23
+19:55:06|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:55:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (386922 bytes in 0.122s)
+
+19:55:06|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:55:06|util.py|click 729 244
+19:55:07|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:55:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (400401 bytes in 0.117s)
+
+19:55:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (343848 bytes in 0.100s)
+
+19:55:08|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:55:08|util.py|click 510 302
+19:55:08|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:55:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (343811 bytes in 0.104s)
+
+19:55:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (290256 bytes in 0.083s)
+
+19:55:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (375447 bytes in 0.111s)
+
+19:55:10|util.py|findPicLoop 循环找图结束 ./public/beacon/overview.jpg
+19:58:40|12 3次信标.py|3次飞龙 开始
+19:58:40|const.py|backMainProcess 返回主页面开始
+19:58:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (387490 bytes in 0.109s)
+
+19:58:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (387270 bytes in 0.121s)
+
+19:58:41|const.py|backMainProcess 返回主页面结束
+19:58:41|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+19:58:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (386828 bytes in 0.112s)
+
+19:58:42|util.py|findPicLoop 循环找图结束 ./public/bmp/weigh anchor.jpg
+19:58:42|util.py|click 729 244
+19:58:42|util.py|findPicLoop 循环找图开始 ./public/beacon/operation.jpg
+19:58:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (396958 bytes in 0.128s)
+
+19:58:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.6 MB/s (345030 bytes in 0.126s)
+
+19:58:44|util.py|findPicLoop 循环找图结束 ./public/beacon/operation.jpg
+19:58:44|util.py|click 510 302
+19:58:44|util.py|findPicLoop 循环找图开始 ./public/beacon/overview.jpg
+19:58:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (344766 bytes in 0.095s)
+
+19:58:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (284769 bytes in 0.086s)
+
+19:58:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (378225 bytes in 0.113s)
+
+19:58:46|util.py|findPicLoop 循环找图结束 ./public/beacon/overview.jpg
+19:58:48|util.py|click 787 450
+19:58:48|util.py|findPicLoop 循环找图开始 ./public/beacon/ash.jpg
+19:58:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (368513 bytes in 0.106s)
+
+19:58:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (286514 bytes in 0.092s)
+
+19:58:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (446599 bytes in 0.145s)
+
+19:58:50|util.py|findPicLoop 循环找图结束 ./public/beacon/ash.jpg
+19:58:52|util.py|click 679 445
+19:58:53|util.py|findPicLoop 循环找图开始 ./public/beacon/beacon list.jpg
+19:58:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (432998 bytes in 0.117s)
+
+19:58:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (415139 bytes in 0.135s)
+
+19:58:54|util.py|findPicLoop 循环找图结束 ./public/beacon/beacon list.jpg
+19:58:54|util.py|click 82 457
+19:58:55|12 3次信标.py|------------一把开始-----------
+19:58:55|util.py|findPicLoop 循环找图开始 ./public/beacon/batile start.jpg
+19:58:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (244520 bytes in 0.074s)
+
+19:58:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (381050 bytes in 0.131s)
+
+19:58:56|util.py|findPicLoop 循环找图结束 ./public/beacon/batile start.jpg
+19:58:56|util.py|click 783 449
+19:58:56|12 3次信标.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+19:58:56|12 3次信标.py|findPicLoop 循环找图开始 ./public/bmp/quit.jpg
+19:58:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (382128 bytes in 0.123s)
+
+19:58:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (372773 bytes in 0.121s)
+
+19:58:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (373036 bytes in 0.102s)
+
+19:58:58|12 3次信标.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+19:58:58|util.py|findPicLoop 循环找图开始 ./public/beacon/weigh anchor.jpg
+19:58:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (373190 bytes in 0.105s)
+
+19:58:59|util.py|findPicLoop 循环找图结束 ./public/beacon/weigh anchor.jpg
+19:58:59|util.py|click 771 431
+19:58:59|util.py|findPicLoop 循环找图开始 ./public/bmp/get_items.bmp
+19:59:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (371877 bytes in 0.101s)
+
+19:59:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (266837 bytes in 0.082s)
+
+19:59:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (266920 bytes in 0.071s)
+
+19:59:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (266873 bytes in 0.067s)
+
+19:59:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (266890 bytes in 0.075s)
+
+19:59:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (266913 bytes in 0.073s)
+
+19:59:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (267299 bytes in 0.085s)
+
+19:59:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.5 MB/s (266029 bytes in 0.103s)
+
+19:59:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (188152 bytes in 0.053s)
+
+19:59:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (189934 bytes in 0.056s)
+
+19:59:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (272392 bytes in 0.074s)
+
+19:59:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (282524 bytes in 0.097s)
+
+19:59:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (297009 bytes in 0.089s)
+
+19:59:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (260717 bytes in 0.069s)
+
+19:59:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (250028 bytes in 0.080s)
+
+19:59:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (258758 bytes in 0.081s)
+
+19:59:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (363683 bytes in 0.111s)
+
+19:59:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (403698 bytes in 0.111s)
+
+19:59:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (353146 bytes in 0.100s)
+
+19:59:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (262515 bytes in 0.081s)
+
+19:59:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (269731 bytes in 0.073s)
+
+19:59:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (282944 bytes in 0.071s)
+
+19:59:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (281542 bytes in 0.077s)
+
+19:59:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (290038 bytes in 0.079s)
+
+19:59:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (282964 bytes in 0.083s)
+
+19:59:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (324814 bytes in 0.100s)
+
+19:59:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (303004 bytes in 0.093s)
+
+19:59:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (259694 bytes in 0.075s)
+
+19:59:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (272467 bytes in 0.075s)
+
+19:59:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (302647 bytes in 0.088s)
+
+19:59:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (315802 bytes in 0.085s)
+
+19:59:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (304539 bytes in 0.098s)
+
+19:59:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (305267 bytes in 0.077s)
+
+19:59:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (307946 bytes in 0.088s)
+
+19:59:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (334119 bytes in 0.096s)
+
+19:59:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (356815 bytes in 0.090s)
+
+19:59:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (356068 bytes in 0.101s)
+
+19:59:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (289766 bytes in 0.104s)
+
+19:59:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (312776 bytes in 0.088s)
+
+19:59:24|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (379942 bytes in 0.113s)
+
+19:59:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (337649 bytes in 0.093s)
+
+19:59:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (272873 bytes in 0.073s)
+
+19:59:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (252382 bytes in 0.070s)
+
+19:59:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (295319 bytes in 0.090s)
+
+19:59:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (315988 bytes in 0.082s)
+
+19:59:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (325039 bytes in 0.092s)
+
+19:59:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (316092 bytes in 0.089s)
+
+19:59:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (310370 bytes in 0.080s)
+
+19:59:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (349751 bytes in 0.093s)
+
+19:59:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (365509 bytes in 0.097s)
+
+19:59:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (292218 bytes in 0.075s)
+
+19:59:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (367133 bytes in 0.104s)
+
+19:59:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (443269 bytes in 0.112s)
+
+19:59:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (445622 bytes in 0.128s)
+
+19:59:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (262808 bytes in 0.072s)
+
+19:59:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (256582 bytes in 0.075s)
+
+19:59:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.2 MB/s (261818 bytes in 0.060s)
+
+19:59:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (332707 bytes in 0.082s)
+
+19:59:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (378689 bytes in 0.101s)
+
+19:59:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (414989 bytes in 0.114s)
+
+19:59:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (354384 bytes in 0.097s)
+
+19:59:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (293733 bytes in 0.079s)
+
+19:59:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (331844 bytes in 0.099s)
+
+19:59:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (326214 bytes in 0.098s)
+
+19:59:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (349668 bytes in 0.098s)
+
+19:59:40|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (467346 bytes in 0.127s)
+
+19:59:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (431008 bytes in 0.111s)
+
+19:59:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (459016 bytes in 0.117s)
+
+19:59:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (454895 bytes in 0.128s)
+
+19:59:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (389395 bytes in 0.107s)
+
+19:59:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (379434 bytes in 0.112s)
+
+19:59:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (381805 bytes in 0.099s)
+
+19:59:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (314164 bytes in 0.085s)
+
+19:59:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (313430 bytes in 0.080s)
+
+19:59:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (354578 bytes in 0.106s)
+
+19:59:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (376058 bytes in 0.097s)
+
+19:59:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (343829 bytes in 0.092s)
+
+19:59:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (334788 bytes in 0.081s)
+
+19:59:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (346034 bytes in 0.094s)
+
+19:59:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (353439 bytes in 0.094s)
+
+19:59:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (338870 bytes in 0.094s)
+
+19:59:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (340717 bytes in 0.095s)
+
+19:59:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (344968 bytes in 0.088s)
+
+19:59:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (372464 bytes in 0.106s)
+
+19:59:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (372072 bytes in 0.101s)
+
+19:59:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (341523 bytes in 0.100s)
+
+19:59:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (360508 bytes in 0.099s)
+
+19:59:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (363038 bytes in 0.088s)
+
+19:59:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (354810 bytes in 0.091s)
+
+19:59:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (381022 bytes in 0.098s)
+
+19:59:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (348633 bytes in 0.089s)
+
+19:59:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (347299 bytes in 0.094s)
+
+19:59:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (427658 bytes in 0.115s)
+
+19:59:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (454062 bytes in 0.112s)
+
+19:59:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (415282 bytes in 0.104s)
+
+20:00:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (303643 bytes in 0.073s)
+
+20:00:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (350797 bytes in 0.100s)
+
+20:00:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (326531 bytes in 0.089s)
+
+20:00:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (344179 bytes in 0.093s)
+
+20:00:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (400105 bytes in 0.100s)
+
+20:00:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (404243 bytes in 0.111s)
+
+20:00:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (259022 bytes in 0.068s)
+
+20:00:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (352526 bytes in 0.098s)
+
+20:00:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.2 MB/s (362906 bytes in 0.083s)
+
+20:00:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (349170 bytes in 0.102s)
+
+20:00:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (386405 bytes in 0.096s)
+
+20:00:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (448399 bytes in 0.108s)
+
+20:00:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (403763 bytes in 0.098s)
+
+20:00:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (386417 bytes in 0.108s)
+
+20:00:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (432269 bytes in 0.123s)
+
+20:00:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (384603 bytes in 0.100s)
+
+20:00:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (416584 bytes in 0.115s)
+
+20:00:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (402875 bytes in 0.104s)
+
+20:00:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (441740 bytes in 0.120s)
+
+20:00:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (422758 bytes in 0.123s)
+
+20:00:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (440879 bytes in 0.126s)
+
+20:00:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (354710 bytes in 0.092s)
+
+20:00:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (288305 bytes in 0.080s)
+
+20:00:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (326269 bytes in 0.088s)
+
+20:00:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (320389 bytes in 0.088s)
+
+20:00:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (312239 bytes in 0.091s)
+
+20:00:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (368435 bytes in 0.115s)
+
+20:00:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (363376 bytes in 0.090s)
+
+20:00:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (360958 bytes in 0.106s)
+
+20:00:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (279959 bytes in 0.084s)
+
+20:00:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (282286 bytes in 0.082s)
+
+20:00:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (267355 bytes in 0.070s)
+
+20:00:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (278247 bytes in 0.084s)
+
+20:00:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (294962 bytes in 0.081s)
+
+20:00:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (287855 bytes in 0.080s)
+
+20:00:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (292268 bytes in 0.084s)
+
+20:00:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (295652 bytes in 0.088s)
+
+20:00:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (308079 bytes in 0.095s)
+
+20:00:24|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (422837 bytes in 0.124s)
+
+20:00:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (453026 bytes in 0.129s)
+
+20:00:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (294840 bytes in 0.085s)
+
+20:00:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (322667 bytes in 0.097s)
+
+20:00:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (321228 bytes in 0.077s)
+
+20:00:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (356740 bytes in 0.101s)
+
+20:00:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (369657 bytes in 0.104s)
+
+20:00:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (407907 bytes in 0.119s)
+
+20:00:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (345617 bytes in 0.086s)
+
+20:00:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.2 MB/s (244714 bytes in 0.056s)
+
+20:00:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (326682 bytes in 0.089s)
+
+20:00:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (324931 bytes in 0.101s)
+
+20:00:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (336438 bytes in 0.086s)
+
+20:00:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (362167 bytes in 0.101s)
+
+20:00:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (396239 bytes in 0.097s)
+
+20:00:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (388739 bytes in 0.106s)
+
+20:00:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (376402 bytes in 0.094s)
+
+20:00:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (329117 bytes in 0.090s)
+
+20:00:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (342146 bytes in 0.082s)
+
+20:00:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (354344 bytes in 0.095s)
+
+20:00:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (349078 bytes in 0.095s)
+
+20:00:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (464222 bytes in 0.135s)
+
+20:00:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (447749 bytes in 0.112s)
+
+20:00:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (472593 bytes in 0.121s)
+
+20:00:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (396669 bytes in 0.106s)
+
+20:00:40|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (404800 bytes in 0.098s)
+
+20:00:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (440810 bytes in 0.119s)
+
+20:00:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (406685 bytes in 0.123s)
+
+20:00:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (379779 bytes in 0.105s)
+
+20:00:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (325178 bytes in 0.079s)
+
+20:00:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (319320 bytes in 0.091s)
+
+20:00:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (295308 bytes in 0.074s)
+
+20:00:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (290946 bytes in 0.084s)
+
+20:00:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (256660 bytes in 0.064s)
+
+20:00:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (250376 bytes in 0.064s)
+
+20:00:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.1 MB/s (255113 bytes in 0.059s)
+
+20:00:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (282876 bytes in 0.089s)
+
+20:00:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (238548 bytes in 0.065s)
+
+20:00:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (217328 bytes in 0.064s)
+
+20:00:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (214279 bytes in 0.057s)
+
+20:00:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (213698 bytes in 0.061s)
+
+20:00:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (215490 bytes in 0.072s)
+
+20:00:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (215817 bytes in 0.066s)
+
+20:00:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (218411 bytes in 0.067s)
+
+20:00:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.6 MB/s (216965 bytes in 0.079s)
+
+20:00:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (214265 bytes in 0.073s)
+
+20:00:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (57575 bytes in 0.015s)
+
+20:00:53|util.py|findPicLoop 循环找图结束 ./public/bmp/get_items.bmp
+20:00:53|util.py|click 435 157
+20:00:53|util.py|findPicLoop 循环找图开始 ./public/beacon/ok.jpg
+20:00:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (57920 bytes in 0.019s)
+
+20:00:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (414269 bytes in 0.107s)
+
+20:00:54|util.py|findPicLoop 循环找图结束 ./public/beacon/ok.jpg
+20:00:54|util.py|click 733 446
+20:00:54|12 3次信标.py|------------一把结束-----------
+20:00:54|12 3次信标.py|------------一把开始-----------
+20:00:54|util.py|findPicLoop 循环找图开始 ./public/beacon/batile start.jpg
+20:00:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (428027 bytes in 0.117s)
+
+20:00:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (381870 bytes in 0.096s)
+
+20:00:56|util.py|findPicLoop 循环找图结束 ./public/beacon/batile start.jpg
+20:00:56|util.py|click 783 449
+20:00:56|12 3次信标.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+20:00:56|12 3次信标.py|findPicLoop 循环找图开始 ./public/bmp/quit.jpg
+20:00:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (383028 bytes in 0.118s)
+
+20:00:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (371854 bytes in 0.112s)
+
+20:00:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (372545 bytes in 0.117s)
+
+20:00:58|12 3次信标.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+20:00:58|util.py|findPicLoop 循环找图开始 ./public/beacon/weigh anchor.jpg
+20:00:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (372517 bytes in 0.114s)
+
+20:00:59|util.py|findPicLoop 循环找图结束 ./public/beacon/weigh anchor.jpg
+20:00:59|util.py|click 771 431
+20:00:59|util.py|findPicLoop 循环找图开始 ./public/bmp/get_items.bmp
+20:01:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (373502 bytes in 0.098s)
+
+20:01:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (519028 bytes in 0.157s)
+
+20:01:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (518310 bytes in 0.164s)
+
+20:01:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (518447 bytes in 0.174s)
+
+20:01:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (519218 bytes in 0.146s)
+
+20:01:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (109342 bytes in 0.037s)
+
+20:01:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (190736 bytes in 0.058s)
+
+20:01:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.1 MB/s (195070 bytes in 0.045s)
+
+20:01:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (234620 bytes in 0.069s)
+
+20:01:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (287439 bytes in 0.091s)
+
+20:01:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (290358 bytes in 0.078s)
+
+20:01:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (254843 bytes in 0.081s)
+
+20:01:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (260217 bytes in 0.075s)
+
+20:01:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (259116 bytes in 0.075s)
+
+20:01:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (352820 bytes in 0.105s)
+
+20:01:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (406792 bytes in 0.112s)
+
+20:01:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (399470 bytes in 0.113s)
+
+20:01:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (236736 bytes in 0.066s)
+
+20:01:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (270567 bytes in 0.070s)
+
+20:01:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (282034 bytes in 0.068s)
+
+20:01:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (301102 bytes in 0.083s)
+
+20:01:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.2 MB/s (346076 bytes in 0.079s)
+
+20:01:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (395341 bytes in 0.115s)
+
+20:01:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (339756 bytes in 0.090s)
+
+20:01:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.1 MB/s (304037 bytes in 0.072s)
+
+20:01:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (271382 bytes in 0.073s)
+
+20:01:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (295061 bytes in 0.097s)
+
+20:01:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (297879 bytes in 0.081s)
+
+20:01:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (317890 bytes in 0.106s)
+
+20:01:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (303515 bytes in 0.079s)
+
+20:01:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (293828 bytes in 0.095s)
+
+20:01:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (311935 bytes in 0.092s)
+
+20:01:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (329046 bytes in 0.078s)
+
+20:01:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (366384 bytes in 0.115s)
+
+20:01:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (362414 bytes in 0.098s)
+
+20:01:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (351463 bytes in 0.083s)
+
+20:01:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (340575 bytes in 0.094s)
+
+20:01:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (352182 bytes in 0.099s)
+
+20:01:24|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (367912 bytes in 0.097s)
+
+20:01:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (304346 bytes in 0.082s)
+
+20:01:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (262723 bytes in 0.080s)
+
+20:01:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (286503 bytes in 0.069s)
+
+20:01:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (289848 bytes in 0.080s)
+
+20:01:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (307630 bytes in 0.076s)
+
+20:01:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (327564 bytes in 0.096s)
+
+20:01:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (284004 bytes in 0.084s)
+
+20:01:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (300642 bytes in 0.075s)
+
+20:01:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (357643 bytes in 0.102s)
+
+20:01:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (312104 bytes in 0.082s)
+
+20:01:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (379830 bytes in 0.109s)
+
+20:01:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (447438 bytes in 0.110s)
+
+20:01:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (448784 bytes in 0.141s)
+
+20:01:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (260825 bytes in 0.081s)
+
+20:01:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.1 MB/s (286047 bytes in 0.066s)
+
+20:01:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (287163 bytes in 0.086s)
+
+20:01:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (298271 bytes in 0.080s)
+
+20:01:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (375564 bytes in 0.111s)
+
+20:01:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (412585 bytes in 0.108s)
+
+20:01:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (217368 bytes in 0.068s)
+
+20:01:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (321714 bytes in 0.085s)
+
+20:01:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (320455 bytes in 0.078s)
+
+20:01:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (371722 bytes in 0.097s)
+
+20:01:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (364015 bytes in 0.102s)
+
+20:01:40|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (494076 bytes in 0.129s)
+
+20:01:40|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (419055 bytes in 0.101s)
+
+20:01:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.2 MB/s (446240 bytes in 0.102s)
+
+20:01:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (467775 bytes in 0.123s)
+
+20:01:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (404594 bytes in 0.107s)
+
+20:01:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (359681 bytes in 0.097s)
+
+20:01:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (315252 bytes in 0.083s)
+
+20:01:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (289252 bytes in 0.079s)
+
+20:01:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (281911 bytes in 0.081s)
+
+20:01:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (309818 bytes in 0.076s)
+
+20:01:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (317482 bytes in 0.095s)
+
+20:01:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (377133 bytes in 0.102s)
+
+20:01:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (367548 bytes in 0.104s)
+
+20:01:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (335901 bytes in 0.096s)
+
+20:01:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (317261 bytes in 0.080s)
+
+20:01:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.2 MB/s (327491 bytes in 0.075s)
+
+20:01:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (337890 bytes in 0.095s)
+
+20:01:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (323471 bytes in 0.101s)
+
+20:01:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.1 MB/s (346875 bytes in 0.081s)
+
+20:01:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (329282 bytes in 0.091s)
+
+20:01:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (322901 bytes in 0.081s)
+
+20:01:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (333555 bytes in 0.085s)
+
+20:01:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (327826 bytes in 0.090s)
+
+20:01:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (339302 bytes in 0.084s)
+
+20:01:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (369066 bytes in 0.099s)
+
+20:01:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (365828 bytes in 0.111s)
+
+20:01:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (331728 bytes in 0.093s)
+
+20:01:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (425637 bytes in 0.119s)
+
+20:01:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (458319 bytes in 0.125s)
+
+20:01:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (439216 bytes in 0.118s)
+
+20:01:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (304777 bytes in 0.078s)
+
+20:02:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (348174 bytes in 0.095s)
+
+20:02:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (332274 bytes in 0.100s)
+
+20:02:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (348443 bytes in 0.103s)
+
+20:02:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (407600 bytes in 0.115s)
+
+20:02:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (407985 bytes in 0.114s)
+
+20:02:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (263444 bytes in 0.086s)
+
+20:02:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (322098 bytes in 0.093s)
+
+20:02:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (343797 bytes in 0.089s)
+
+20:02:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (333912 bytes in 0.088s)
+
+20:02:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (338235 bytes in 0.100s)
+
+20:02:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (405082 bytes in 0.097s)
+
+20:02:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (384439 bytes in 0.095s)
+
+20:02:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (404204 bytes in 0.124s)
+
+20:02:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (419765 bytes in 0.119s)
+
+20:02:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (388617 bytes in 0.117s)
+
+20:02:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (417694 bytes in 0.111s)
+
+20:02:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (384434 bytes in 0.103s)
+
+20:02:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (428037 bytes in 0.113s)
+
+20:02:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (463091 bytes in 0.119s)
+
+20:02:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (418347 bytes in 0.109s)
+
+20:02:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (362410 bytes in 0.099s)
+
+20:02:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (299775 bytes in 0.091s)
+
+20:02:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (326257 bytes in 0.103s)
+
+20:02:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (302661 bytes in 0.084s)
+
+20:02:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (314386 bytes in 0.079s)
+
+20:02:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (338958 bytes in 0.108s)
+
+20:02:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (350401 bytes in 0.095s)
+
+20:02:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (349637 bytes in 0.092s)
+
+20:02:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (335015 bytes in 0.090s)
+
+20:02:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (262371 bytes in 0.079s)
+
+20:02:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (266652 bytes in 0.075s)
+
+20:02:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (266270 bytes in 0.074s)
+
+20:02:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (278511 bytes in 0.073s)
+
+20:02:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (291305 bytes in 0.075s)
+
+20:02:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (286712 bytes in 0.077s)
+
+20:02:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (300534 bytes in 0.093s)
+
+20:02:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (296613 bytes in 0.077s)
+
+20:02:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (425100 bytes in 0.125s)
+
+20:02:24|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (456707 bytes in 0.132s)
+
+20:02:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (389732 bytes in 0.106s)
+
+20:02:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (287345 bytes in 0.075s)
+
+20:02:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (310317 bytes in 0.084s)
+
+20:02:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (323707 bytes in 0.090s)
+
+20:02:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (334015 bytes in 0.098s)
+
+20:02:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (399795 bytes in 0.116s)
+
+20:02:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (399357 bytes in 0.123s)
+
+20:02:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (240440 bytes in 0.059s)
+
+20:02:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (348556 bytes in 0.096s)
+
+20:02:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (340886 bytes in 0.088s)
+
+20:02:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (340463 bytes in 0.093s)
+
+20:02:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (335540 bytes in 0.101s)
+
+20:02:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (387735 bytes in 0.099s)
+
+20:02:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (385595 bytes in 0.101s)
+
+20:02:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (390726 bytes in 0.101s)
+
+20:02:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (344805 bytes in 0.092s)
+
+20:02:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (323149 bytes in 0.077s)
+
+20:02:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (355893 bytes in 0.097s)
+
+20:02:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (331525 bytes in 0.102s)
+
+20:02:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (372294 bytes in 0.096s)
+
+20:02:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (458075 bytes in 0.119s)
+
+20:02:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (437867 bytes in 0.109s)
+
+20:02:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (383476 bytes in 0.106s)
+
+20:02:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (374951 bytes in 0.100s)
+
+20:02:40|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (432954 bytes in 0.120s)
+
+20:02:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (388274 bytes in 0.114s)
+
+20:02:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (359464 bytes in 0.093s)
+
+20:02:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (326273 bytes in 0.095s)
+
+20:02:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (316057 bytes in 0.086s)
+
+20:02:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (299260 bytes in 0.083s)
+
+20:02:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (280956 bytes in 0.085s)
+
+20:02:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (263341 bytes in 0.067s)
+
+20:02:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (259692 bytes in 0.076s)
+
+20:02:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (271318 bytes in 0.076s)
+
+20:02:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (272341 bytes in 0.069s)
+
+20:02:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (255640 bytes in 0.073s)
+
+20:02:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (229764 bytes in 0.075s)
+
+20:02:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (212706 bytes in 0.061s)
+
+20:02:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (209140 bytes in 0.052s)
+
+20:02:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (208682 bytes in 0.064s)
+
+20:02:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (210931 bytes in 0.062s)
+
+20:02:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (211303 bytes in 0.063s)
+
+20:02:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (211565 bytes in 0.056s)
+
+20:02:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (207666 bytes in 0.052s)
+
+20:02:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (49893 bytes in 0.018s)
+
+20:02:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (57158 bytes in 0.016s)
+
+20:02:52|util.py|findPicLoop 循环找图结束 ./public/bmp/get_items.bmp
+20:02:52|util.py|click 435 157
+20:02:52|util.py|findPicLoop 循环找图开始 ./public/beacon/ok.jpg
+20:02:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (368521 bytes in 0.094s)
+
+20:02:53|util.py|findPicLoop 循环找图结束 ./public/beacon/ok.jpg
+20:02:53|util.py|click 733 446
+20:02:53|12 3次信标.py|------------一把结束-----------
+20:02:53|12 3次信标.py|------------一把开始-----------
+20:02:53|util.py|findPicLoop 循环找图开始 ./public/beacon/batile start.jpg
+20:02:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (427971 bytes in 0.129s)
+
+20:02:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (381590 bytes in 0.100s)
+
+20:02:55|util.py|findPicLoop 循环找图结束 ./public/beacon/batile start.jpg
+20:02:55|util.py|click 783 449
+20:02:55|12 3次信标.py|findPicLoop 循环找图开始 ./public/bmp/anchor.bmp
+20:02:55|12 3次信标.py|findPicLoop 循环找图开始 ./public/bmp/quit.jpg
+20:02:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (382738 bytes in 0.117s)
+
+20:02:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (373044 bytes in 0.109s)
+
+20:02:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (372779 bytes in 0.110s)
+
+20:02:57|12 3次信标.py|findPicLoop 循环找图结束 ./public/bmp/anchor.bmp
+20:02:57|util.py|findPicLoop 循环找图开始 ./public/beacon/weigh anchor.jpg
+20:02:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (373145 bytes in 0.100s)
+
+20:02:58|util.py|findPicLoop 循环找图结束 ./public/beacon/weigh anchor.jpg
+20:02:58|util.py|click 771 431
+20:02:58|util.py|findPicLoop 循环找图开始 ./public/bmp/get_items.bmp
+20:02:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (374028 bytes in 0.101s)
+
+20:03:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (516143 bytes in 0.150s)
+
+20:03:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (516835 bytes in 0.154s)
+
+20:03:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (517315 bytes in 0.134s)
+
+20:03:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (518250 bytes in 0.174s)
+
+20:03:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (516445 bytes in 0.156s)
+
+20:03:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (188600 bytes in 0.054s)
+
+20:03:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (228003 bytes in 0.056s)
+
+20:03:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (292480 bytes in 0.082s)
+
+20:03:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (302675 bytes in 0.090s)
+
+20:03:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (277659 bytes in 0.084s)
+
+20:03:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (270656 bytes in 0.076s)
+
+20:03:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (272857 bytes in 0.086s)
+
+20:03:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (318928 bytes in 0.092s)
+
+20:03:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (397762 bytes in 0.112s)
+
+20:03:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (402522 bytes in 0.130s)
+
+20:03:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (227913 bytes in 0.067s)
+
+20:03:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (261439 bytes in 0.065s)
+
+20:03:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (260182 bytes in 0.071s)
+
+20:03:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (326020 bytes in 0.091s)
+
+20:03:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (382312 bytes in 0.096s)
+
+20:03:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (391015 bytes in 0.111s)
+
+20:03:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (318372 bytes in 0.077s)
+
+20:03:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (306123 bytes in 0.082s)
+
+20:03:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (314471 bytes in 0.088s)
+
+20:03:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (296682 bytes in 0.078s)
+
+20:03:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (290117 bytes in 0.086s)
+
+20:03:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (325339 bytes in 0.084s)
+
+20:03:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (303029 bytes in 0.091s)
+
+20:03:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (290304 bytes in 0.083s)
+
+20:03:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (321149 bytes in 0.096s)
+
+20:03:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (325525 bytes in 0.084s)
+
+20:03:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (337364 bytes in 0.090s)
+
+20:03:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (358344 bytes in 0.091s)
+
+20:03:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (319332 bytes in 0.089s)
+
+20:03:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (322032 bytes in 0.095s)
+
+20:03:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (311423 bytes in 0.076s)
+
+20:03:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (374214 bytes in 0.103s)
+
+20:03:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (312965 bytes in 0.088s)
+
+20:03:24|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (286141 bytes in 0.077s)
+
+20:03:24|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (298006 bytes in 0.080s)
+
+20:03:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (316495 bytes in 0.077s)
+
+20:03:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (321599 bytes in 0.100s)
+
+20:03:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (320087 bytes in 0.079s)
+
+20:03:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (292335 bytes in 0.084s)
+
+20:03:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (271732 bytes in 0.070s)
+
+20:03:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (365024 bytes in 0.100s)
+
+20:03:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (355491 bytes in 0.098s)
+
+20:03:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (274923 bytes in 0.074s)
+
+20:03:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (411342 bytes in 0.126s)
+
+20:03:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (444026 bytes in 0.126s)
+
+20:03:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (377603 bytes in 0.107s)
+
+20:03:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (259839 bytes in 0.073s)
+
+20:03:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (267617 bytes in 0.077s)
+
+20:03:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (289139 bytes in 0.078s)
+
+20:03:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (320099 bytes in 0.093s)
+
+20:03:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (398116 bytes in 0.107s)
+
+20:03:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (407245 bytes in 0.121s)
+
+20:03:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (220830 bytes in 0.053s)
+
+20:03:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (313099 bytes in 0.079s)
+
+20:03:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (319074 bytes in 0.087s)
+
+20:03:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (334616 bytes in 0.091s)
+
+20:03:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (315876 bytes in 0.084s)
+
+20:03:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (452719 bytes in 0.127s)
+
+20:03:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.1 MB/s (428852 bytes in 0.101s)
+
+20:03:40|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (439479 bytes in 0.112s)
+
+20:03:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (422601 bytes in 0.119s)
+
+20:03:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (420116 bytes in 0.115s)
+
+20:03:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (355477 bytes in 0.095s)
+
+20:03:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (324928 bytes in 0.096s)
+
+20:03:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (284224 bytes in 0.082s)
+
+20:03:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (288565 bytes in 0.074s)
+
+20:03:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (294842 bytes in 0.072s)
+
+20:03:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (319756 bytes in 0.083s)
+
+20:03:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (376949 bytes in 0.108s)
+
+20:03:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (337535 bytes in 0.089s)
+
+20:03:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (335606 bytes in 0.094s)
+
+20:03:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (331739 bytes in 0.100s)
+
+20:03:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (327058 bytes in 0.086s)
+
+20:03:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (326556 bytes in 0.083s)
+
+20:03:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (371918 bytes in 0.097s)
+
+20:03:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (375037 bytes in 0.102s)
+
+20:03:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (376804 bytes in 0.103s)
+
+20:03:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (353234 bytes in 0.094s)
+
+20:03:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (341317 bytes in 0.092s)
+
+20:03:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (344234 bytes in 0.099s)
+
+20:03:53|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (335757 bytes in 0.083s)
+
+20:03:54|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (348465 bytes in 0.104s)
+
+20:03:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (348242 bytes in 0.101s)
+
+20:03:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (380747 bytes in 0.110s)
+
+20:03:56|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (417446 bytes in 0.109s)
+
+20:03:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (457133 bytes in 0.139s)
+
+20:03:57|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (420242 bytes in 0.126s)
+
+20:03:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (317207 bytes in 0.086s)
+
+20:03:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.2 MB/s (347250 bytes in 0.079s)
+
+20:03:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (326436 bytes in 0.081s)
+
+20:04:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (333074 bytes in 0.086s)
+
+20:04:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (405413 bytes in 0.102s)
+
+20:04:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (411696 bytes in 0.112s)
+
+20:04:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (242060 bytes in 0.073s)
+
+20:04:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (343443 bytes in 0.087s)
+
+20:04:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (353857 bytes in 0.100s)
+
+20:04:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (350852 bytes in 0.100s)
+
+20:04:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (374154 bytes in 0.100s)
+
+20:04:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (456008 bytes in 0.138s)
+
+20:04:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (405764 bytes in 0.113s)
+
+20:04:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (391605 bytes in 0.103s)
+
+20:04:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (409881 bytes in 0.107s)
+
+20:04:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (378463 bytes in 0.105s)
+
+20:04:08|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (411641 bytes in 0.100s)
+
+20:04:09|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (397771 bytes in 0.107s)
+
+20:04:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (439363 bytes in 0.115s)
+
+20:04:10|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (437020 bytes in 0.114s)
+
+20:04:11|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (429282 bytes in 0.108s)
+
+20:04:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (362474 bytes in 0.105s)
+
+20:04:12|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (295379 bytes in 0.080s)
+
+20:04:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (313452 bytes in 0.082s)
+
+20:04:13|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (300382 bytes in 0.082s)
+
+20:04:14|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (301491 bytes in 0.078s)
+
+20:04:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (345397 bytes in 0.102s)
+
+20:04:15|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (346223 bytes in 0.103s)
+
+20:04:16|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (360967 bytes in 0.105s)
+
+20:04:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (317727 bytes in 0.086s)
+
+20:04:17|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (278794 bytes in 0.070s)
+
+20:04:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (267570 bytes in 0.071s)
+
+20:04:18|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (275779 bytes in 0.080s)
+
+20:04:19|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (291042 bytes in 0.084s)
+
+20:04:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (303893 bytes in 0.083s)
+
+20:04:20|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (306678 bytes in 0.083s)
+
+20:04:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (297341 bytes in 0.084s)
+
+20:04:21|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (299692 bytes in 0.094s)
+
+20:04:22|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (417190 bytes in 0.109s)
+
+20:04:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (447514 bytes in 0.122s)
+
+20:04:23|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (393947 bytes in 0.118s)
+
+20:04:24|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (258691 bytes in 0.082s)
+
+20:04:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (295907 bytes in 0.072s)
+
+20:04:25|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (318616 bytes in 0.085s)
+
+20:04:26|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (311179 bytes in 0.086s)
+
+20:04:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (399300 bytes in 0.116s)
+
+20:04:27|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (408984 bytes in 0.111s)
+
+20:04:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (238603 bytes in 0.059s)
+
+20:04:28|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (371800 bytes in 0.099s)
+
+20:04:29|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (367332 bytes in 0.105s)
+
+20:04:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (323487 bytes in 0.080s)
+
+20:04:30|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (383208 bytes in 0.093s)
+
+20:04:31|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (423182 bytes in 0.106s)
+
+20:04:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (362474 bytes in 0.092s)
+
+20:04:32|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (362056 bytes in 0.094s)
+
+20:04:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (337737 bytes in 0.090s)
+
+20:04:33|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (321591 bytes in 0.092s)
+
+20:04:34|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (342457 bytes in 0.085s)
+
+20:04:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (342158 bytes in 0.094s)
+
+20:04:35|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (397572 bytes in 0.094s)
+
+20:04:36|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.8 MB/s (477769 bytes in 0.119s)
+
+20:04:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 4.0 MB/s (455059 bytes in 0.110s)
+
+20:04:37|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (383934 bytes in 0.093s)
+
+20:04:38|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (383521 bytes in 0.098s)
+
+20:04:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (455624 bytes in 0.125s)
+
+20:04:39|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (384012 bytes in 0.107s)
+
+20:04:40|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (366104 bytes in 0.100s)
+
+20:04:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.4 MB/s (334964 bytes in 0.093s)
+
+20:04:41|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (324930 bytes in 0.088s)
+
+20:04:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (286491 bytes in 0.095s)
+
+20:04:42|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (253607 bytes in 0.073s)
+
+20:04:43|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (239662 bytes in 0.074s)
+
+20:04:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (247031 bytes in 0.073s)
+
+20:04:44|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (261760 bytes in 0.076s)
+
+20:04:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (257602 bytes in 0.078s)
+
+20:04:45|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (255690 bytes in 0.066s)
+
+20:04:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.7 MB/s (232677 bytes in 0.059s)
+
+20:04:46|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (218164 bytes in 0.060s)
+
+20:04:47|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.7 MB/s (219362 bytes in 0.076s)
+
+20:04:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.9 MB/s (217009 bytes in 0.053s)
+
+20:04:48|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (212729 bytes in 0.067s)
+
+20:04:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (210526 bytes in 0.064s)
+
+20:04:49|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (211359 bytes in 0.065s)
+
+20:04:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (214367 bytes in 0.073s)
+
+20:04:50|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (212326 bytes in 0.069s)
+
+20:04:51|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (57674 bytes in 0.019s)
+
+20:04:51|util.py|findPicLoop 循环找图结束 ./public/bmp/get_items.bmp
+20:04:51|util.py|click 435 157
+20:04:51|util.py|findPicLoop 循环找图开始 ./public/beacon/ok.jpg
+20:04:52|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.3 MB/s (370475 bytes in 0.108s)
+
+20:04:52|util.py|findPicLoop 循环找图结束 ./public/beacon/ok.jpg
+20:04:52|util.py|click 733 446
+20:04:52|12 3次信标.py|------------一把结束-----------
+20:04:54|12 3次信标.py|backMainProcess 返回主页面开始
+20:04:55|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (381726 bytes in 0.119s)
+
+20:04:57|12 3次信标.py|3次飞龙 开始
+20:04:57|const.py|backMainProcess 返回主页面开始
+20:04:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (381760 bytes in 0.115s)
+
+20:04:58|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (381716 bytes in 0.118s)
+
+20:04:58|const.py|backMainProcess 返回主页面结束 失败
+20:04:58|util.py|findPicLoop 循环找图开始 ./public/bmp/weigh anchor.jpg
+20:04:59|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (381718 bytes in 0.119s)
+
+20:05:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.5 MB/s (381767 bytes in 0.146s)
+
+20:05:00|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (382124 bytes in 0.120s)
+
+20:05:01|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (382140 bytes in 0.113s)
+
+20:05:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (381654 bytes in 0.119s)
+
+20:05:02|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (381238 bytes in 0.120s)
+
+20:05:03|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.1 MB/s (381624 bytes in 0.116s)
+
+20:05:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.2 MB/s (382330 bytes in 0.113s)
+
+20:05:04|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.5 MB/s (381794 bytes in 0.104s)
+
+20:05:05|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.6 MB/s (381222 bytes in 0.101s)
+
+20:05:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.9 MB/s (382502 bytes in 0.126s)
+
+20:05:06|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 2.8 MB/s (381857 bytes in 0.132s)
+
+20:05:07|util.py|/storage/emulated/0/data/screen/image.png: 1 file pulled. 3.0 MB/s (382164 bytes in 0.122s)
+

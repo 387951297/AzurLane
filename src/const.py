@@ -58,12 +58,32 @@ class Const:
         time.sleep(.800)
         #今日不再提示
         util.logOut(__file__,'今日不再提示判断 开始')
-        x,y = util.findPic(self.publicPath() + 'bmp/anchor.bmp')
-        if x==-1 and y==-1:
-            x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
-            if x!=-1 and y!=-1:
-                util.click(x,y)
-                util.logOut(__file__,'今日不再提示')
+
+        def noTip():
+            util.logOut(__file__,'findPicLoop 循环找图开始 '+const.publicPath() + 'bmp/anchor.bmp')
+            util.logOut(__file__,'findPicLoop 循环找图开始 '+const.publicPath() + 'bmp/quit.jpg')
+            for i in range(600):
+                x, y = util.findPic(const.publicPath() + 'bmp/anchor.bmp', threshold=0.8, size=(0, 0, 0, 0))
+                if x != -1 and y != -1:
+                    util.logOut(__file__,'findPicLoop 循环找图结束 '+const.publicPath() + 'bmp/anchor.bmp')
+                    return
+                x, y = util.findPic(const.publicPath() + 'bmp/quit.jpg', threshold=0.8, size=(0, 0, 0, 0))
+                if x != -1 and y != -1:
+                    util.logOut(__file__,'findPicLoop 循环找图结束 '+const.publicPath() + 'bmp/quit.jpg')
+                    util.click(x,y)
+                    util.logOut(__file__,'今日不再提示')
+                    return
+            util.logOut(__file__,'picLoop没找到图 需要重启脚本！！！！！！')
+            const.restartProcess()
+            raise ValueError('restart')
+        noTip()
+
+        # x,y = util.findPic(self.publicPath() + 'bmp/anchor.bmp')
+        # if x==-1 and y==-1:
+        #     x,y = util.findPic(self.publicPath() + 'bmp/quit.jpg')
+        #     if x!=-1 and y!=-1:
+        #         util.click(x,y)
+        #         util.logOut(__file__,'今日不再提示')
    
         def anchor():
             x , y = self.picLoop(self.publicPath() + 'bmp/anchor.bmp')
