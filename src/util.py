@@ -56,7 +56,7 @@ class Util:
         ret = subprocess.run(
             AdbPath + command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,encoding="utf-8")
         if ret.returncode == 0:
-            if ret.stdout != '':
+            if ret.stdout != '' and ('file pulled' not in ret.stdout):
                 self.logOut(__file__,ret.stdout)
             return ret.stdout
         else:

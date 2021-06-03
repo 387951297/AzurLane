@@ -22,7 +22,14 @@ def main():
     util.click(x,y)
     x , y = const.picLoop(path + 'beacon list.jpg')
     util.click(x,y)
-    for n in range(3):
+
+    # 判断还剩几次
+    cnt = 3 # 默认三次
+    list = util.getNumbers((726, 9, 757, 39))
+    if list != []:
+        cnt = int(list[0][0])
+
+    for n in range(cnt):
         util.logOut(__file__,'------------一把开始-----------')
         x , y = const.picLoop(path + 'batile start.jpg')
         util.click(x,y)
