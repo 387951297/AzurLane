@@ -17,6 +17,19 @@ def chapterProcess():
     x,y = const.picLoop(const.publicPath() + 'activity/into.jpg')
     util.click(x,y)
     time.sleep(.500)
+    # 判断是否为图里面
+    util.logOut(__file__,'判断是否为图里面 开始')
+    time.sleep(2.000)
+    x,y = util.findPic(const.publicPath() + 'bmp/withdraw.jpg')
+    if x!=-1 and y!=-1:
+        util.click(x,y)
+        x, y = const.picLoop(const.publicPath() + 'bmp/OK.jpg')
+        util.click(x,y)
+        x, y = const.picLoop(const.publicPath() + 'bmp/leave.jpg')
+        util.click(x,y)
+    else:
+        pass
+    time.sleep(2.000)
 
 # if __name__ == '__main__':
 def main():
@@ -53,7 +66,7 @@ def main():
                     x,y = const.picLoop(const.publicPath() + 'bmp/zilv.jpg')
                     util.click(x,y)
                 #红脸特殊（屑）
-                if redFace and i % 10 == 0: # 10次判断一次
+                if redFace and util.isFindPic(const.publicPath() + 'bmp/OK.jpg'):
                     util.logOut(__file__,'红脸判断 开始')
                     list = util.getWords((237, 201 , 627, 263))
                     if len(list) != 0 and '低心情' in list[0]:
