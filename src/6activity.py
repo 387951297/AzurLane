@@ -1,9 +1,9 @@
 from util import *
 from const import const
 
-# CHAPTER_X, CHAPTER_Y = 663, 198  # 几-几的坐标 D3
-CHAPTER_X, CHAPTER_Y = 407, 399  # 几-几的坐标 C2
-redFace = True # 红脸是否继续刷
+CHAPTER_X, CHAPTER_Y = 663, 198  # 几-几的坐标 D3
+# CHAPTER_X, CHAPTER_Y = 407, 399  # 几-几的坐标 C2
+redFace = False # 红脸是否继续刷
 path = const.publicPath() + 'activity/'
 
 
@@ -69,7 +69,13 @@ def main():
                 if redFace and util.isFindPic(const.publicPath() + 'bmp/OK.jpg'):
                     util.logOut(__file__,'红脸判断 开始')
                     list = util.getWords((237, 201 , 627, 263))
-                    if len(list) != 0 and '低心情' in list[0]:
+                    isRedFace = False
+                    if len(list) != 0:
+                        for m in list:
+                            if '低心情' in list[m]:
+                                isRedFace = True
+                                break
+                    if len(list) != 0 and isRedFace:
                         util.logOut(__file__,'我是粪提 结束')
                         x, y = const.picLoop(const.publicPath() + 'bmp/OK.jpg')
                         util.click(x, y)

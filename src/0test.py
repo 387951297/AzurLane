@@ -1,11 +1,15 @@
 from util import *
 from const import const
 
+path = const.publicPath() + 'operation/'
+
 def main():
-    if 'abc' not in 'abcd':
-        print('not in')
-    else:
-        print('in')
+    util.adb('shell input swipe 637 141 228 406')
+    util.adb('shell input swipe 637 141 228 406')
+    util.adb('shell input swipe 637 141 228 406')
+    util.adb('shell input swipe 228 406 228 141')
+    x , y = const.picLoop(path + 'port_inside4.jpg')
+    util.click(x, y)
     input()
     
 

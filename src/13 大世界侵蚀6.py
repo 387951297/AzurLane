@@ -5,7 +5,7 @@ path = const.publicPath() + 'operation/'
 
 def main():
     time.sleep(2)
-    util.logOut(__file__,'3次飞龙 开始')
+    util.logOut(__file__,'大世界侵蚀6 开始')
 
     #返回主页面
     const.backMainProcess()
